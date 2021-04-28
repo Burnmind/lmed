@@ -10728,5 +10728,8 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+header nav {
+  background: #8f34a3;
+}
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,4 +1,10 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+@import "_var";
+
 // pages
 @import "pages/index";
+
+
+// partials
+@import "common/header";
