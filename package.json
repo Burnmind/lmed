@@ -1,0 +1,23 @@
+{
+  "name": "lmed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "sass --watch scss:public/dist/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Burnmind/lmed.git"
+  },
+  "author": "Burnmind",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Burnmind/lmed/issues"
+  },
+  "homepage": "https://github.com/Burnmind/lmed#readme"
+}
