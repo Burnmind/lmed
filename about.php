@@ -2,7 +2,7 @@
 <section class="about-block container  about-page">
 	<div class="container"> 
 		<p><a href="index.php" class="anaw">Главная</a><img width="10" height="18" src="public/img/arrow.png"><a href="#" class="anaw">О клинике</a></p>
-	<h3 class="title">О КЛИНИКЕ</h3>
+	<h3 class="titleab">О КЛИНИКЕ</h3>
 	<div class="row">
 		<div class="col-sm">
 			<img src="public/img/photo.png"  class="img-fluid titleimg">
