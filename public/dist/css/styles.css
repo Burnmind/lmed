@@ -10763,14 +10763,40 @@ textarea.form-control-lg {
   width: 260px;
 }
 
+header .top-line {
+  padding: 15px 20px 15px 10px;
+}
 header .logo-wrapper {
   display: block;
+  text-decoration: none;
+  padding-top: 10px;
 }
 header .logo-wrapper img {
   width: 110px;
 }
 header .logo-wrapper span {
+  padding-left: 5px;
+  max-width: 220px;
+  font-size: 13px;
+  font-weight: bold;
   color: #a631a7;
+}
+header .address {
+  font-size: 13px;
+}
+header .metro-list {
+  font-size: 12px;
+}
+header .social-links-wrapper {
+  padding: 0 20px;
+  margin: 0 -5px;
+}
+header .social-links-wrapper a {
+  width: 33px;
+  margin: 0 5px;
+}
+header .social-links-wrapper a img {
+  width: 100%;
 }
 header .navbar {
   background: #a631a7;
@@ -10787,6 +10813,16 @@ header .nav-item a {
 
 .container {
   max-width: 985px;
+}
+
+.button-primary-violet {
+  border-radius: 20px;
+  background-color: #a631a7;
+  padding: 10px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 20px;
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=styles.css.map */

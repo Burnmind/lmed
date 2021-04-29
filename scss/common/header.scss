@@ -1,15 +1,47 @@
 @import "../var";
 
 header {
+    .top-line {
+        padding: 15px 20px 15px 10px;
+    }
+
     .logo-wrapper {
         display: block;
+        text-decoration: none;
+        padding-top: 10px;
 
         img {
             width: 110px;
         }
 
         span {
+            padding-left: 5px;
+            max-width: 220px;
+            font-size: 13px;
+            font-weight: bold;
             color: $mainPurple;
+        }
+    }
+
+    .address {
+        font-size: 13px;
+    }
+
+    .metro-list {
+        font-size: 12px;
+    }
+
+    .social-links-wrapper {
+        padding: 0 20px;
+        margin: 0 -5px;
+
+        a {
+            width: 33px;
+            margin: 0 5px;
+
+            img {
+                width: 100%;
+            }
         }
     }
 
