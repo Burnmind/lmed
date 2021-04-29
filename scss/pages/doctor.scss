@@ -1,17 +1,19 @@
-$mainPurple: #a631a7;
-$butBordR: 20px;
+@import "../var";
 
-.title {
-	color: $mainPurple;
-	text-align: center;
-}
-#zapisatsa {
-	border-radius: $butBordR;
-	background-color: $mainPurple;
-	padding: 10px;
-	text-align: center;
-	margin: 0 auto;
-	font-weight: bolder;
-	font-side: 20px;
-	width: 260px;
+.doctor-page {
+	.title {
+		color: $mainPurple;
+		text-align: center;
+	}
+
+	#zapisatsa { // не используй id только классы и тэги (названия давай на английском)
+		border-radius: $butBordR;
+		background-color: $mainPurple;
+		padding: 10px;
+		text-align: center;
+		margin: 0 auto;
+		font-weight: bolder;
+		font-side: 20px; // ошибка в свойстве
+		width: 260px;
+	}
 }
