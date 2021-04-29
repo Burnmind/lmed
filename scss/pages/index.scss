@@ -1,3 +1,4 @@
+
 $mainPurple: #a631a7;
 $butBordR: 20px;
 
@@ -5,13 +6,13 @@ $butBordR: 20px;
 	color: $mainPurple;
 	text-align: center;
 }
-#zapisatsa {
+#button-podrobneeOKinike {
 	border-radius: $butBordR;
-	background-color: $mainPurple;
+	background-color: $mainPuple;
 	padding: 10px;
 	text-align: center;
-	margin: 0 auto;
-	font-weight: bolder;
-	font-side: 20px;
-	width: 260px;
+	margin: 20px;
+	font-weight:bolder;
+	font-size: 20px;
+	Width: 250px;
 }

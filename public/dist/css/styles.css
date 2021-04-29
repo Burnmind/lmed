@@ -10728,5 +10728,20 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.title {
+  color: #a631a7;
+  text-align: center;
+}
+
+#button-podrobneeOKinike {
+  border-radius: 20px;
+  background-color: #a631a7;
+  padding: 10px;
+  text-align: center;
+  margin: 20px;
+  font-weight: bolder;
+  font-size: 20px;
+  Width: 250px;
+}
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,18 @@
+<? require 'header.php' ?>
+<div class="container">
+	<br><br>
+	<br><br>
+	<h1><p  class="title">О КЛИНИКЕ</p><br><br></h1>
+	<div class="row">
+		<div class="col-sm">
+			<img src="photo.png" class="img-fluid">
+		</div>
+		<div class="col-sm">
+			<h5><p id="textoklin">Наша клиника отличается особым отношением к своим пациентам. Прекрасное современное инновационное оснощение, уникальные передоыфе технологии, грамотные специалисты и уютная обстановка позволили нам завоевать признание и любовь наших пациентов. Мы в первую очередь заботимся о вашем здоровье. Стоматология для нас - это не только работа, но и признание.
+				<br><br>
+			Мы успешно осуществляем весь комплекс стоматологических услуг с максимальным комфортом для пациента</p></h5>
+			<a href="oklinike.php" type="button" id="button-podrobneeOKinike" class="btn  btn-outline-light">ПОДРОБНЕЕ</a>
+		</div>
+	</div>
+</div>
+<? require 'footer.php' ?>
