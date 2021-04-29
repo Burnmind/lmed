@@ -10728,13 +10728,12 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.title {
+.index-page .title {
   color: #a631a7;
   text-align: center;
-  margin: 80px;
+  margin: 10px;
 }
-
-#button-podrobneeOKinike {
+.index-page .button-podrobneeOKinike {
   border-radius: 20px;
   background-color: #a631a7;
   padding: 10px;
@@ -10745,37 +10744,8 @@ textarea.form-control-lg {
   Width: 250px;
   padding: 0px 0px 0px -210px;
 }
-
-.minipho {
-  padding: 40px 0px 0px 0px;
-  max-width: 85%;
-}
-
-.titleimg {
+.index-page .titleimg {
   max-width: 95%;
-}
-
-#licenset {
-  padding: 80px 0px 0px;
-  margin: 80px;
-}
-
-.anaw {
-  text-decoration: none;
-  color: #000000;
-}
-
-.licensetimgleft {
-  max-width: 85%;
-}
-
-.licensetimg {
-  max-width: 85%;
-  padding: 0px 0px 100px 0px;
-}
-
-.licensetimgright {
-  max-width: 85%;
 }
 
 .doctor-page .title {
