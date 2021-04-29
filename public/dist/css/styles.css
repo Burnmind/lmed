@@ -1,10 +1,10 @@
-/* Error: expected "{".
- *    ,
- * 11 |         margin:50px;
- *    |                    ^
- *    '
- *   scss\pages\index.scss 11:14  @import
- *   scss\styles.scss 6:9         root stylesheet */
+/* Error: expected selector.
+ *   ,
+ * 9 | <<<<<<< HEAD{
+ *   | ^
+ *   '
+ *   scss\pages\index.scss 9:1  @import
+ *   scss\styles.scss 6:9       root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -14,5 +14,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: 'Error: expected "{".\a    \2577 \a 11 \2502          margin:50px;\d\a    \2502                     ^\a    \2575 \a   scss\\pages\\index.scss 11:14  @import\a   scss\\styles.scss 6:9         root stylesheet';
+  content: "Error: expected selector.\a   \2577 \a 9 \2502  <<<<<<< HEAD{\d\a   \2502  ^\a   \2575 \a   scss\\pages\\index.scss 9:1  @import\a   scss\\styles.scss 6:9       root stylesheet";
 }
