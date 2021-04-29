@@ -1,44 +1,24 @@
-$mainPuple: #a631a7;
-$butBordR: 20px;
+. index-page{
+	$mainPuple: #a631a7;
+	$butBordR: 20px;
 
-.title {
-	color: $mainPuple;
-	text-align: center;
-	margin:80px;
-}
-#button-podrobneeOKinike {
-	border-radius: $butBordR;
-	background-color: $mainPuple;
-	padding: 10px;
-	text-align: center;
-	margin: 20px;
-	font-weight:bolder;
-	font-size: 20px;
-	Width: 250px;
-	padding: 0px 0px 0px -210px;
+	.title {
+		color: $mainPuple;
+		text-align: center;
+		margin:10px;
 	}
-.minipho {
-		padding: 40px 0px 0px 0px;
-		max-width:85%;
-}
-.titleimg{
-	max-width:95%;
-}
-#licenset{
-	padding: 80px 0px 0px;
-	margin:80px;
-}
-.anaw{
-	text-decoration:none;
-	color:#000000;
-}
-.licensetimgleft{
-	max-width:85%;
-}
-.licensetimg{
-	max-width:85%;
-	padding: 0px 0px 100px 0px;
-}
-.licensetimgright{
-	max-width:85%;
+	.button-podrobneeOKinike {
+		border-radius: $butBordR;
+		background-color: $mainPuple;
+		padding: 10px;
+		text-align: center;
+		margin: 20px;
+		font-weight:bolder;
+		font-size: 20px;
+		Width: 250px;
+		padding: 0px 0px 0px -210px;
+	}
+	.titleimg{
+		max-width:95%;
+	}
 }
