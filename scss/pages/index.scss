@@ -1,11 +1,29 @@
 @import '../var';
 
-.about-block {
+.services-block {
 	.title {
 		color: $mainPurple;
 		text-align: center;
-	}
-
+	}	
+	.col-sm-4 {
+		border: 1px solid $mainPurple;
+		background-color: $mainPurple;
+		text-align: center;
+		margin: 20px;
+		font-weight:bolder;
+		font-size: 15x;
+		Width: 263px;
+		height: 237px;
+		border-radius: $butBordR;
+		color: white;
+			.img-fluid {
+			border-radius: 0px 0px $butBordR $butBordR;
+			display: flex;
+			flex-wrap: wrap;
+			position: bottom;
+		}	
+	}	
+}	
 	// используй классы, а не id
 	#button-podrobneeOKinike {
 		border-radius: $butBordR;
@@ -16,5 +34,11 @@
 		font-weight:bolder;
 		font-size: 20px;
 		Width: 250px;
+	}
+
+.about-block {
+	.title {
+		color: $mainPurple;
+		text-align: center; 
 	}
 }

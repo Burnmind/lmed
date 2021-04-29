@@ -1,10 +1,10 @@
 <? require 'header.php' ?>
 <section class="doctor-page container">
-		<h1><p class="text-center" style="color: #a631a7"> <b>Иванова Елена Вениаминовна</b></p></h1> <!-- p и b удали и
+		<h1><p class="text-center" style="color: #a631a7"> Иванова Елена Вениаминовна</p></h1> <!-- p и b удали и
 		 пропиши класс h1 -->
     <!-- НЕ ПРОПИСЫВАЙ СТИЛИ ТЭГАМ ТОЛЬКО В SCSS-->
 	<div class="row">
-		<div class="col-md-5">
+		<div class="col-md-5"><br>
 			<img src="public/img/doctor.png" alt="" class="img-fluid" width="82%"><br><br>
 			<p><a href="#" type="button"  id="zapisatsa" class="btn outline-light" style="background-color: #a631a7" > Записаться на прием</a></p>
 		</div>

@@ -10728,11 +10728,30 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.about-block .title {
+.services-block .title {
   color: #a631a7;
   text-align: center;
 }
-.about-block #button-podrobneeOKinike {
+.services-block .col-sm-4 {
+  border: 1px solid #a631a7;
+  background-color: #a631a7;
+  text-align: center;
+  margin: 20px;
+  font-weight: bolder;
+  font-size: 15x;
+  Width: 263px;
+  height: 237px;
+  border-radius: 20px;
+  color: white;
+}
+.services-block .col-sm-4 .img-fluid {
+  border-radius: 0px 0px 20px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  position: bottom;
+}
+
+#button-podrobneeOKinike {
   border-radius: 20px;
   background-color: #a631a7;
   padding: 10px;
@@ -10743,19 +10762,25 @@ textarea.form-control-lg {
   Width: 250px;
 }
 
+.about-block .title {
+  color: #a631a7;
+  text-align: center;
+}
+
 .doctor-page .title {
   color: #a631a7;
   text-align: center;
 }
-.doctor-page #zapisatsa {
+.doctor-page .btn outline-light {
   border-radius: 20px;
   background-color: #a631a7;
   padding: 10px;
   text-align: center;
   margin: 0 auto;
   font-weight: bolder;
-  font-side: 20px;
+  font-size: 20px;
   width: 260px;
+  color: white;
 }
 
 header nav {

@@ -6,14 +6,16 @@
 		text-align: center;
 	}
 
-	#zapisatsa { // не используй id только классы и тэги (названия давай на английском)
+	.btn outline-light { // не используй id только классы и тэги (названия давай на английском)
 		border-radius: $butBordR;
 		background-color: $mainPurple;
 		padding: 10px;
 		text-align: center;
 		margin: 0 auto;
 		font-weight: bolder;
-		font-side: 20px; // ошибка в свойстве
+		font-size: 20px; // ошибка в свойстве
 		width: 260px;
+		color: white;
+
 	}
 }
