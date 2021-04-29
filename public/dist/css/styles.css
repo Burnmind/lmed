@@ -10728,12 +10728,11 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.title {
+.about-block .title {
   color: #a631a7;
   text-align: center;
 }
-
-#button-podrobneeOKinike {
+.about-block #button-podrobneeOKinike {
   border-radius: 20px;
   background-color: #a631a7;
   padding: 10px;
@@ -10742,6 +10741,25 @@ textarea.form-control-lg {
   font-weight: bolder;
   font-size: 20px;
   Width: 250px;
+}
+
+.doctor-page .title {
+  color: #a631a7;
+  text-align: center;
+}
+.doctor-page #zapisatsa {
+  border-radius: 20px;
+  background-color: #a631a7;
+  padding: 10px;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: bolder;
+  font-side: 20px;
+  width: 260px;
+}
+
+header nav {
+  background: #a631a7;
 }
 
 /*# sourceMappingURL=styles.css.map */
