@@ -1,6 +1,6 @@
 <? require 'header.php' ?>
 <div class="container">
-	<br><br>
+	<br><br><!-- ВСЕ ТОЖЕ САМОЕ -->
 	<br><br>
 	<h1><p  class="title">О КЛИНИКЕ</p><br><br></h1>
 	<div class="row">
