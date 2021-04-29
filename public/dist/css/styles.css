@@ -10743,6 +10743,21 @@ textarea.form-control-lg {
   Width: 250px;
 }
 
+.doctor-page .title {
+  color: #a631a7;
+  text-align: center;
+}
+.doctor-page #zapisatsa {
+  border-radius: 20px;
+  background-color: #a631a7;
+  padding: 10px;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: bolder;
+  font-side: 20px;
+  width: 260px;
+}
+
 header nav {
   background: #a631a7;
 }
