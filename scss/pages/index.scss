@@ -1,0 +1,18 @@
+$mainPuple: #a631a7;
+$butBordR: 20px;
+
+
+.title {
+	color: $mainPuple;
+	text-align: center;
+}
+#button-podrobneeOKinike {
+	border-radius: $butBordR;
+	background-color: $mainPuple;
+	padding: 10px;
+	text-align: center;
+	margin: 20px;
+	font-weight:bolder;
+	font-size: 20px;
+	Width: 250px;
+}
