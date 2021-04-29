@@ -10793,8 +10793,26 @@ textarea.form-control-lg {
   width: 260px;
 }
 
-header nav {
+header .logo-wrapper {
+  display: block;
+}
+header .logo-wrapper img {
+  width: 110px;
+}
+header .logo-wrapper span {
+  color: #a631a7;
+}
+header .navbar {
   background: #a631a7;
+  padding: 5px 30px;
+}
+header ul {
+  width: 100%;
+}
+header .nav-item a {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 18px;
 }
 
 .container {

@@ -1,7 +1,32 @@
 @import "../var";
 
 header {
-    nav {
+    .logo-wrapper {
+        display: block;
+
+        img {
+            width: 110px;
+        }
+
+        span {
+            color: $mainPurple;
+        }
+    }
+
+    .navbar {
         background: $mainPurple;
+        padding: 5px 30px;
+    }
+
+    ul {
+        width: 100%;
+    }
+
+    .nav-item {
+        a {
+            text-transform: uppercase;
+            color: $white;
+            font-size: 18px;
+        }
     }
 }
