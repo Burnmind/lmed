@@ -10797,4 +10797,8 @@ header nav {
   background: #a631a7;
 }
 
+.container {
+  max-width: 985px;
+}
+
 /*# sourceMappingURL=styles.css.map */
