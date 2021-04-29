@@ -10728,8 +10728,23 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.about-block .title {
+  color: #a631a7;
+  text-align: center;
+}
+.about-block #button-podrobneeOKinike {
+  border-radius: 20px;
+  background-color: #a631a7;
+  padding: 10px;
+  text-align: center;
+  margin: 20px;
+  font-weight: bolder;
+  font-size: 20px;
+  Width: 250px;
+}
+
 header nav {
-  background: #8f34a3;
+  background: #a631a7;
 }
 
 /*# sourceMappingURL=styles.css.map */
