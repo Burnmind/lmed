@@ -10728,10 +10728,16 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+<<<<<<< HEAD
 .services-block .title {
+=======
+.title {
+>>>>>>> 7a81c0c8f412767a5e339f4ea20e4afc026af9cd
   color: #a631a7;
   text-align: center;
+  margin: 80px;
 }
+<<<<<<< HEAD
 .services-block .col-sm-4 {
   border: 1px solid #a631a7;
   background-color: #a631a7;
@@ -10750,6 +10756,8 @@ textarea.form-control-lg {
   flex-wrap: wrap;
   position: bottom;
 }
+=======
+>>>>>>> 7a81c0c8f412767a5e339f4ea20e4afc026af9cd
 
 #button-podrobneeOKinike {
   border-radius: 20px;
@@ -10760,6 +10768,39 @@ textarea.form-control-lg {
   font-weight: bolder;
   font-size: 20px;
   Width: 250px;
+  padding: 0px 0px 0px -210px;
+}
+
+.minipho {
+  padding: 40px 0px 0px 0px;
+  max-width: 85%;
+}
+
+.titleimg {
+  max-width: 95%;
+}
+
+#licenset {
+  padding: 80px 0px 0px;
+  margin: 80px;
+}
+
+.anaw {
+  text-decoration: none;
+  color: #000000;
+}
+
+.licensetimgleft {
+  max-width: 85%;
+}
+
+.licensetimg {
+  max-width: 85%;
+  padding: 0px 0px 100px 0px;
+}
+
+.licensetimgright {
+  max-width: 85%;
 }
 
 .about-block .title {
@@ -10785,6 +10826,10 @@ textarea.form-control-lg {
 
 header nav {
   background: #a631a7;
+}
+
+.container {
+  max-width: 985px;
 }
 
 /*# sourceMappingURL=styles.css.map */
