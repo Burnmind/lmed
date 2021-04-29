@@ -1,8 +1,8 @@
 <? require 'header.php' ?>
-<section class="about-block container">
+<section class="about-block container  about-page">
 	<div class="container"> 
-		<h3><a href="index.php" class="anaw">Главная</a><img width="15" height="24" src="public/img/arrow.png"><a href="#" class="anaw">О клинике</a></h3>
-	<h1 class="title">О КЛИНИКЕ</h1>
+		<p><a href="index.php" class="anaw">Главная</a><img width="10" height="18" src="public/img/arrow.png"><a href="#" class="anaw">О клинике</a></p>
+	<h3 class="title">О КЛИНИКЕ</h3>
 	<div class="row">
 		<div class="col-sm">
 			<img src="public/img/photo.png"  class="img-fluid titleimg">

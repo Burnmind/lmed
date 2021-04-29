@@ -1,0 +1,34 @@
+.about-page{
+	$mainPuple: #a631a7;
+	.title {
+		color: $mainPuple;
+		text-align: center;
+		margin:60px;
+	}
+	.minipho {
+			padding: 40px 0px 0px 0px;
+			max-width:85%;
+	}
+	.titleimg{
+		max-width:95%;
+	}
+	.licenset{
+		padding: 150px 0px 0px;
+		margin:80px;
+	}
+	.anaw{
+		text-decoration:none;
+		color:#000000;
+		text-indent: 20px;
+	}
+	.licensetimgleft{
+		max-width:85%;
+	}
+	.licensetimg{
+		max-width:85%;
+		padding: 0px 0px 100px 0px;
+	}
+	.licensetimgright{
+		max-width:85%;
+	}
+}
