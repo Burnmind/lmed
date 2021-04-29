@@ -1,6 +1,6 @@
 <? require 'header.php' ?>
-<div class="container">
-	<br><br>
+<section class="about-page container">
+	<br><br><!-- ВСЕ ТОЖЕ САМОЕ -->
 	<br><br>
 	<h1><p  class="title">О КЛИНИКЕ</p><br><br></h1>
 	<div class="row">
@@ -13,5 +13,5 @@
 			Мы успешно осуществляем весь комплекс стоматологических услуг с максимальным комфортом для пациента</p></h5>
 		</div>
 	</div>
-</div>
+</section>
 <? require 'footer.php' ?>

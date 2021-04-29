@@ -1,5 +1,14 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+@import "_var";
+
 // pages
 @import "pages/index";
+
 @import "pages/doctor";
+=======
+
+
+// partials
+@import "common/header";
+
