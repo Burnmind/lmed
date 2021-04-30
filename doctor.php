@@ -1,5 +1,6 @@
+<? $pageType = 'doctor-page'; ?>
 <? require 'header.php' ?>
-<section class="doctor-page container">
+<section class="container">
 		<h1><p class="text-center" style="color: #a631a7"> Иванова Елена Вениаминовна</p></h1> <!-- p и b удали и
 		 пропиши класс h1 -->
     <!-- НЕ ПРОПИСЫВАЙ СТИЛИ ТЭГАМ ТОЛЬКО В SCSS-->

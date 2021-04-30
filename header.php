@@ -1,3 +1,6 @@
+<?
+/** @var string $pageType */
+?>
 <!doctype html>
 <html lang="RU">
 <head>
@@ -87,6 +90,6 @@
             </nav>
         </div>
     </header>
-    <main>
+    <main class="<?= $pageType ?>">
 
 
