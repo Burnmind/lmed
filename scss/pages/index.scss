@@ -1,43 +1,33 @@
+@import "../var";
+
 .index-page {
->>>>>>> c116be4b891a22d6e95e12c6ccd1725e5273ca13
 	.title {
-		color: #a631a7;
+		color: $mainPurple;
 		text-align: center;
-		margin: 50px;
-		padding: 0px 0px 0px 10px;		
-}
-<<<<<<< HEAD{
-		}
-=======
-		margin: 10px{
->>>>>>> c116be4b891a22d6e95e12c6ccd1725e5273ca13{
+		padding: 0 0 0 10px;
+		margin: 10px
 	}
+
 	.button-podrobneeOKinike {
-		border-radius: 14px;
-		background-color: #a631a7;
+		border-radius: $butBordR;
+		background-color: $mainPurple;
 		padding: 8px;
 		text-align: center;
 		font-weight: bolder;
-<<<<<<< HEAD
-		font-size: 13px{
+		font-size: 13px;
 		Width: 178px;
-		height: 36px;     
-		margin: 20px 0px 0px 0px;        
-    }   
-=======
+		height: 36px;
+		margin: 20px 0 0 0;
+    }
 
->>>>>>> c116be4b891a22d6e95e12c6ccd1725e5273ca13
 	.titleimg{
 		max-width: 95%;
-		padding: 10px 0px 0px 40px;
+		padding: 10px 0 0 40px;
+	}
 
-	}
 	.textoklin{
-	font-size: 14px;
-	line-height: 1.3;
-	padding: 15px 20px 0px 0px;
+		font-size: 14px;
+		line-height: 1.3;
+		padding: 15px 20px 0 0;
 	}
-<<<<<<< HEAD
-======={}
 }
->>>>>>> c116be4b891a22d6e95e12c6ccd1725e5273ca13{}}}
