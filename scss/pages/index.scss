@@ -8,6 +8,32 @@
 		margin: 10px
 	}
 
+	.services-block {
+		.title {
+			color: $mainPurple;
+			text-align: center;
+		}
+		.col-sm-4 {
+			border: 1px solid $mainPurple;
+			background-color: $mainPurple;
+			text-align: center;
+			margin: 20px;
+			font-weight:bolder;
+			font-size: 15px;
+			Width: 263px;
+			height: 237px;
+			border-radius: $butBordR;
+			color: white;
+
+			.img-fluid {
+				border-radius: 0 0 $butBordR $butBordR;
+				display: flex;
+				flex-wrap: wrap;
+				position: bottom;
+			}
+		}
+	}
+
 	.button-podrobneeOKinike {
 		border-radius: $butBordR;
 		background-color: $mainPurple;
