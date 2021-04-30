@@ -16,18 +16,18 @@
 <body>
     <header>
         <div class="container">
-            <div class="top-line d-flex justify-content-between align-items-center">
-                <a href="/" class="logo-wrapper d-flex align-items-center">
+            <div class="top-line d-flex justify-content-sm-between justify-content-md-start align-items-center">
+                <a href="/" class="logo-wrapper d-sm-none d-md-flex align-items-center">
                     <img src="public/img/logo.png" alt="Лмед">
                     <span>Красивая улыбка - это простой способ быть лучше</span>
                 </a>
-                <div class="address-wrapper">
-                    <div class="address">
-                        <i class="icon-metro-pin"></i>
+                <div class="address-wrapper d-sm-none d-md-block">
+                    <div class="address d-flex align-items-center">
+                        <img src="public/img/icons/icon-pin.png" class="icon-pin" alt="">
                         <span>г.Москва, ул.Зюзинская, дом 6</span>
                     </div>
                     <div class="metro-list-wrapper d-flex">
-                        <i class="icon-metro"></i>
+                        <img src="public/img/metro.png" class="icon-metro" alt="">
                         <div class="metro-list d-flex flex-column align-items-center">
                             <div>Новые Черемушки</div>
                             <div>Профсоюзная</div>
@@ -46,14 +46,22 @@
                         <img src="public/img/wa.png" alt="">
                     </a>
                 </div>
-                <div class="contact-block">
+                <div class="contact-block d-sm-none d-md-block">
                     <div class="phone">
-                        <i class="phone-icon"></i>
-                        <a href="tel:+74959688011">+7 (495) 968-80-11</a>
+                        <a href="tel:+74959688011">
+                            <img src="public/img/icons/icon-phone.png" class="icon-phone" alt=""> +7 (495) 968-80-11
+                        </a>
                     </div>
-                    <a href="javascript:void(0)" type="button" class="btn btn-outline-light
-                    button-primary-violet">Оставить заявку</a>
+                    <a href="javascript:void(0)" type="button"
+                       class="btn btn-outline-light button-primary-violet">Оставить заявку</a>
                 </div>
+                <div class="phone d-sm-block d-md-none">
+                    <a href="tel:+74959688011">
+                        +7 (495) 968-80-11
+                    </a>
+                </div>
+                <a href="javascript:void(0)" type="button"
+                   class="btn btn-outline-light button-primary-white d-sm-block d-md-none">Оставить заявку</a>
             </div>
             <nav class="navbar navbar-expand-md">
                 <div class="collapse navbar-collapse" id="menuContent">

@@ -10794,7 +10794,12 @@ textarea.form-control-lg {
 }
 
 header .top-line {
-  padding: 15px 20px 15px 10px;
+  padding: 16px 20px 12px 10px;
+}
+@media (max-width: 767px) {
+  header .top-line {
+    background: #a631a7;
+  }
 }
 header .logo-wrapper {
   display: block;
@@ -10806,20 +10811,43 @@ header .logo-wrapper img {
 }
 header .logo-wrapper span {
   padding-left: 5px;
-  max-width: 220px;
+  max-width: 215px;
   font-size: 13px;
   font-weight: bold;
   color: #a631a7;
 }
 header .address {
-  font-size: 13px;
+  font-size: 14px;
 }
-header .metro-list {
+header .icon-pin {
+  width: 10px;
+  margin-right: 10px;
+}
+header .metro-list-wrapper {
+  padding-left: 18px;
+}
+header .metro-list-wrapper .icon-metro {
+  padding-top: 8px;
+  width: 47px;
+  height: 47px;
+  box-sizing: content-box;
+}
+header .metro-list-wrapper .metro-list {
+  padding-top: 3px;
+  padding-left: 5px;
   font-size: 12px;
 }
+header .metro-list-wrapper .metro-list div {
+  line-height: 14px;
+}
 header .social-links-wrapper {
-  padding: 0 20px;
+  padding: 0 35px;
   margin: 0 -5px;
+}
+@media (max-width: 1024px) {
+  header .social-links-wrapper {
+    padding: 0 15px;
+  }
 }
 header .social-links-wrapper a {
   width: 33px;
@@ -10828,9 +10856,46 @@ header .social-links-wrapper a {
 header .social-links-wrapper a img {
   width: 100%;
 }
+header .contact-block {
+  align-self: flex-start;
+}
+header .contact-block .phone {
+  margin-bottom: 8px;
+}
+header .contact-block .phone a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 17px;
+  color: #000;
+}
+header .contact-block .phone a:hover {
+  opacity: 0.8;
+}
+header .contact-block .icon-phone {
+  width: 22px;
+  height: 22px;
+}
+header .contact-block .btn {
+  width: 190px;
+}
+header .d-sm-block.phone a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 17px;
+  color: #fff;
+}
+header .d-sm-block.phone a:hover {
+  opacity: 0.8;
+}
 header .navbar {
   background: #a631a7;
   padding: 5px 30px;
+}
+@media (max-width: 767px) {
+  header .navbar {
+    background: #fff;
+    border-bottom: 1px solid #a631a7;
+  }
 }
 header ul {
   width: 100%;
@@ -10848,10 +10913,17 @@ header .nav-item a {
 .button-primary-violet {
   border-radius: 20px;
   background-color: #a631a7;
-  padding: 10px;
+  padding: 5px;
   text-align: center;
-  font-weight: bolder;
-  font-size: 20px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.button-primary-white {
+  color: #a631a7;
+  background-color: #fff;
+  font-size: 14px;
+  font-weight: bold;
   text-transform: uppercase;
 }
 

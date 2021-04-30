@@ -2,7 +2,11 @@
 
 header {
     .top-line {
-        padding: 15px 20px 15px 10px;
+        padding: 16px 20px 12px 10px;
+
+        @media (max-width: 767px) {
+            background: $mainPurple;
+        }
     }
 
     .logo-wrapper {
@@ -16,7 +20,7 @@ header {
 
         span {
             padding-left: 5px;
-            max-width: 220px;
+            max-width: 215px;
             font-size: 13px;
             font-weight: bold;
             color: $mainPurple;
@@ -24,16 +28,42 @@ header {
     }
 
     .address {
-        font-size: 13px;
+        font-size: 14px;
     }
 
-    .metro-list {
-        font-size: 12px;
+    .icon-pin {
+        width: 10px;
+        margin-right: 10px;
+    }
+
+    .metro-list-wrapper {
+        padding-left: 18px;
+
+        .icon-metro {
+            padding-top: 8px;
+            width: 47px;
+            height: 47px;
+            box-sizing: content-box;
+        }
+
+        .metro-list {
+            padding-top: 3px;
+            padding-left: 5px;
+            font-size: 12px;
+
+            div {
+                line-height: 14px;
+            }
+        }
     }
 
     .social-links-wrapper {
-        padding: 0 20px;
+        padding: 0 35px;
         margin: 0 -5px;
+
+        @media (max-width: 1024px) {
+            padding: 0 15px;
+        }
 
         a {
             width: 33px;
@@ -45,9 +75,57 @@ header {
         }
     }
 
+    .contact-block {
+        align-self: flex-start;
+
+        .phone {
+            margin-bottom: 8px;
+
+            a {
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 17px;
+                color: $black;
+
+                &:hover {
+                    opacity: 0.8;
+                }
+            }
+        }
+
+        .icon-phone {
+            width: 22px;
+            height: 22px;
+        }
+
+        .btn {
+            width: 190px;
+        }
+    }
+
+    .d-sm-block {
+        &.phone {
+            a {
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 17px;
+                color: $white;
+
+                &:hover {
+                    opacity: 0.8;
+                }
+            }
+        }
+    }
+
     .navbar {
         background: $mainPurple;
         padding: 5px 30px;
+
+        @media (max-width: 767px) {
+            background: $white;
+            border-bottom: 1px solid $mainPurple;
+        }
     }
 
     ul {
