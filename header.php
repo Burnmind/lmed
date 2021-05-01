@@ -16,12 +16,13 @@
 <body>
     <header>
         <div class="container">
-            <div class="top-line d-flex justify-content-sm-between justify-content-md-start align-items-center">
-                <a href="/" class="logo-wrapper d-sm-none d-md-flex align-items-center">
+            <div class="top-line d-flex justify-content-between flex-wrap flex-md-nowrap justify-content-md-start
+            align-items-center">
+                <a href="/" class="logo-wrapper d-none d-md-flex align-items-center">
                     <img src="public/img/logo.png" alt="Лмед">
                     <span>Красивая улыбка - это простой способ быть лучше</span>
                 </a>
-                <div class="address-wrapper d-sm-none d-md-block">
+                <div class="address-wrapper d-none d-md-block">
                     <div class="address d-flex align-items-center">
                         <img src="public/img/icons/icon-pin.png" class="icon-pin" alt="">
                         <span>г.Москва, ул.Зюзинская, дом 6</span>
@@ -46,7 +47,7 @@
                         <img src="public/img/wa.png" alt="">
                     </a>
                 </div>
-                <div class="contact-block d-sm-none d-md-block">
+                <div class="contact-block d-none d-md-block">
                     <div class="phone">
                         <a href="tel:+74959688011">
                             <img src="public/img/icons/icon-phone.png" class="icon-phone" alt=""> +7 (495) 968-80-11
@@ -55,16 +56,20 @@
                     <a href="javascript:void(0)" type="button"
                        class="btn btn-outline-light button-primary-violet">Оставить заявку</a>
                 </div>
-                <div class="phone d-sm-block d-md-none">
+                <div class="phone order-1 d-block d-md-none">
                     <a href="tel:+74959688011">
                         +7 (495) 968-80-11
                     </a>
                 </div>
                 <a href="javascript:void(0)" type="button"
-                   class="btn btn-outline-light button-primary-white d-sm-block d-md-none">Оставить заявку</a>
+                   class="btn btn-outline-light button-primary-white d-block d-md-none">Оставить заявку</a>
             </div>
             <nav class="navbar navbar-expand-md">
-                <div class="collapse navbar-collapse" id="menuContent">
+                <a href="/" class="logo-wrapper d-flex d-md-none align-items-center">
+                    <img src="public/img/logo.png" alt="Лмед">
+                    <span>Красивая улыбка - это простой способ быть лучше</span>
+                </a>
+                <div class="collapse navbar-collapse order-1" id="menuContent">
                     <ul class="navbar-nav mr-auto d-flex justify-content-between">
                         <li class="nav-item">
                             <a href="javascript:void(0)" class="nav-link">О клинике</a>
@@ -88,12 +93,12 @@
                 </div>
                 <button class="navbar-toggler"
                         type="button"
-                        data-toggle="collapse"
-                        data-target="#menuContent"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#menuContent"
                         aria-controls="menuContent"
                         aria-expanded="false"
                 >
-
+                    <img src="public/img/icons/icon-burger.png" class="icon-burger" alt="">
                 </button>
             </nav>
         </div>

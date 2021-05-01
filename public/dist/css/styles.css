@@ -10793,6 +10793,11 @@ textarea.form-control-lg {
   color: white;
 }
 
+@media (max-width: 479px) {
+  header .container {
+    padding: 0;
+  }
+}
 header .top-line {
   padding: 16px 20px 12px 10px;
 }
@@ -10801,13 +10806,33 @@ header .top-line {
     background: #a631a7;
   }
 }
+@media (max-width: 479px) {
+  header .top-line {
+    padding: 15px 10px;
+  }
+}
 header .logo-wrapper {
   display: block;
   text-decoration: none;
   padding-top: 10px;
 }
+@media (max-width: 767px) {
+  header .logo-wrapper {
+    padding-top: 0;
+  }
+}
 header .logo-wrapper img {
   width: 110px;
+}
+@media (max-width: 767px) {
+  header .logo-wrapper img {
+    width: 90px;
+  }
+}
+@media (max-width: 479px) {
+  header .logo-wrapper img {
+    width: 75px;
+  }
 }
 header .logo-wrapper span {
   padding-left: 5px;
@@ -10815,6 +10840,13 @@ header .logo-wrapper span {
   font-size: 13px;
   font-weight: bold;
   color: #a631a7;
+}
+@media (max-width: 767px) {
+  header .logo-wrapper span {
+    padding-left: 10px;
+    max-width: 160px;
+    font-size: 12px;
+  }
 }
 header .address {
   font-size: 14px;
@@ -10849,6 +10881,11 @@ header .social-links-wrapper {
     padding: 0 15px;
   }
 }
+@media (max-width: 479px) {
+  header .social-links-wrapper {
+    padding: 0;
+  }
+}
 header .social-links-wrapper a {
   width: 33px;
   margin: 0 5px;
@@ -10859,18 +10896,6 @@ header .social-links-wrapper a img {
 header .contact-block {
   align-self: flex-start;
 }
-header .contact-block .phone {
-  margin-bottom: 8px;
-}
-header .contact-block .phone a {
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 17px;
-  color: #000;
-}
-header .contact-block .phone a:hover {
-  opacity: 0.8;
-}
 header .contact-block .icon-phone {
   width: 22px;
   height: 22px;
@@ -10878,13 +10903,26 @@ header .contact-block .icon-phone {
 header .contact-block .btn {
   width: 190px;
 }
-header .d-sm-block.phone a {
+header .phone {
+  margin-bottom: 8px;
+}
+@media (max-width: 767px) {
+  header .phone {
+    margin: 5px auto;
+  }
+}
+header .phone a {
   text-decoration: none;
   font-weight: bold;
   font-size: 17px;
-  color: #fff;
+  color: #000;
 }
-header .d-sm-block.phone a:hover {
+@media (max-width: 767px) {
+  header .phone a {
+    color: #fff;
+  }
+}
+header .phone a:hover {
   opacity: 0.8;
 }
 header .navbar {
@@ -10894,16 +10932,40 @@ header .navbar {
 @media (max-width: 767px) {
   header .navbar {
     background: #fff;
-    border-bottom: 1px solid #a631a7;
+    padding: 20px 15px;
   }
+}
+@media (max-width: 479px) {
+  header .navbar {
+    border-bottom: 3px solid #a631a7;
+    padding: 20px 10px;
+  }
+}
+header .icon-burger {
+  width: 35px;
 }
 header ul {
   width: 100%;
 }
 header .nav-item a {
   text-transform: uppercase;
-  color: #fff;
   font-size: 18px;
+  color: #fff;
+}
+@media (max-width: 767px) {
+  header .nav-item a {
+    font-weight: bold;
+    color: #000;
+  }
+}
+@media (max-width: 767px) {
+  header .nav-item {
+    padding: 20px 0;
+    border-bottom: 1px solid #a631a7;
+  }
+  header .nav-item:last-of-type {
+    border-bottom: 1px solid transparent;
+  }
 }
 
 .container {
