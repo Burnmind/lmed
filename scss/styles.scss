@@ -2,10 +2,12 @@
 
 @import "_var";
 
+// layout
+@import "common/header";
+@import "common/footer";
+@import "common/common";
+
 // pages
 @import "pages/index";
 @import "pages/doctor";
 
-// partials
-@import "common/header";
-@import "common/common";

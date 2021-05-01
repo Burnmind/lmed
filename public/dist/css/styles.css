@@ -10728,71 +10728,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.index-page .title {
-  color: #a631a7;
-  text-align: center;
-  padding: 0 0 0 10px;
-  margin: 10px;
-}
-.index-page .services-block .title {
-  color: #a631a7;
-  text-align: center;
-}
-.index-page .services-block .col-sm-4 {
-  border: 1px solid #a631a7;
-  background-color: #a631a7;
-  text-align: center;
-  margin: 20px;
-  font-weight: bolder;
-  font-size: 15px;
-  Width: 263px;
-  height: 237px;
-  border-radius: 20px;
-  color: white;
-}
-.index-page .services-block .col-sm-4 .img-fluid {
-  border-radius: 0 0 20px 20px;
-  display: flex;
-  flex-wrap: wrap;
-  position: bottom;
-}
-.index-page .about-block .button-podrobneeOKinike {
-  border-radius: 20px;
-  background-color: #a631a7;
-  padding: 8px;
-  text-align: center;
-  font-weight: bolder;
-  font-size: 13px;
-  Width: 178px;
-  height: 36px;
-  margin: 20px 0 0 0;
-}
-.index-page .about-block .titleimg {
-  max-width: 95%;
-  padding: 10px 0 0 40px;
-}
-.index-page .about-block .textoklin {
-  font-size: 14px;
-  line-height: 1.3;
-  padding: 15px 20px 0 0;
-}
-
-.doctor-page .title {
-  color: #a631a7;
-  text-align: center;
-}
-.doctor-page .btn outline-light {
-  border-radius: 20px;
-  background-color: #a631a7;
-  padding: 10px;
-  text-align: center;
-  margin: 0 auto;
-  font-weight: bolder;
-  font-size: 20px;
-  width: 260px;
-  color: white;
-}
-
 @media (max-width: 479px) {
   header .container {
     padding: 0;
@@ -10965,6 +10900,71 @@ header .nav-item a {
   }
   header .nav-item:last-of-type {
     border-bottom: 1px solid transparent;
+    padding-bottom: 0;
+  }
+}
+
+@media (max-width: 479px) {
+  footer {
+    padding: 0 !important;
+  }
+}
+footer .footer-line {
+  padding: 23px 23px 17px 63px;
+  background: #a631a7;
+}
+@media (max-width: 767px) {
+  footer .footer-line {
+    padding: 23px 23px 17px;
+  }
+}
+@media (max-width: 479px) {
+  footer .footer-line {
+    padding: 15px;
+  }
+}
+footer .logo-wrapper {
+  flex-shrink: 0;
+  text-decoration: none;
+  padding-top: 12px;
+}
+footer .logo-wrapper img {
+  width: 135px;
+}
+@media (max-width: 767px) {
+  footer .logo-wrapper img {
+    width: 110px;
+  }
+}
+@media (max-width: 479px) {
+  footer .logo-wrapper img {
+    width: 90px;
+  }
+}
+footer .logo-wrapper span {
+  padding-left: 27px;
+  max-width: 302px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+footer .menu-wrapper .nav-link {
+  padding: 14px 7px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+@media (max-width: 767px) {
+  footer .menu-wrapper .nav-link {
+    font-size: 14px;
+  }
+}
+@media (max-width: 479px) {
+  footer .menu-wrapper .nav-link {
+    font-size: 12px;
   }
 }
 
@@ -10987,6 +10987,71 @@ header .nav-item a {
   font-size: 14px;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+.index-page .title {
+  color: #a631a7;
+  text-align: center;
+  padding: 0 0 0 10px;
+  margin: 10px;
+}
+.index-page .services-block .title {
+  color: #a631a7;
+  text-align: center;
+}
+.index-page .services-block .col-sm-4 {
+  border: 1px solid #a631a7;
+  background-color: #a631a7;
+  text-align: center;
+  margin: 20px;
+  font-weight: bolder;
+  font-size: 15px;
+  Width: 263px;
+  height: 237px;
+  border-radius: 20px;
+  color: white;
+}
+.index-page .services-block .col-sm-4 .img-fluid {
+  border-radius: 0 0 20px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  position: bottom;
+}
+.index-page .about-block .button-podrobneeOKinike {
+  border-radius: 20px;
+  background-color: #a631a7;
+  padding: 8px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 13px;
+  Width: 178px;
+  height: 36px;
+  margin: 20px 0 0 0;
+}
+.index-page .about-block .titleimg {
+  max-width: 95%;
+  padding: 10px 0 0 40px;
+}
+.index-page .about-block .textoklin {
+  font-size: 14px;
+  line-height: 1.3;
+  padding: 15px 20px 0 0;
+}
+
+.doctor-page .title {
+  color: #a631a7;
+  text-align: center;
+}
+.doctor-page .btn outline-light {
+  border-radius: 20px;
+  background-color: #a631a7;
+  padding: 10px;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: bolder;
+  font-size: 20px;
+  width: 260px;
+  color: white;
 }
 
 /*# sourceMappingURL=styles.css.map */
