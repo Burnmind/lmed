@@ -7,7 +7,7 @@
 		padding: 0 0 0 10px;
 		margin: 10px
 	}
-
+/*Услуги*/
 	.services-block {
 		.title {
 			color: $mainPurple;
@@ -17,23 +17,31 @@
 			border: 1px solid $mainPurple;
 			background-color: $mainPurple;
 			text-align: center;
-			margin: 20px;
+			margin: 25px;
 			font-weight:bolder;
-			font-size: 15px;
-			Width: 263px;
-			height: 237px;
-			border-radius: $butBordR;
+			font-size: 24px;
+			max-width: 270px;
+			width: 100%;
+			max-height: 270px;
+			height: 100%;
+			border-radius: 10px;
 			color: white;
-
+			padding: 10px 0px 0px 0px;
+			overflow: hidden;
 			.img-fluid {
-				border-radius: 0 0 $butBordR $butBordR;
+				box-sizing:content-box;
 				display: flex;
 				flex-wrap: wrap;
-				position: bottom; // wtf?
+				transition: opacity 0.2s linear;
+			}
+			.img-fluid:hover{
+				opacity: 0;
+				z-index:  1000;
+				background-color: #ffffff;
 			}
 		}
 	}
-
+/*О клинике*/
 	.about-block {
 		.button-podrobneeOKinike {
 			border-radius: $butBordR;
