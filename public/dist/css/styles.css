@@ -11042,23 +11042,30 @@ footer {
   z-index: 1000;
   background-color: #ffffff;
 }
+.index-page li {
+  list-style-type: none;
+}
+.index-page ul {
+  margin-left: 0;
+  padding-left: 0;
+}
 .index-page .doctors {
   background-color: #ecebeb;
 }
 .index-page .menu {
   display: flex;
-  font: 24px/32px Bureausans, Arial, sans-serif;
 }
 .index-page .menu-item {
   margin-right: 15px;
+  text-align: center;
 }
 .index-page .menu-item:last-child {
   margin-right: 0;
 }
 .index-page .menuLimiter {
   width: 100%;
-  padding: 0 10px;
-  padding-bottom: 20px;
+  padding: 0 20px;
+  padding-bottom: 25px;
   margin-bottom: -20px;
   overflow-x: scroll;
   -webkit-overflow-scrolling: touch;
@@ -11067,16 +11074,52 @@ footer {
 .index-page .menuWrapper {
   overflow: hidden;
 }
-.index-page .about-block .button-podrobneeOKinike {
-  border-radius: 20px;
+.index-page .img-ring {
+  width: 125px;
+  height: 125px;
+  overflow: hidden;
+  border: 1px solid #000000;
+  border-radius: 100%;
+  display: flex;
+  position: relative;
+  margin: 50px;
+}
+.index-page .img-ring-im {
+  position: absolute;
+  max-width: 260px;
+  max-height: 260px;
+  left: 50%;
+  transform: translate(-50%);
+}
+.index-page .doctir-name {
+  font-style: none;
+}
+.index-page .but-spec {
+  border-radius: 13px;
   background-color: #a631a7;
   padding: 8px;
   text-align: center;
   font-weight: bolder;
   font-size: 13px;
-  Width: 178px;
+  width: 325px;
   height: 36px;
   margin: 20px 0 0 0;
+  text-transform: uppercase;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.index-page .about-block .button-podrobneeOKinike {
+  border-radius: 13px;
+  background-color: #a631a7;
+  padding: 8px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 13px;
+  width: 178px;
+  height: 36px;
+  margin: 20px 0 0 0;
+  text-transform: uppercase;
 }
 .index-page .about-block .titleimg {
   max-width: 95%;

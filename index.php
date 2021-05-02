@@ -62,25 +62,74 @@
             <div class="menuLimiter">
                 <menu class="menu">
                     <li class="menu-item">
-                        <img src="public/img/doctor.png">
-                        <a href="#">Иванова Елена Вениаминовна</a>
+                        <div class="img-ring">
+                            <img src="public/img/doctor.png" class="img-ring-im">
+                        </div>
+                        <a href="#" class="doctir-name">Иванова Елена Вениаминовна</a>
                         <p>Специальность</p>
                     </li>
-                    <li class="menu-item">
-                           <img src="public/img/doctor.png">
-                        <a href="#">Иванова Елена Вениаминовна</a>
+                    <li class="menu-item" >
+                        <div class="img-ring">
+                            <img src="https://jrnlst.ru/sites/default/files/covers/cover_6.jpg" class="img-ring-im">
+                        </div>
+                        <a href="#" class="doctir-name">Иванова Елена Вениаминовна</a>
                         <p>Специальность</p>
                     </li>
-                    <li class="menu-item">
-                           <img src="public/img/doctor.png">
-                        <a href="#">Иванова Елена Вениаминовна</a>
+                    <li class="menu-item" >
+                        <div class="img-ring">
+                            <img src="https://img.rl0.ru/afisha/400x-/daily.afisha.ru/uploads/images/c/cf/ccf7a86d37854b4e911c67a6d10c024b.jpg" class="img-ring-im">
+                        </div>
+                        <a href="#" class="doctir-name">Иванова Елена Вениаминовна</a>
                         <p>Специальность</p>
                     </li>
-      <!-- ... -->
+                                        <li class="menu-item">
+                        <div class="img-ring">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8ziK68JnyTZnYE73Xnu89aU2d8KWprI9nYQ&usqp=CAU" class="img-ring-im">
+                        </div>
+                        <a href="#" class="doctir-name">Иванова Елена Вениаминовна</a>
+                        <p>Специальность</p>
+                    </li>
+                    <li class="menu-item" >
+                        <div class="img-ring">
+                            <img src="public/img/doctor.png" class="img-ring-im">
+                        </div>
+                        <a href="#" class="doctir-name">Иванова Елена Вениаминовна</a>
+                        <p>Специальность</p>
+                    </li>
+                    <li class="menu-item" >
+                        <div class="img-ring">
+                            <img src="public/img/doctor.png" class="img-ring-im">
+                        </div>
+                        <a href="#" class="doctir-name">Иванова Елена Вениаминовна</a>
+                        <p>Специальность</p>
+                    </li>
+                                        <li class="menu-item">
+                        <div class="img-ring">
+                            <img src="public/img/doctor.png" class="img-ring-im">
+                        </div>
+                        <a href="#" class="doctir-name">Иванова Елена Вениаминовна</a>
+                        <p>Специальность</p>
+                    </li>
+                    <li class="menu-item" >
+                        <div class="img-ring">
+                            <img src="public/img/doctor.png" class="img-ring-im">
+                        </div>
+                        <a href="#" class="doctir-name">Иванова Елена Вениаминовна</a>
+                        <p>Специальность</p>
+                    </li>
+                    <li class="menu-item" >
+                        <div class="img-ring">
+                            <img src="public/img/doctor.png" class="img-ring-im">
+                        </div>
+                        <a href="#" class="doctir-name">Иванова Елена Вениаминовна</a>
+                        <p>Специальность</p>
+                    </li>
                 </menu>
             </div>
         </div>
-
+         <div class="button-cen">
+         <a href="№" type="button" class="btn  btn-outline-light but-spec">Все специалисты клиники</a>
+         </div>
     </section>
 
     <section class="about-block container">

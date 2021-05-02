@@ -43,55 +43,105 @@
 		}
 }
 /*Врачи*/
+li {
+    list-style-type: none;
+   }
+ ul {
+    margin-left: 0;
+    padding-left: 0; 
+   }
 .doctors{
 
 	background-color: #ecebeb;
 }
 .menu {
   display: flex;
-  font: 24px/32px Bureausans, Arial, sans-serif;
 }
 
 .menu-item {
   margin-right: 15px;
+ text-align: center;
+
 }
 
 .menu-item:last-child {
   margin-right: 0;
 }
 .menuLimiter {
-	  width: 100%;
-  padding: 0 10px;
-   padding-bottom: 20px;
-     margin-bottom: -20px;
-  overflow-x: scroll;
-  -webkit-overflow-scrolling: touch;
-  mask-image: linear-gradient(
+	width: 100%;
+	padding: 0 20px;
+	padding-bottom: 25px;
+	margin-bottom: -20px;
+	overflow-x: scroll;
+	-webkit-overflow-scrolling: touch;
+  	mask-image: linear-gradient(
       90deg,
       transparent 0, rgba(0, 0, 0, .25) 9px,
       #000 18px,
       #000 calc(100% - 18px),
       rgba(0, 0, 0, .25) calc(100% - 9px),
-      transparent);
+      transparent
+    );
 }
-
 .menuWrapper {
   overflow: hidden;
 
 }
-/*О клинике*/
-	.about-block {
-		.button-podrobneeOKinike {
-			border-radius: $butBordR;
+.img-ring {
+	width: 125px;
+	height: 125px;
+	overflow: hidden;
+	border: 1px solid #000000;
+	border-radius: 100%;
+ 	display: flex;
+ 	position: relative;
+ 	margin: 50px;
+
+ 	
+}
+.img-ring-im{
+	position: absolute;
+	max-width: 260px;
+	max-height: 260px;
+	left: 50%;
+	transform: translate(-50%);
+
+}
+.doctir-name{
+	font-style: none;
+}
+.but-spec{
+			border-radius: 13px;
 			background-color: $mainPurple;
 			padding: 8px;
 			text-align: center;
 			font-weight: bolder;
 			font-size: 13px;
-			Width: 178px;
+			width: 325px;
 			height: 36px;
 			margin: 20px 0 0 0;
+			text-transform: uppercase;
+			display: block;
+   			margin-left: auto;
+   			margin-right: auto;
+
+}
+
+/*О клинике*/
+	.about-block {
+		.button-podrobneeOKinike {
+			border-radius: 13px;
+			background-color: $mainPurple;
+			padding: 8px;
+			text-align: center;
+			font-weight: bolder;
+			font-size: 13px;
+			width: 178px;
+			height: 36px;
+			margin: 20px 0 0 0;
+			 	text-transform: uppercase;
 		}
+
 
 		.titleimg{
 			max-width: 95%;
