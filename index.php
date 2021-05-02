@@ -1,7 +1,7 @@
 <? $pageType = 'index-page'; ?>
 <? require 'header.php' ?>
     <section class="services-block container">
-        <div class="title"><h3>УСЛУГИ СТОМАТОЛОГИИ</div><h3>
+        <div class="title"><h3>Услуги стоматологии</div><h3>
 
             <div class="row">
                 <div class="col-sm-4">
@@ -54,8 +54,37 @@
 
             </div>
     </section>
+
+    <section class="about-block container doctors">
+
+        <h3 class="title">Наши врачи</h3>
+        <div class="menuWrapper">
+            <div class="menuLimiter">
+                <menu class="menu">
+                    <li class="menu-item">
+                        <img src="public/img/doctor.png">
+                        <a href="#">Иванова Елена Вениаминовна</a>
+                        <p>Специальность</p>
+                    </li>
+                    <li class="menu-item">
+                           <img src="public/img/doctor.png">
+                        <a href="#">Иванова Елена Вениаминовна</a>
+                        <p>Специальность</p>
+                    </li>
+                    <li class="menu-item">
+                           <img src="public/img/doctor.png">
+                        <a href="#">Иванова Елена Вениаминовна</a>
+                        <p>Специальность</p>
+                    </li>
+      <!-- ... -->
+                </menu>
+            </div>
+        </div>
+
+    </section>
+
     <section class="about-block container">
-        <h3 class="title">О КЛИНИКЕ</h3>
+        <h3 class="title">О клинике</h3>
         <div class="row">
             <div class="col-sm">
                 <img src="public/img/photo.png" class="img-fluid titleimg">
