@@ -32,11 +32,11 @@
 	</div>
 		<h3 class="title-ab licenset">ЛИЦЕНЗИИ</h3>
 		<div class="row">
-				<div class="col-sm-4">
+				<div class="col-md-4">
 						<img src="public/img/photo.png" class="img-fluid minipho licensetimg">
 						<img src="public/img/photo.png" class="img-fluid minipho licensetimg">
 				</div>
-				<div class="col-sm-4">
+				<div class="col-md-4">
 						<img src="public/img/photo.png" class="img-fluid minipho licensetimg">
 						<img src="public/img/photo.png" class="img-fluid minipho licensetimg">
 				</div>

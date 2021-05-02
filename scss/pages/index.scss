@@ -2,6 +2,7 @@
 
 .index-page {
 	.title {
+	 	text-transform: uppercase;
 		color: $mainPurple;
 		text-align: center;
 		padding: 0 0 0 10px;
@@ -40,7 +41,44 @@
 				background-color: #ffffff;
 			}
 		}
-	}
+}
+/*Врачи*/
+.doctors{
+
+	background-color: #ecebeb;
+}
+.menu {
+  display: flex;
+  font: 24px/32px Bureausans, Arial, sans-serif;
+}
+
+.menu-item {
+  margin-right: 15px;
+}
+
+.menu-item:last-child {
+  margin-right: 0;
+}
+.menuLimiter {
+	  width: 100%;
+  padding: 0 10px;
+   padding-bottom: 20px;
+     margin-bottom: -20px;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+  mask-image: linear-gradient(
+      90deg,
+      transparent 0, rgba(0, 0, 0, .25) 9px,
+      #000 18px,
+      #000 calc(100% - 18px),
+      rgba(0, 0, 0, .25) calc(100% - 9px),
+      transparent);
+}
+
+.menuWrapper {
+  overflow: hidden;
+
+}
 /*О клинике*/
 	.about-block {
 		.button-podrobneeOKinike {
