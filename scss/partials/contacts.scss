@@ -1,0 +1,126 @@
+@import "../var";
+
+.contacts-block {
+    .container {
+        @media (max-width: 769px) {
+            padding: 0;
+        }
+    }
+
+    .contacts-and-map {
+        background: $backgroundGray;
+        padding-bottom: 60px;
+    }
+
+    .title {
+        padding: 40px 10px;
+        text-align: center;
+        font-size: 28px;
+        font-weight: bold;
+        color: $mainPurple;
+
+        @media (max-width: 769px) {
+            font-size: 24px;
+        }
+    }
+
+    .contacts-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+
+        .contacts {
+            padding: 0 40px 0 50px;
+            width: 100%;
+            max-width: 480px;
+
+            @media (max-width: 769px) {
+                width: unset;
+                padding: 0 20px;
+            }
+        }
+
+        .address {
+            padding-top: 6px;
+            font-size: 23px;
+
+            @media (max-width: 769px) {
+                font-size: 18px;
+            }
+        }
+
+        .icon-pin {
+            width: 30px;
+            padding: 0 25px 0 10px;
+            box-sizing: content-box;
+        }
+
+        .metro-list-wrapper {
+            padding-top: 20px;
+        }
+
+        .icon-metro {
+            width: 62px;
+            padding-right: 15px;
+        }
+
+        .metro-list {
+            font-size: 18px;
+            line-height: 1.2;
+        }
+
+        .phone {
+            padding-top: 20px;
+
+            a {
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 24px;
+                color: $black;
+
+                @media (max-width: 769px) {
+                    font-size: 18px;
+                }
+            }
+        }
+
+        .icon-phone {
+            padding: 0 10px;
+        }
+
+        .social-links-wrapper {
+            padding-top: 28px;
+
+            a {
+                padding: 0 7px;
+            }
+
+            img {
+                width: 49px;
+            }
+        }
+
+        .button-primary-violet {
+            margin-top: 30px;
+            margin-left: 10px;
+            padding: 10px;
+            width: 100%;
+            max-width: 335px;
+            font-size: 20px;
+            font-weight: bold;
+
+            @media (max-width: 769px) {
+                margin-left: 0;
+            }
+        }
+    }
+
+    .map {
+        min-height: 410px;
+
+        @media (max-width: 769px) {
+            width: 100%;
+            margin-top: 20px;
+        }
+    }
+}
