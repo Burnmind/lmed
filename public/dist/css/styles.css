@@ -11159,6 +11159,9 @@ footer {
   padding: 0 0 0 10px;
   margin: 10px;
 }
+.index-page .titli-uslug {
+  margin-top: 50px;
+}
 .index-page .services-block .title {
   color: #a631a7;
   text-align: center;
@@ -11197,12 +11200,13 @@ footer {
   margin-left: 0;
   padding-left: 0;
 }
-.index-page .doctors {
+.index-page .doctor-list-block {
   background-color: #ecebeb;
   padding: 40px 0 40px 0;
 }
 .index-page .menu {
   display: flex;
+  padding: 0;
 }
 .index-page .menu-item {
   margin-right: 15px;
@@ -11215,7 +11219,6 @@ footer {
   width: 100%;
   padding: 0 20px;
   padding-bottom: 25px;
-  margin-bottom: -30px;
   overflow-x: scroll;
 }
 .index-page .menuWrapper {
@@ -11229,12 +11232,12 @@ footer {
   border-radius: 100%;
   display: flex;
   position: relative;
-  margin: 50px;
+  margin: 30px 50px 25px 50px;
 }
 .index-page .img-ring-im {
   position: absolute;
-  max-width: 140px;
-  max-height: 140px;
+  max-width: 360px;
+  max-height: 150px;
   left: 50%;
   transform: translate(-50%);
 }
@@ -11264,7 +11267,11 @@ footer {
 .index-page .doctir-spec {
   font-weight: 500;
 }
-.index-page .about-block .button-podrobneeOKinike {
+.index-page .about-block {
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+.index-page .about-block .button-about {
   border-radius: 13px;
   background-color: #a631a7;
   padding: 8px;
@@ -11275,6 +11282,9 @@ footer {
   height: 36px;
   margin: 20px 0 0 0;
   text-transform: uppercase;
+}
+.index-page .about-block .title-oklin {
+  margin-bottom: 40px;
 }
 .index-page .about-block .titleimg {
   max-width: 95%;

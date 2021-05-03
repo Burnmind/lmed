@@ -9,6 +9,9 @@
 		margin: 10px
 	}
 /*Услуги*/
+    .titli-uslug{
+    	margin-top: 50px; 
+    }
 	.services-block {
 		.title {
 			color: $mainPurple;
@@ -50,13 +53,14 @@ li {
     margin-left: 0;
     padding-left: 0; 
    }
-.doctors{
+.doctor-list-block{
 
 	background-color: #ecebeb;
 	padding: 40px 0 40px 0;
 }
 .menu {
   display: flex;
+  padding: 0;
 }
 
 .menu-item {
@@ -72,7 +76,6 @@ li {
 	width: 100%;
 	padding: 0 20px;
 	padding-bottom: 25px;
-	margin-bottom: -30px;
 	overflow-x: scroll;
 }
 .menuWrapper {
@@ -87,14 +90,14 @@ li {
 	border-radius: 100%;
  	display: flex;
  	position: relative;
- 	margin: 50px;
+ 	margin: 30px 50px 25px 50px;
 
  	
 }
 .img-ring-im{
 	position: absolute;
-	max-width: 140px;
-	max-height: 140px;
+	max-width: 360px;
+	max-height: 150px;
 	left: 50%;
 	transform: translate(-50%);
 
@@ -131,8 +134,9 @@ li {
 }
 /*О клинике*/
 	.about-block {
-
-		.button-podrobneeOKinike {
+ 	margin-top:100px;
+ 	margin-bottom:80px;
+		.button-about{
 			border-radius: 13px;
 			background-color: $mainPurple;
 			padding: 8px;
@@ -143,8 +147,12 @@ li {
 			height: 36px;
 			margin: 20px 0 0 0;
 			 	text-transform: uppercase;
+
 		}
 
+		.title-oklin{
+			margin-bottom:40px;
+		}
 
 		.titleimg{
 			max-width: 95%;

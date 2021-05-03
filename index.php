@@ -1,7 +1,7 @@
 <? $pageType = 'index-page'; ?>
 <? require 'header.php' ?>
     <section class="services-block container">
-        <div class="title"><h3>Услуги стоматологии<h3></div>
+        <div class="title titli-uslug"><h3>Услуги стоматологии<h3></div>
         <div class="row">
             <div class="col-sm-4">
                 <p>Лечение зубов</p>
@@ -42,7 +42,7 @@
         </div>
     </section>
 
-    <section class="about-block container doctors">
+    <section class="doctor-list-block container">
         <h3 class="title">Наши врачи</h3>
         <div class="menuWrapper">
             <div class="menuLimiter">
@@ -105,7 +105,7 @@
     </section>
 
     <section class="about-block container">
-        <h3 class="title">О клинике</h3>
+        <h3 class="title title-oklin">О клинике</h3>
         <div class="row">
             <div class="col-sm">
                 <img src="public/img/photo.png" class="img-fluid titleimg" alt="">
@@ -113,8 +113,9 @@
             <div class="col-sm">
                 <p class="textoklin">Наша клиника отличается особым отношением к&nbsp;своим пациентам. Прекрасное современное инновационное оснощение, уникальные передоыфе технологии, грамотные специалисты и&nbsp;уютная обстановка позволили нам завоевать признание и&nbsp;любовь наших пациентов. Мы&nbsp;в&nbsp;первую очередь заботимся о&nbsp;вашем здоровье. Стоматология для нас&nbsp;&mdash; это не&nbsp;только работа, но&nbsp;и&nbsp;признание.</p>
                 <p class="textoklin">Мы&nbsp;успешно осуществляем весь комплекс стоматологических услуг с&nbsp;максимальным комфортом для пациентов</p>
-                <a href="about.php" type="button" class="btn  btn-outline-light button-podrobneeOKinike">ПОДРОБНЕЕ</a>
+                <a href="about.php" type="button" class="btn  btn-outline-light button-about">ПОДРОБНЕЕ</a>
             </div>
         </div>
     </section>
+<? require 'partials/contacts.php' ?>
 <? require 'footer.php' ?>
