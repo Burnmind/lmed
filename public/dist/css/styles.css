@@ -11087,6 +11087,7 @@ footer {
 }
 .index-page .doctors {
   background-color: #ecebeb;
+  padding: 40px 0 40px 0;
 }
 .index-page .menu {
   display: flex;
@@ -11102,10 +11103,8 @@ footer {
   width: 100%;
   padding: 0 20px;
   padding-bottom: 25px;
-  margin-bottom: -20px;
+  margin-bottom: -30px;
   overflow-x: scroll;
-  -webkit-overflow-scrolling: touch;
-  mask-image: linear-gradient(90deg, transparent 0, rgba(0, 0, 0, 0.25) 9px, #000 18px, #000 calc(100% - 18px), rgba(0, 0, 0, 0.25) calc(100% - 9px), transparent);
 }
 .index-page .menuWrapper {
   overflow: hidden;
@@ -11122,8 +11121,8 @@ footer {
 }
 .index-page .img-ring-im {
   position: absolute;
-  max-width: 260px;
-  max-height: 260px;
+  max-width: 140px;
+  max-height: 140px;
   left: 50%;
   transform: translate(-50%);
 }
@@ -11144,6 +11143,14 @@ footer {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+.index-page .doctir-name {
+  color: #a631a7;
+  text-decoration: none;
+  font-weight: 700;
+}
+.index-page .doctir-spec {
+  font-weight: 500;
 }
 .index-page .about-block .button-podrobneeOKinike {
   border-radius: 13px;
