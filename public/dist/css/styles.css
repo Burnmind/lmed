@@ -11257,42 +11257,52 @@ footer {
 .about-page .title-ab {
   color: #a631a7;
   text-align: center;
-  margin: 50px;
 }
-.about-page .minipho {
-  padding: 40px 0px 0px 0px;
-  max-width: 85%;
+.about-page .gallery {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 52px;
 }
-.about-page .titleimg {
-  max-width: 95%;
-  padding: 40px 0px 0px 0px;
+.about-page .gallery .gallery-column {
+  max-width: 490px;
+  padding: 0 30px 0 40px;
+}
+.about-page .gallery .min-gallery {
+  margin: 0 -10px;
+}
+.about-page .gallery .minipho {
+  margin: 0 10px;
+  max-width: 126px;
+  padding-top: 25px;
+}
+.about-page .description {
+  padding-top: 7px;
+}
+.about-page .textoklin-ab {
+  font-size: 14px;
+  line-height: 1.3;
 }
 .about-page .licenset {
-  padding: 80px 0px 40px 0px;
+  padding: 80px 0 40px 0;
 }
 .about-page .anaw {
   text-decoration: none;
-  color: #000000;
+  color: #000;
   text-indent: 20px;
   font-size: 17px;
 }
 .about-page .anawp {
-  margin: 10px 0px 0px 20px;
+  margin: 10px 0 0 20px;
 }
 .about-page .licensetimgleft {
   max-width: 85%;
 }
 .about-page .licensetimg {
   max-width: 85%;
-  padding: 0px 0px 100px 0px;
+  padding: 0 0 100px 0;
 }
 .about-page .licensetimgright {
   max-width: 85%;
-}
-.about-page .textoklin-ab {
-  font-size: 14px;
-  line-height: 1.3;
-  padding: 15px 20px 0 0;
 }
 
 /*# sourceMappingURL=styles.css.map */

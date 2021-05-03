@@ -1,44 +1,72 @@
+@import '../var';
+
 .about-page{
-	$mainPuple: #a631a7;
 	.title-ab {
-		color: $mainPuple;
+		color: $mainPurple;
 		text-align: center;
-		margin:50px;
 	}
-	.minipho {
-			padding: 40px 0px 0px 0px;
-			max-width:85%;
+
+	.gallery {
+		display: flex;
+		flex-wrap: wrap;
+		margin-top: 52px;
+
+		.gallery-column {
+			max-width: 490px;
+			padding: 0 30px 0 40px;
+		}
+
+		.min-gallery {
+			margin: 0 -10px
+		}
+
+		.minipho {
+			margin: 0 10px;
+			max-width: 126px;
+			padding-top: 25px;
+		}
+
+		.description-column {
+
+		}
 	}
-	.titleimg{
-		max-width:95%;
-		padding: 40px 0px 0px 0px;
+
+
+
+	.description {
+		padding-top: 7px;
 	}
+
+	.textoklin-ab{
+		font-size: 14px;
+		line-height: 1.3;
+	}
+
 	.licenset{
-		padding: 80px 0px 40px 0px;
+		padding: 80px 0 40px 0;
 	}
+
 	.anaw{
 		text-decoration:none;
-		color:#000000;
+		color: $black;
 		text-indent: 20px;
 		font-size: 17px;
+	}
 
-	}
 	.anawp{
-		margin: 10px 0px 0px 20px;
+		margin: 10px 0 0 20px;
 	}
+
 	.licensetimgleft{
 		max-width:85%;
 	}
+
 	.licensetimg{
 		max-width:85%;
-		padding: 0px 0px 100px 0px;
+		padding: 0 0 100px 0;
 	}
+
 	.licensetimgright{
 		max-width:85%;
-	}
-		.textoklin-ab{
-		font-size: 14px;
-		line-height: 1.3;
-		padding: 15px 20px 0 0;
 	}
 }
