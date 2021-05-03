@@ -1,21 +1,91 @@
 @import "../var";
 
 .doctor-page {
+	margin-bottom: 57px;
+
 	.title {
 		color: $mainPurple;
 		text-align: center;
+		font-size: 32px;
+		margin-bottom: 53px;
 	}
 
-	.btn outline-light { // не используй id только классы и тэги (названия давай на английском)
-		border-radius: $butBordR;
-		background-color: $mainPurple;
-		padding: 10px;
-		text-align: center;
-		margin: 0 auto;
-		font-weight: bolder;
-		font-size: 20px; // ошибка в свойстве
-		width: 260px;
-		color: white;
+	.doctor-card {
+		width: 905px;
+		margin-right: auto;
+		margin-left: auto;
 
+		@media (max-width: 1025px) {
+			width: 100%;
+		}
+	}
+
+	.image-wrapper {
+		max-width: 330px;
+		padding-right: 43px;
+		box-sizing: content-box;
+
+		@media (max-width: 1025px) {
+			padding-right: 20px;
+		}
+
+		@media (max-width: 769px) {
+			max-width: 248px;
+		}
+
+		@media (max-width: 481px) {
+			padding-right: 0;
+			width: 100%;
+			max-width: none;
+		}
+
+		.btn-wrapper {
+			margin-top: 40px;
+		}
+
+		.outline-light {
+			width: 280px;
+			margin: 0 auto;
+			padding: 14px;
+			border-radius: $butBordR;
+			background-color: $mainPurple;
+			text-align: center;
+			text-transform: uppercase;
+			font-weight: bolder;
+			font-size: 14px;
+			color: white;
+		}
+	}
+
+	.description-wrapper {
+		max-width: 532px;
+		box-sizing: content-box;
+
+		@media (max-width: 769px) {
+			max-width: 440px;
+			margin-top: 20px;
+		}
+
+		@media (max-width: 481px) {
+			max-width: none;
+			width: 100%;
+		}
+
+		.position {
+			margin-bottom: 7px;
+			font-size: 26px;
+			line-height: 1;
+		}
+
+		.experience {
+			margin-bottom: 24px;
+			font-size: 22px;
+			line-height: 1;
+		}
+
+		.description {
+			font-size: 23px;
+			line-height: 30px;
+		}
 	}
 }

@@ -1,7 +1,7 @@
 @import "../var";
 
 footer {
-    @media (max-width: 479px) {
+    @media (max-width: 481px) {
         padding: 0!important;
     }
 
@@ -9,11 +9,11 @@ footer {
         padding: 23px 23px 17px 63px;
         background: $mainPurple;
 
-        @media (max-width: 767px) {
-            padding: 23px 23px 17px;
+        @media (max-width: 769px) {
+            padding: 23px 15px 17px;
         }
 
-        @media (max-width: 479px) {
+        @media (max-width: 481px) {
             padding: 15px;
         }
     }
@@ -26,11 +26,11 @@ footer {
         img {
             width: 135px;
 
-            @media (max-width: 767px) {
+            @media (max-width: 769px) {
                 width: 110px;
             }
 
-            @media (max-width: 479px) {
+            @media (max-width: 481px) {
                 width: 90px;
             }
         }
@@ -54,11 +54,11 @@ footer {
             text-transform: uppercase;
             text-decoration: underline;
 
-            @media (max-width: 767px) {
+            @media (max-width: 769px) {
                 font-size: 14px;
             }
 
-            @media (max-width: 479px) {
+            @media (max-width: 481px) {
                 font-size: 12px;
             }
         }

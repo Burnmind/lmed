@@ -1,0 +1,36 @@
+@import '../var';
+
+.breadcrumbs {
+    padding: 26px 20px;
+
+    @media (max-width: 767px) {
+        padding: 10px;
+    }
+
+    @media (max-width: 479px) {
+        padding: 10px 0;
+    }
+
+    a {
+        color: black;
+    }
+
+    a,
+    span {
+        margin-left: 10px;
+        font-size: 18px;
+
+        @media (max-width: 767px) {
+            font-size: 14px;
+        }
+    }
+
+    .separator {
+        width: 5px;
+        height: 5px;
+        border: 5px solid $mainPurple;
+        border-top-color: transparent;
+        border-left-color: transparent;
+        transform: rotate(-45deg);
+    }
+}

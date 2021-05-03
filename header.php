@@ -104,5 +104,6 @@
         </div>
     </header>
     <main class="<?= $pageType ?>">
+        <? require './partials/breadcrumbs.php'; ?>
 
 

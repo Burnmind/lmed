@@ -63,7 +63,7 @@
                 <menu class="menu">
                     <li class="menu-item">
                         <div class="img-ring">
-                            <img src="public/img/doctor.png" class="img-ring-im">
+                            <img src="public/img/doctor.jpg" class="img-ring-im">
                         </div>
                         <a href="#" class="doctir-name">Иванова Елена Вениаминовна</a>
                         <p>Специальность</p>
@@ -91,35 +91,35 @@
                     </li>
                     <li class="menu-item" >
                         <div class="img-ring">
-                            <img src="public/img/doctor.png" class="img-ring-im">
+                            <img src="public/img/doctor.jpg" class="img-ring-im">
                         </div>
                         <a href="#" class="doctir-name">Иванова Елена Вениаминовна</a>
                         <p>Специальность</p>
                     </li>
                     <li class="menu-item" >
                         <div class="img-ring">
-                            <img src="public/img/doctor.png" class="img-ring-im">
+                            <img src="public/img/doctor.jpg" class="img-ring-im">
                         </div>
                         <a href="#" class="doctir-name">Иванова Елена Вениаминовна</a>
                         <p>Специальность</p>
                     </li>
                                         <li class="menu-item">
                         <div class="img-ring">
-                            <img src="public/img/doctor.png" class="img-ring-im">
+                            <img src="public/img/doctor.jpg" class="img-ring-im">
                         </div>
                         <a href="#" class="doctir-name">Иванова Елена Вениаминовна</a>
                         <p>Специальность</p>
                     </li>
                     <li class="menu-item" >
                         <div class="img-ring">
-                            <img src="public/img/doctor.png" class="img-ring-im">
+                            <img src="public/img/doctor.jpg" class="img-ring-im">
                         </div>
                         <a href="#" class="doctir-name">Иванова Елена Вениаминовна</a>
                         <p>Специальность</p>
                     </li>
                     <li class="menu-item" >
                         <div class="img-ring">
-                            <img src="public/img/doctor.png" class="img-ring-im">
+                            <img src="public/img/doctor.jpg" class="img-ring-im">
                         </div>
                         <a href="#" class="doctir-name">Иванова Елена Вениаминовна</a>
                         <p>Специальность</p>

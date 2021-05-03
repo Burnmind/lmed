@@ -1,10 +1,22 @@
-<? $pageType = 'about-page'; ?> 
+<?
+$breadcrumbs = [
+    [
+        'NAME' => 'Главная',
+        'URL'  => '/',
+    ],
+    [
+        'NAME' => 'О клинике',
+        'URL'  => '/about.php',
+    ]
+];
+
+$pageType = 'about-page';
+?>
 <? require 'header.php' ?>
 <section class="about-block container">
 	<div class="container">
-		<p class="anawp"><a href="index.php" class="anaw">Главная</a><img width="10" height="18" src="public/img/arrow.png"><a href="#" class="anaw">О клинике</a></p>
 	<h3 class="title-ab">О КЛИНИКЕ</h3>
-	<div class="row"> 
+	<div class="row">
 		<div class="col-sm">
 			<img src="public/img/photo.png"  class="img-fluid titleimg">
 			<div class="row">
