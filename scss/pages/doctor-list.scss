@@ -1,0 +1,122 @@
+@import "../var";
+
+.doctor-list-page {
+	.title {
+		color: $mainPurple;
+		text-align: center;
+		font-size: 29px;
+		margin-bottom: 105px;
+
+		@media (max-width: 769px) {
+			margin-bottom: 50px;
+		}
+	}
+
+	.doctor-block {
+		padding-bottom: 165px;
+
+		@media (max-width: 769px) {
+			padding-bottom: 30px;
+		}
+	}
+
+	.doctor-card {
+		width: 905px;
+		margin-right: auto;
+		margin-left: auto;
+
+		@media (max-width: 1025px) {
+			width: 100%;
+		}
+	}
+
+	.image-wrapper {
+		max-width: 330px;
+		padding-right: 43px;
+		box-sizing: content-box;
+
+		@media (max-width: 1025px) {
+			padding-right: 20px;
+		}
+
+		@media (max-width: 769px) {
+			max-width: 248px;
+		}
+
+		@media (max-width: 481px) {
+			padding-right: 0;
+			width: 100%;
+			max-width: none;
+		}
+
+		.btn-wrapper {
+			margin-top: 40px;
+		}
+	}
+
+	.description-wrapper {
+		max-width: 532px;
+		box-sizing: content-box;
+
+		@media (max-width: 769px) {
+			max-width: 440px;
+			margin-top: 20px;
+		}
+
+		@media (max-width: 481px) {
+			max-width: none;
+			width: 100%;
+		}
+
+		.name {
+			font-size: 30px;
+			font-weight: bold;
+			color: $mainPurple;
+
+			@media (max-width: 769px) {
+				font-size: 24px;
+			}
+		}
+
+		.position {
+			margin-bottom: 28px;
+			font-size: 26px;
+			line-height: 1;
+
+			@media (max-width: 769px) {
+				font-size: 18px;
+			}
+		}
+
+		.experience {
+			margin-bottom: 45px;
+			font-size: 28px;
+			line-height: 1;
+
+			@media (max-width: 769px) {
+				font-size: 18px;
+			}
+		}
+
+		.description {
+			font-size: 23px;
+			line-height: 30px;
+
+			@media (max-width: 769px) {
+				font-size: 14px;
+			}
+		}
+	}
+
+	.btn-wrapper {
+		margin-top: 53px;
+
+		.btn {
+			padding: 13px;
+			font-weight: bold;
+			color: $white;
+			max-width: 277px;
+			width: 100%;
+		}
+	}
+}

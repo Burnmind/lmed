@@ -11373,6 +11373,126 @@ footer {
   line-height: 30px;
 }
 
+.doctor-list-page .title {
+  color: #a631a7;
+  text-align: center;
+  font-size: 29px;
+  margin-bottom: 105px;
+}
+@media (max-width: 769px) {
+  .doctor-list-page .title {
+    margin-bottom: 50px;
+  }
+}
+.doctor-list-page .doctor-block {
+  padding-bottom: 165px;
+}
+@media (max-width: 769px) {
+  .doctor-list-page .doctor-block {
+    padding-bottom: 30px;
+  }
+}
+.doctor-list-page .doctor-card {
+  width: 905px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (max-width: 1025px) {
+  .doctor-list-page .doctor-card {
+    width: 100%;
+  }
+}
+.doctor-list-page .image-wrapper {
+  max-width: 330px;
+  padding-right: 43px;
+  box-sizing: content-box;
+}
+@media (max-width: 1025px) {
+  .doctor-list-page .image-wrapper {
+    padding-right: 20px;
+  }
+}
+@media (max-width: 769px) {
+  .doctor-list-page .image-wrapper {
+    max-width: 248px;
+  }
+}
+@media (max-width: 481px) {
+  .doctor-list-page .image-wrapper {
+    padding-right: 0;
+    width: 100%;
+    max-width: none;
+  }
+}
+.doctor-list-page .image-wrapper .btn-wrapper {
+  margin-top: 40px;
+}
+.doctor-list-page .description-wrapper {
+  max-width: 532px;
+  box-sizing: content-box;
+}
+@media (max-width: 769px) {
+  .doctor-list-page .description-wrapper {
+    max-width: 440px;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 481px) {
+  .doctor-list-page .description-wrapper {
+    max-width: none;
+    width: 100%;
+  }
+}
+.doctor-list-page .description-wrapper .name {
+  font-size: 30px;
+  font-weight: bold;
+  color: #a631a7;
+}
+@media (max-width: 769px) {
+  .doctor-list-page .description-wrapper .name {
+    font-size: 24px;
+  }
+}
+.doctor-list-page .description-wrapper .position {
+  margin-bottom: 28px;
+  font-size: 26px;
+  line-height: 1;
+}
+@media (max-width: 769px) {
+  .doctor-list-page .description-wrapper .position {
+    font-size: 18px;
+  }
+}
+.doctor-list-page .description-wrapper .experience {
+  margin-bottom: 45px;
+  font-size: 28px;
+  line-height: 1;
+}
+@media (max-width: 769px) {
+  .doctor-list-page .description-wrapper .experience {
+    font-size: 18px;
+  }
+}
+.doctor-list-page .description-wrapper .description {
+  font-size: 23px;
+  line-height: 30px;
+}
+@media (max-width: 769px) {
+  .doctor-list-page .description-wrapper .description {
+    font-size: 14px;
+  }
+}
+.doctor-list-page .btn-wrapper {
+  margin-top: 53px;
+}
+.doctor-list-page .btn-wrapper .btn {
+  padding: 13px;
+  font-weight: bold;
+  color: #fff;
+  max-width: 277px;
+  width: 100%;
+}
+
 .about-page .gallery-wrapper {
   padding-bottom: 60px;
 }
