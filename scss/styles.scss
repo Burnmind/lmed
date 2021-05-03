@@ -6,6 +6,7 @@
 @import "common/header";
 @import "common/footer";
 @import "common/common";
+@import "common/record-form";
 
 // partials
 @import "partials/breadcrumbs";
@@ -14,6 +15,7 @@
 // pages
 @import "pages/index";
 @import "pages/doctor";
+@import "pages/doctor-list";
 @import "pages/about";
 
 
