@@ -1,0 +1,41 @@
+@import '../var';
+
+.image-wrapper {
+	max-width: 680px;
+	padding-right: 20px;
+	box-sizing: content-box;
+	margin: 100px 0px 47px 130px;
+}
+.color-text {color: $mainPurple
+}			
+.description-wrapper {
+	width: 805px;
+	box-sizing: content-box;
+	margin: 58px 5px 0px 90px;
+	font-size: 18px;
+	padding: 8px;
+	line-height: 29px;
+	letter-spacing: -0.35px
+
+}		
+.btn-wrapper {
+		margin-top: 25px;
+
+		.btn {
+			padding: 15px;
+			font-weight: bold;
+			color: white;
+			max-width: 350px;
+			width: 95%;
+			height: 60px;
+			font-size: 18px;
+			margin: 0px 0px 45px 25px;
+		}
+	}
+.tittle {
+	font-size: 18px;
+	text-decoration: underline;
+}
+.list {
+	margin: 0px 0px 10px 0px;
+}
