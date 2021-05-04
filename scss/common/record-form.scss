@@ -1,8 +1,55 @@
 @import "../var";
-.record-form{	
-	.form-conteiner{
-		border: 1px solid #a631a7;
+.form-container{
+	 border-style: solid;
+	border-width: 5px;
+	border-color: $mainPurple;
+	border-radius: 13px;
+	height: 520px;
+	width: 575px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+
+
+   	form{
+    	margin-top:0;
+   	}
+   	.form-control{
+    	border:3px solid $mainPurple;
+    	padding: 10px;
+    	width: 82%;
+    	margin-left: auto;
+    	margin-right: auto;
+    	border-radius: 15px;
+	}
+	.form-text{
+    	background-color: $mainPurple;
+    	text-transform: uppercase;
+		color: #ffffff;
+		text-align: center;
+		font-size: 22px;
+		text-decoration: none;
+		font-weight:700;
+		padding:  28px 0 ;
+		margin: 0 0 55px 0;
+
 	}
 
-
+	.button-form{
+	    border-radius: 20px;
+		background-color: $mainPurple;
+		border-color:  $mainPurple;
+		padding: 8px;
+		text-align: center;
+		font-weight: bolder;
+		font-size: 13px;
+		width: 245px;
+		height: 45px;
+		margin: 0px 0 0 0;
+		text-transform: uppercase;
+		display: block;
+	   	margin-left: auto;
+		margin-right: auto;
+		color: #FFFFFF;
+	}
 }

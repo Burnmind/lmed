@@ -1,6 +1,101 @@
 <? $pageType = 'index-page'; ?>
 <? require 'header.php' ?>
-    <section class="services-block container">
+ <section class="services-block container">
+        <div class="title titli-uslug"><h3>Услуги стоматологии<h3></div>
+        <div class="d-flex flex-wrap">
+           <div class="col-6  col-md-4  container-fluid services-cell">
+                <div class="services-size">
+                    <div class="services-text">Лечение зубов</div>
+                    <img src="public/img/heal(1).png" class="img-fluid  services-img" alt="">
+                </div>
+            </div>
+            <div class="col-6  col-md-4  container-fluid services-cell">
+                <div class="services-size">
+                    <div class="services-text">Имплантация зубов</div>
+                    <img src="public/img/implant(2).png" class="img-fluid  services-img" alt="">
+                </div>
+            </div>
+            <div class="col-6  col-md-4  container-fluid services-cell">
+                <div class="services-size">
+                    <div class="services-text">Отбеливание зубов</div>
+                    <img src="public/img/white(3).png" class="img-fluid services-img" alt="">
+                </div>
+            </div>
+            <div class="col-6  col-md-4  container-fluid services-cell">
+                <div class="services-size">
+                    <div class="services-text">Детская стоматология</div>
+                    <img src="public/img/child(4).png" class="img-fluid  services-img" alt="">
+                </div>
+            </div>
+            <div class="col-6  col-md-4  container-fluid services-cell">
+                <div class="services-size">
+                    <div class="services-text">Рентген-диагностика</div>
+                    <img src="public/img/rent(5).png" class="img-fluid  services-img" alt="">
+                </div>
+            </div>
+            <div class="col-6  col-md-4  container-fluid services-cell">
+                <div class="services-size">
+                    <div class="services-text">Ортодонтия</div>
+                    <img src="public/img/orto(6).png" class="img-fluid  services-img" alt="">
+                </div>
+            </div>
+            <div class="col-6  col-md-4  container-fluid services-cell">
+                <div class="services-size">
+                    <div class="services-text">Протезирование зубов</div>
+                    <img src="public/img/protes(7).png" class="img-fluid services-img" alt="">
+                </div>
+            </div>
+            <div class="col-6  col-md-4  container-fluid services-cell">
+                <div class="services-size">
+                    <div class="services-text">Хирургическая стоматология</div>
+                    <img src="public/img/hirurg(8).png" class="img-fluid services-img" alt="">
+                </div>
+            </div>
+            <div class="col-6  col-md-4  container-fluid services-cell">
+                <div class="services-size">
+                    <div class="services-text">Эстетическая стоматология</div>
+                    <img src="public/img/estet(9).png" class="img-fluid services-img" alt="">
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </section>
+
+<<!--  <section class="services-block container">
         <div class="title titli-uslug"><h3>Услуги стоматологии<h3></div>
         <div class="row">
             <div class="col-sm-4">
@@ -41,7 +136,7 @@
             </div>
         </div>
     </section>
-
+-->
     <section class="doctor-list-block container">
         <h3 class="title">Наши врачи</h3>
         <div class="menuWrapper">
@@ -99,7 +194,7 @@
                 </menu>
             </div>
         </div>
-         <div class="button-cen">
+         <div>
          <a href="#" type="button" class="btn  btn-outline-light but-spec">Все специалисты клиники</a>
          </div>
     </section>
@@ -117,5 +212,20 @@
             </div>
         </div>
     </section>
+    <section class="form-block container centered-top">
+        <div class="form-container">
+            <form name="record-form-write" method="post" action="#" class="form-group">
+                <div class="form-text">Запись на приём
+                </div>
+                <div>
+                    <input type="text" name="your-name" value="Ваше Имя" size="40" class="form-control"> <br>
+                    <input type="text" name="telephone" value="Телефон" size="10" class="form-control"> <br>
+                    <textarea type="text" name="comment" cols="40" rows="4"  class="form-control">Комментарий</textarea><br>
+                </div>
+                <input type="submit" value="Записаться на приём" class="button button-form">
+            </form>
+        </div>
+    </section>
+
 <? require 'partials/contacts.php' ?>
 <? require 'footer.php' ?>
