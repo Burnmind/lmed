@@ -11252,7 +11252,15 @@ footer {
   padding: 0 0 0 10px;
   margin: 10px;
 }
-.index-page .services-block .services-cell {
+.index-page .services-block .services-titl {
+  font-size: 28px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+.index-page .services-block .services-size {
+  margin: 20px 25px;
+}
+.index-page .services-block .services-size .services-cell {
   border-style: solid;
   border-width: 1px;
   border-color: #a631a7;
@@ -11261,9 +11269,27 @@ footer {
   margin: 0;
   overflow: hidden;
 }
-.index-page .services-block .services-cell .services-size .services-text {
+.index-page .services-block .services-size .services-cell .services-img {
+  height: 170px;
+  width: 100%;
+  transition-delay: 0.1s;
+  transition-duration: 0.3s;
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+}
+.index-page .services-block .services-size .services-cell .services-img:hover {
+  opacity: 0;
+}
+.index-page .services-block .services-size .services-cell .services-text {
   background-color: #a631a7;
   color: #fff;
+  text-align: center;
+  height: 60px;
+  font-size: 24px;
+  padding: 0 10px;
+  width: 300px;
+  display: table-cell;
+  vertical-align: middle;
 }
 .index-page li {
   list-style-type: none;

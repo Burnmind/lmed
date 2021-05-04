@@ -1,100 +1,82 @@
 <? $pageType = 'index-page'; ?>
 <? require 'header.php' ?>
  <section class="services-block container">
-        <div class="title titli-uslug"><h3>Услуги стоматологии<h3></div>
+        <h3 class="services-title title">Услуги стоматологии<h3>
         <div class="d-flex flex-wrap">
-           <div class="col-6  col-md-4  container-fluid services-cell">
+           <div class="col-6  col-md-4">
                 <div class="services-size">
-                    <div class="services-text">Лечение зубов</div>
-                    <img src="public/img/heal(1).png" class="img-fluid  services-img" alt="">
+                    <div class="services-cell">
+                        <div class="services-text">Лечение зубов</div>
+                        <img src="public/img/heal(1).png" class="img-fluid  services-img" alt="">
+                    </div>
                 </div>
             </div>
-            <div class="col-6  col-md-4  container-fluid services-cell">
+            <div class="col-6  col-md-4">
                 <div class="services-size">
-                    <div class="services-text">Имплантация зубов</div>
-                    <img src="public/img/implant(2).png" class="img-fluid  services-img" alt="">
+                    <div class="services-cell">
+                        <div class="services-text">Имплантация зубов</div>
+                        <img src="public/img/implant(2).png" class="img-fluid  services-img" alt="">
+                    </div>
                 </div>
             </div>
-            <div class="col-6  col-md-4  container-fluid services-cell">
+            <div class="col-6  col-md-4">
                 <div class="services-size">
-                    <div class="services-text">Отбеливание зубов</div>
-                    <img src="public/img/white(3).png" class="img-fluid services-img" alt="">
+                    <div class="services-cell">
+                        <div class="services-text">Отбеливание зубов</div>
+                        <img src="public/img/white(3).png" class="img-fluid services-img" alt="">
+                    </div>
                 </div>
             </div>
-            <div class="col-6  col-md-4  container-fluid services-cell">
+            <div class="col-6  col-md-4">
                 <div class="services-size">
-                    <div class="services-text">Детская стоматология</div>
-                    <img src="public/img/child(4).png" class="img-fluid  services-img" alt="">
+                    <div class="services-cell">
+                        <div class="services-text">Детская стоматология</div>
+                        <img src="public/img/child(4).png" class="img-fluid  services-img" alt="">
+                    </div>
                 </div>
             </div>
-            <div class="col-6  col-md-4  container-fluid services-cell">
+            <div class="col-6  col-md-4">
                 <div class="services-size">
-                    <div class="services-text">Рентген-диагностика</div>
-                    <img src="public/img/rent(5).png" class="img-fluid  services-img" alt="">
+                    <div class="services-cell">
+                        <div class="services-text">Рентген-диагностика</div>
+                        <img src="public/img/rent(5).png" class="img-fluid  services-img" alt="">
+                    </div>
                 </div>
             </div>
-            <div class="col-6  col-md-4  container-fluid services-cell">
+            <div class="col-6  col-md-4">
                 <div class="services-size">
-                    <div class="services-text">Ортодонтия</div>
-                    <img src="public/img/orto(6).png" class="img-fluid  services-img" alt="">
+                    <div class="services-cell">
+                        <div class="services-text">Ортодонтия</div>
+                        <img src="public/img/orto(6).png" class="img-fluid  services-img" alt="">
+                    </div>
                 </div>
             </div>
-            <div class="col-6  col-md-4  container-fluid services-cell">
+            <div class="col-6  col-md-4">
                 <div class="services-size">
-                    <div class="services-text">Протезирование зубов</div>
-                    <img src="public/img/protes(7).png" class="img-fluid services-img" alt="">
+                    <div class="services-cell">
+                        <div class="services-text">Протезирование зубов</div>
+                        <img src="public/img/protes(7).png" class="img-fluid services-img" alt="">
+                    </div>
                 </div>
             </div>
-            <div class="col-6  col-md-4  container-fluid services-cell">
+            <div class="col-6  col-md-4">
                 <div class="services-size">
-                    <div class="services-text">Хирургическая стоматология</div>
-                    <img src="public/img/hirurg(8).png" class="img-fluid services-img" alt="">
+                    <div class="services-cell">
+                        <div class="services-text">Хирургическая стоматология</div>
+                        <img src="public/img/hirurg(8).png" class="img-fluid services-img" alt="">
+                    </div>
                 </div>
             </div>
-            <div class="col-6  col-md-4  container-fluid services-cell">
+            <div class="col-6  col-md-4">
                 <div class="services-size">
-                    <div class="services-text">Эстетическая стоматология</div>
-                    <img src="public/img/estet(9).png" class="img-fluid services-img" alt="">
+                    <div class="services-cell">
+                        <div class="services-text">Эстетическая стоматология</div>
+                        <img src="public/img/estet(9).png" class="img-fluid services-img" alt="">
+                    </div>
                 </div>
             </div>
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     </section>
-
 <<!--  <section class="services-block container">
         <div class="title titli-uslug"><h3>Услуги стоматологии<h3></div>
         <div class="row">

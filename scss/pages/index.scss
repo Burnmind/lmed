@@ -6,73 +6,62 @@
 		color: $mainPurple;
 		text-align: center;
 		padding: 0 0 0 10px;
-		margin: 10px
+		margin: 10px;
 	}
 
 /*Услуги*/
 
-.services-block{
-	.services-cell{
-		border-style: solid;
-		border-width: 1px;
-		border-color: $mainPurple;
-		border-radius: 13px;
-		padding: 0;
-		margin: 0;
-		overflow: hidden;
-		.services-size{
+.services-block {
 
-			.services-img{
+	.services-titl {
+	font-size: 28px;
+	margin-bottom: 20px;
+	margin-top: 50px;
+
+	}
+
+	.services-size {
+	margin: 20px 25px;
+
+		.services-cell {
+			border-style: solid;
+			border-width: 1px;
+			border-color: $mainPurple;
+			border-radius: 13px;
+			padding: 0;
+			margin: 0;
+			overflow: hidden;
+
+			.services-img {
+				height: 170px;
+				width: 100%;
+				transition-delay: 0.1s;
+				transition-duration: 0.3s;
+				transition-property: all;
+				transition-timing-function: ease-in-out;
 
 			}
 
-			.services-text{
+			.services-img:hover {
+				opacity: 0;
+
+			}
+
+			.services-text {
 				background-color:  $mainPurple;
 				color: #fff;
-
+				text-align: center;
+				height: 60px;
+				font-size: 24px;
+				padding: 0 10px;
+				width: 300px;
+				display:table-cell;
+				vertical-align: middle;
+				
 			}
 		}
 	}
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*    .titli-uslug {
     	margin-top: 50px; 
     }
