@@ -6,7 +6,7 @@
            <div class="col-6  col-md-4">
                 <div class="services-size">
                     <div class="services-cell">
-                        <div class="services-text">Лечение зубов</div>
+                        <div class="services-text"><span>Лечение зубов</span></div>
                         <img src="public/img/heal(1).png" class="img-fluid  services-img" alt="">
                     </div>
                 </div>
@@ -14,7 +14,7 @@
             <div class="col-6  col-md-4">
                 <div class="services-size">
                     <div class="services-cell">
-                        <div class="services-text">Имплантация зубов</div>
+                        <div class="services-text"><span>Имплантация зубов</span></div>
                         <img src="public/img/implant(2).png" class="img-fluid  services-img" alt="">
                     </div>
                 </div>
@@ -22,7 +22,7 @@
             <div class="col-6  col-md-4">
                 <div class="services-size">
                     <div class="services-cell">
-                        <div class="services-text">Отбеливание зубов</div>
+                        <div class="services-text"><span>Отбеливание зубов</span></div>
                         <img src="public/img/white(3).png" class="img-fluid services-img" alt="">
                     </div>
                 </div>
@@ -30,7 +30,7 @@
             <div class="col-6  col-md-4">
                 <div class="services-size">
                     <div class="services-cell">
-                        <div class="services-text">Детская стоматология</div>
+                        <div class="services-text"><span>Детская стоматология</span></div>
                         <img src="public/img/child(4).png" class="img-fluid  services-img" alt="">
                     </div>
                 </div>
@@ -38,7 +38,7 @@
             <div class="col-6  col-md-4">
                 <div class="services-size">
                     <div class="services-cell">
-                        <div class="services-text">Рентген-диагностика</div>
+                        <div class="services-text"><span>Рентген-диагностика</span></div>
                         <img src="public/img/rent(5).png" class="img-fluid  services-img" alt="">
                     </div>
                 </div>
@@ -46,7 +46,7 @@
             <div class="col-6  col-md-4">
                 <div class="services-size">
                     <div class="services-cell">
-                        <div class="services-text">Ортодонтия</div>
+                        <div class="services-text"><span>Ортодонтия</span></div>
                         <img src="public/img/orto(6).png" class="img-fluid  services-img" alt="">
                     </div>
                 </div>
@@ -54,7 +54,7 @@
             <div class="col-6  col-md-4">
                 <div class="services-size">
                     <div class="services-cell">
-                        <div class="services-text">Протезирование зубов</div>
+                        <div class="services-text"><span>Протезирование зубов</span></div>
                         <img src="public/img/protes(7).png" class="img-fluid services-img" alt="">
                     </div>
                 </div>
@@ -62,7 +62,7 @@
             <div class="col-6  col-md-4">
                 <div class="services-size">
                     <div class="services-cell">
-                        <div class="services-text">Хирургическая стоматология</div>
+                        <div class="services-text"><span>Хирургическая стоматология</span></div>
                         <img src="public/img/hirurg(8).png" class="img-fluid services-img" alt="">
                     </div>
                 </div>
@@ -70,7 +70,7 @@
             <div class="col-6  col-md-4">
                 <div class="services-size">
                     <div class="services-cell">
-                        <div class="services-text">Эстетическая стоматология</div>
+                        <div class="services-text"><span>Эстетическая стоматология</span></div>
                         <img src="public/img/estet(9).png" class="img-fluid services-img" alt="">
                     </div>
                 </div>

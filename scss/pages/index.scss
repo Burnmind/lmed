@@ -33,7 +33,9 @@
 			overflow: hidden;
 
 			.services-img {
-				height: 170px;
+				max-height: 170px;
+				height: 100%;
+				max-width: 300px;
 				width: 100%;
 				transition-delay: 0.1s;
 				transition-duration: 0.3s;
@@ -54,9 +56,11 @@
 				height: 60px;
 				font-size: 24px;
 				padding: 0 10px;
-				width: 300px;
-				display:table-cell;
-				vertical-align: middle;
+				width: auto;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+
 				
 			}
 		}
