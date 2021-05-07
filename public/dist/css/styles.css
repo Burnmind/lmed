@@ -11211,13 +11211,52 @@ footer {
   padding: 0 0 0 10px;
   margin: 10px;
 }
+@media (max-width: 481px) {
+  .index-page .slide-block {
+    padding: 0;
+  }
+}
 .index-page .slide-block .slide .carousel-item {
   position: relative;
+}
+.index-page .slide-block .slide .carousel-item .small-size {
+  display: none;
+}
+@media (max-width: 768px) {
+  .index-page .slide-block .slide .carousel-item .big-size {
+    display: none;
+  }
+  .index-page .slide-block .slide .carousel-item .small-size {
+    display: block;
+  }
+}
+.index-page .slide-block .slide .carousel-item .img-slide {
+  width: 100%;
+  min-height: 230px;
 }
 .index-page .slide-block .slide .carousel-item .carousel-caption {
   text-align: left;
   left: 4%;
   top: 14%;
+  width: 360px;
+}
+@media (max-width: 1025px) {
+  .index-page .slide-block .slide .carousel-item .carousel-caption {
+    left: 2%;
+    top: 4%;
+  }
+}
+@media (max-width: 768px) {
+  .index-page .slide-block .slide .carousel-item .carousel-caption {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+}
+@media (max-width: 481px) {
+  .index-page .slide-block .slide .carousel-item .carousel-caption {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 320px;
+    left: 0;
+  }
 }
 .index-page .slide-block .slide .carousel-item .carousel-caption .title-slide {
   color: #a631a7;
@@ -11226,18 +11265,17 @@ footer {
   text-decoration: none;
   font-weight: 700;
   letter-spacing: -1px;
-  width: 360px;
 }
 .index-page .slide-block .slide .carousel-item .carousel-caption .text-slide {
   color: #000000;
   font-size: 18px;
   font-weight: 400;
   letter-spacing: -1px;
-  width: 320px;
   margin: 15px 0;
 }
 .index-page .slide-block .slide .carousel-item .carousel-caption .btn-slide {
   background-color: #a631a7;
+  border-color: #a631a7;
   margin: 20px 0;
   height: 35px;
   width: 150px;
@@ -11421,12 +11459,12 @@ footer {
   margin-right: auto;
   overflow: hidden;
 }
-@media (max-width: 767px) {
+@media (max-width: 769px) {
   .index-page .form-container {
     width: 400px;
   }
 }
-@media (max-width: 479px) {
+@media (max-width: 481px) {
   .index-page .form-container {
     width: 300px;
   }

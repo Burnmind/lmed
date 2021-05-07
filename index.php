@@ -4,15 +4,16 @@
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-            <img class="d-block w-100 img-slide" src="public/img/slide.jpg" alt="Первый слайд">
+            <img class="img-slide big-size" src="public/img/slide.jpg" alt="Первый слайд">
+            <img class="img-slide small-size" src="public/img/slide-md.png" alt="Первый слайд">
             <div class="carousel-caption">
-                <h3 class="title-slide">Эффективное отбеливание за 1 визит</h3>
-                <p class="text-slide">По инновационной технологии ZOOM-4 всего от 20 000 рублей</p>
+                <h3 class="title-slide">Эффективное отбеливание за&nbsp;1&nbsp;визит</h3>
+                <p class="text-slide">По&nbsp;инновационной технологии ZOOM-4 всего&nbsp;от&nbsp;20&nbsp;000 рублей</p>
                 <a href="#" type="button" class="btn  btn-outline-light btn-slide">Подробнее</a>
             </div>
         </div>
          <div class="carousel-item">
-            <img class="d-block w-100 img-slide" src="public/img/slide.jpg" alt="Первый слайд">
+            <img class="d-block  img-slide" src="public/img/slide.jpg" alt="Второй слайд">
             <div class="carousel-caption">
                 <h3 class="title-slide">Второй слайд</h3>
                 <p class="text-slide">Листья падают с дуба ясеня</p>
@@ -20,7 +21,7 @@
             </div>
         </div>
          <div class="carousel-item">
-            <img class="d-block w-100 img-slide" src="public/img/slide.jpg" alt="Первый слайд">
+            <img class="d-block  img-slide" src="public/img/slide.jpg" alt="Третий слайд">
             <div class="carousel-caption">
                 <h3 class="title-slide">Третий слайд</h3>
                 <p class="text-slide">Ты знал, что однажды их разум и сила, достойные править природой машин</p>
@@ -28,23 +29,13 @@
             </div>
         </div>
          <div class="carousel-item">
-            <img class="d-block w-100 img-slide" src="public/img/slide.jpg" alt="Первый слайд">
+            <img class="d-block  img-slide" src="public/img/slide.jpg" alt="Четвёртый слайд">
             <div class="carousel-caption">
                 <h3 class="title-slide">Четвёртый слайд</h3>
                 <p class="text-slide">Уймут жажду власти, излечат гордыню, коль вступят в игру союз чувств и души</p>
                 <a href="#" type="button" class="btn  btn-outline-light btn-slide">Подробнее</a>
             </div>
         </div>
-    </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
     <div class="d-flex flex-wrap slide-under container">
         <div class="col-6  col-md-3 slide-under-element">
             <img src="public/img/icons/doc.png" class="slide-under-img">

@@ -10,20 +10,57 @@
 	}
 
 	.slide-block {
+		@media  (max-width: 481px) {
+		padding:0;
+		}
 
 		.slide {
-
 			.carousel-item {
 				position: relative;
 
-				.img-slide {
+						.big-size {
+						}
 
+						.small-size {
+    						display: none;
+						}
+
+					@media  (max-width: 768px) {
+						.big-size {
+    						display: none;	
+						}
+
+						.small-size {
+							display: block;
+						}
+					}
+
+				.img-slide {
+					width: 100%;
+					min-height: 230px;
 				}
 				
 				.carousel-caption {
 					text-align: left;
 					left: 4%;
 					top: 14%;
+					width: 360px;
+
+					@media  (max-width: 1025px) {
+						left: 2%;
+						top: 4%;
+					}
+
+
+					@media  (max-width: 768px) {
+						background-color: rgba(256, 256, 256, 0.5);
+					}
+
+			   		@media  (max-width: 481px) {
+			   			background-color: rgba(256, 256, 256, 0.5);
+			   			width: 320px;
+			   			left: 0;						
+			   		}
 
 
 					.title-slide {
@@ -33,7 +70,6 @@
 						text-decoration: none;
 						font-weight: 700;
 						letter-spacing: -1px;
-						width: 360px;
 
 					}
 
@@ -42,13 +78,13 @@
 						font-size: 18px;
 						font-weight: 400;
 						letter-spacing: -1px;
-						width: 320px;
 						margin: 15px 0;
 
 					}
 
 					.btn-slide {						
 						background-color:  $mainPurple;
+						border-color: $mainPurple;
 						margin: 20px 0;
 						height: 35px;
 						width: 150px;
@@ -271,11 +307,11 @@
 
 	/*ФОРМА ЗАПИСИ*/
 	.form-container {
-		@media  (max-width: 767px) {
+		@media  (max-width: 769px) {
 			width: 400px;
 		}
 
-   		@media  (max-width: 479px) {
+   		@media  (max-width: 481px) {
    			width: 300px;
    		}
 
