@@ -82,7 +82,7 @@
                                aria-controls="servicesMenu"
                                aria-expanded="false">Услуги стоматологии</a>
                             <a href="javascript:void(0)"
-                               class="nav-link">Услуги стоматологии</a>
+                               class="nav-link d-none d-md-inline-block">Услуги стоматологии</a>
                             <div class="collapse" id="servicesMenu">
                                 <div class="sub-menu-wrapper">
                                     <ul class="sub-menu">
