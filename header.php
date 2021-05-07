@@ -76,6 +76,26 @@
                         </li>
                         <li class="nav-item">
                             <a href="javascript:void(0)" class="nav-link">Услуги стоматологии</a>
+                            <div class="sub-menu-wrapper">
+                                <ul class="sub-menu">
+                                    <li class="sub-menu-item">
+                                        <div class="separator"></div>
+                                        <a href="javascript:void(0)" class="sub-menu-link">Хирургическая стоматология</a>
+                                    </li>
+                                    <li class="sub-menu-item">
+                                        <div class="separator"></div>
+                                        <a href="javascript:void(0)" class="sub-menu-link">Лечение зубов</a>
+                                    </li>
+                                    <li class="sub-menu-item">
+                                        <div class="separator"></div>
+                                        <a href="javascript:void(0)" class="sub-menu-link">Детская стоматология</a>
+                                    </li>
+                                    <li class="sub-menu-item">
+                                        <div class="separator"></div>
+                                        <a href="javascript:void(0)" class="sub-menu-link">Отбеливание зубов</a>
+                                    </li>
+                                </ul>
+                            </div>
                         </li>
                         <li class="nav-item">
                             <a href="javascript:void(0)" class="nav-link">Цены</a>

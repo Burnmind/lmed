@@ -167,6 +167,18 @@ header {
     }
 
     .nav-item {
+        position: relative;
+
+        @media (max-width: 767px) {
+            padding: 20px 0;
+            border-bottom: 1px solid $mainPurple;
+
+            &:last-of-type {
+                border-bottom: 1px solid transparent;
+                padding-bottom: 0;
+            }
+        }
+
         a {
             text-transform: uppercase;
             font-size: 18px;
@@ -178,13 +190,62 @@ header {
             }
         }
 
-        @media (max-width: 767px) {
-            padding: 20px 0;
-            border-bottom: 1px solid $mainPurple;
+        &:hover {
+            .sub-menu-wrapper {
+                height: 600px;
+            }
+        }
 
-            &:last-of-type {
-                border-bottom: 1px solid transparent;
-                padding-bottom: 0;
+        .sub-menu-wrapper {
+            height: 0;
+            position: absolute;
+            bottom: -5px;
+            left: 50%;
+            transform: translate(-50%, 100%);
+            overflow: hidden;
+            z-index: 100;
+            transition: 0.3s;
+        }
+
+        .sub-menu {
+            width: 250px;
+            padding: 10px 60px 40px 20px;
+            background: $white;
+            border: 1px solid $mainPurple;
+            border-top: 0;
+            border-bottom-left-radius: $butBordR;
+            border-bottom-right-radius: $butBordR;
+
+            .sub-menu-item {
+                display: flex;
+                align-items: center;
+                padding: 10px 0;
+                list-style: none;
+
+                a {
+                    flex-grow: 1;
+                    font-size: 14px;
+                    text-transform: inherit;
+                    text-align: center;
+                    padding-left: 20px;
+                }
+            }
+
+            .separator {
+                width: 7px;
+                height: 7px;
+                border: 7px solid $mainPurple;
+                border-top-color: transparent;
+                border-left-color: transparent;
+                transform: rotate(-45deg);
+            }
+
+            .sub-menu-link {
+                color: $black;
+
+                &:hover {
+                    text-decoration: none;
+                }
             }
         }
     }
