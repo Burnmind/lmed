@@ -190,9 +190,19 @@ header {
             }
         }
 
+        .collapse {
+            @media (min-width: 767px) {
+                display: block;
+            }
+        }
+
         &:hover {
             .sub-menu-wrapper {
                 height: 600px;
+
+                @media (max-width: 767px) {
+                    height: auto;
+                }
             }
         }
 
@@ -205,6 +215,12 @@ header {
             overflow: hidden;
             z-index: 100;
             transition: 0.3s;
+
+            @media (max-width: 769px) {
+                position: static;
+                transform: none;
+                height: auto;
+            }
         }
 
         .sub-menu {
@@ -216,18 +232,43 @@ header {
             border-bottom-left-radius: $butBordR;
             border-bottom-right-radius: $butBordR;
 
+            @media (max-width: 769px) {
+                width: auto;
+                padding: 0 0 0 20px;
+                border: none;
+            }
+
             .sub-menu-item {
                 display: flex;
                 align-items: center;
                 padding: 10px 0;
                 list-style: none;
 
+                @media (max-width: 769px) {
+                    padding: 20px 0;
+                    border-bottom: 1px solid $mainPurple;
+
+                    &:last-of-type {
+                        border-bottom: 1px solid transparent;
+                        padding-bottom: 0;
+                    }
+                }
+
                 a {
+                    padding-left: 20px;
                     flex-grow: 1;
                     font-size: 14px;
                     text-transform: inherit;
                     text-align: center;
-                    padding-left: 20px;
+
+                    @media (max-width: 769px) {
+                        padding-left: 0;
+                        text-transform: uppercase;
+                        font-size: 18px;
+                        font-weight: bold;
+                        text-align: left;
+                        color: $black;
+                    }
                 }
             }
 
@@ -238,6 +279,10 @@ header {
                 border-top-color: transparent;
                 border-left-color: transparent;
                 transform: rotate(-45deg);
+
+                @media (max-width: 769px) {
+                    display: none;
+                }
             }
 
             .sub-menu-link {

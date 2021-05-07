@@ -10906,8 +10906,18 @@ header .nav-item a {
     color: #000;
   }
 }
+@media (min-width: 767px) {
+  header .nav-item .collapse {
+    display: block;
+  }
+}
 header .nav-item:hover .sub-menu-wrapper {
   height: 600px;
+}
+@media (max-width: 767px) {
+  header .nav-item:hover .sub-menu-wrapper {
+    height: auto;
+  }
 }
 header .nav-item .sub-menu-wrapper {
   height: 0;
@@ -10919,6 +10929,13 @@ header .nav-item .sub-menu-wrapper {
   z-index: 100;
   transition: 0.3s;
 }
+@media (max-width: 769px) {
+  header .nav-item .sub-menu-wrapper {
+    position: static;
+    transform: none;
+    height: auto;
+  }
+}
 header .nav-item .sub-menu {
   width: 250px;
   padding: 10px 60px 40px 20px;
@@ -10928,18 +10945,45 @@ header .nav-item .sub-menu {
   border-bottom-left-radius: 13px;
   border-bottom-right-radius: 13px;
 }
+@media (max-width: 769px) {
+  header .nav-item .sub-menu {
+    width: auto;
+    padding: 0 0 0 20px;
+    border: none;
+  }
+}
 header .nav-item .sub-menu .sub-menu-item {
   display: flex;
   align-items: center;
   padding: 10px 0;
   list-style: none;
 }
+@media (max-width: 769px) {
+  header .nav-item .sub-menu .sub-menu-item {
+    padding: 20px 0;
+    border-bottom: 1px solid #8f34a3;
+  }
+  header .nav-item .sub-menu .sub-menu-item:last-of-type {
+    border-bottom: 1px solid transparent;
+    padding-bottom: 0;
+  }
+}
 header .nav-item .sub-menu .sub-menu-item a {
+  padding-left: 20px;
   flex-grow: 1;
   font-size: 14px;
   text-transform: inherit;
   text-align: center;
-  padding-left: 20px;
+}
+@media (max-width: 769px) {
+  header .nav-item .sub-menu .sub-menu-item a {
+    padding-left: 0;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    color: #000;
+  }
 }
 header .nav-item .sub-menu .separator {
   width: 7px;
@@ -10948,6 +10992,11 @@ header .nav-item .sub-menu .separator {
   border-top-color: transparent;
   border-left-color: transparent;
   transform: rotate(-45deg);
+}
+@media (max-width: 769px) {
+  header .nav-item .sub-menu .separator {
+    display: none;
+  }
 }
 header .nav-item .sub-menu .sub-menu-link {
   color: #000;
