@@ -1,12 +1,76 @@
 <? $pageType = 'index-page'; ?>
 <? require 'header.php' ?>
- <section class="services-block container">
+<section class="slide-block container">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="d-block w-100 img-slide" src="public/img/slide.jpg" alt="Первый слайд">
+            <div class="carousel-caption">
+                <h3 class="title-slide">Эффективное отбеливание за 1 визит</h3>
+                <p class="text-slide">По инновационной технологии ZOOM-4 всего от 20 000 рублей</p>
+                <a href="#" type="button" class="btn  btn-outline-light btn-slide">Подробнее</a>
+            </div>
+        </div>
+         <div class="carousel-item">
+            <img class="d-block w-100 img-slide" src="public/img/slide.jpg" alt="Первый слайд">
+            <div class="carousel-caption">
+                <h3 class="title-slide">Второй слайд</h3>
+                <p class="text-slide">Листья падают с дуба ясеня</p>
+                <a href="#" type="button" class="btn  btn-outline-light btn-slide">Подробнее</a>
+            </div>
+        </div>
+         <div class="carousel-item">
+            <img class="d-block w-100 img-slide" src="public/img/slide.jpg" alt="Первый слайд">
+            <div class="carousel-caption">
+                <h3 class="title-slide">Третий слайд</h3>
+                <p class="text-slide">Ты знал, что однажды их разум и сила, достойные править природой машин</p>
+                <a href="#" type="button" class="btn  btn-outline-light btn-slide">Подробнее</a>
+            </div>
+        </div>
+         <div class="carousel-item">
+            <img class="d-block w-100 img-slide" src="public/img/slide.jpg" alt="Первый слайд">
+            <div class="carousel-caption">
+                <h3 class="title-slide">Четвёртый слайд</h3>
+                <p class="text-slide">Уймут жажду власти, излечат гордыню, коль вступят в игру союз чувств и души</p>
+                <a href="#" type="button" class="btn  btn-outline-light btn-slide">Подробнее</a>
+            </div>
+        </div>
+    </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <div class="d-flex flex-wrap slide-under container">
+        <div class="col-6  col-md-3 slide-under-element">
+            <img src="public/img/icons/doc.png" class="slide-under-img">
+            <p class="slide-under-text">Лицензированная клиника</p>
+        </div>
+        <div class="col-6  col-md-3 slide-under-element">
+            <img src="public/img/icons/human.png" class="slide-under-img">
+            <p class="slide-under-text">Более 10 000 довольных клиентов</p>
+        </div>
+        <div class="col-6  col-md-3 slide-under-element">
+            <img src="public/img/icons/human.png" class="slide-under-img">
+            <p class="slide-under-text">30 000 успешных стоматологических процедур</p>
+        </div>
+        <div class="col-6  col-md-3 slide-under-element">
+            <img src="public/img/icons/human.png" class="slide-under-img">
+            <p class="slide-under-text">Опыт работы врачей более 20 лет</p>
+        </div>
+    </div>
+</section>
+<section class="services-block container">
         <h3 class="services-title title">Услуги стоматологии<h3>
         <div class="d-flex flex-wrap">
            <div class="col-6  col-md-4">
                 <div class="services-size">
                     <div class="services-cell">
-                        <div class="services-text">Лечение зубов</div>
+                        <div class="services-text"><span>Лечение зубов</span></div>
                         <img src="public/img/heal(1).png" class="img-fluid  services-img" alt="">
                     </div>
                 </div>
@@ -14,7 +78,7 @@
             <div class="col-6  col-md-4">
                 <div class="services-size">
                     <div class="services-cell">
-                        <div class="services-text">Имплантация зубов</div>
+                        <div class="services-text"><span>Имплантация зубов</span></div>
                         <img src="public/img/implant(2).png" class="img-fluid  services-img" alt="">
                     </div>
                 </div>
@@ -22,7 +86,7 @@
             <div class="col-6  col-md-4">
                 <div class="services-size">
                     <div class="services-cell">
-                        <div class="services-text">Отбеливание зубов</div>
+                        <div class="services-text"><span>Отбеливание зубов</span></div>
                         <img src="public/img/white(3).png" class="img-fluid services-img" alt="">
                     </div>
                 </div>
@@ -30,7 +94,7 @@
             <div class="col-6  col-md-4">
                 <div class="services-size">
                     <div class="services-cell">
-                        <div class="services-text">Детская стоматология</div>
+                        <div class="services-text"><span>Детская стоматология</span></div>
                         <img src="public/img/child(4).png" class="img-fluid  services-img" alt="">
                     </div>
                 </div>
@@ -38,7 +102,7 @@
             <div class="col-6  col-md-4">
                 <div class="services-size">
                     <div class="services-cell">
-                        <div class="services-text">Рентген-диагностика</div>
+                        <div class="services-text"><span>Рентген-диагностика</span></div>
                         <img src="public/img/rent(5).png" class="img-fluid  services-img" alt="">
                     </div>
                 </div>
@@ -46,7 +110,7 @@
             <div class="col-6  col-md-4">
                 <div class="services-size">
                     <div class="services-cell">
-                        <div class="services-text">Ортодонтия</div>
+                        <div class="services-text"><span>Ортодонтия</span></div>
                         <img src="public/img/orto(6).png" class="img-fluid  services-img" alt="">
                     </div>
                 </div>
@@ -54,7 +118,7 @@
             <div class="col-6  col-md-4">
                 <div class="services-size">
                     <div class="services-cell">
-                        <div class="services-text">Протезирование зубов</div>
+                        <div class="services-text"><span>Протезирование зубов</span></div>
                         <img src="public/img/protes(7).png" class="img-fluid services-img" alt="">
                     </div>
                 </div>
@@ -62,7 +126,7 @@
             <div class="col-6  col-md-4">
                 <div class="services-size">
                     <div class="services-cell">
-                        <div class="services-text">Хирургическая стоматология</div>
+                        <div class="services-text"><span>Хирургическая стоматология</span></div>
                         <img src="public/img/hirurg(8).png" class="img-fluid services-img" alt="">
                     </div>
                 </div>
@@ -70,55 +134,13 @@
             <div class="col-6  col-md-4">
                 <div class="services-size">
                     <div class="services-cell">
-                        <div class="services-text">Эстетическая стоматология</div>
+                        <div class="services-text"><span>Эстетическая стоматология</span></div>
                         <img src="public/img/estet(9).png" class="img-fluid services-img" alt="">
                     </div>
                 </div>
             </div>
         </div>
     </section>
-<<!--  <section class="services-block container">
-        <div class="title titli-uslug"><h3>Услуги стоматологии<h3></div>
-        <div class="row">
-            <div class="col-sm-4">
-                <p>Лечение зубов</p>
-                <img src="public/img/heal(1).png" class="img-fluid" alt="">
-            </div>
-            <div class="col-sm-4">
-                <p>Имплантация зубов</p>
-                <img src="public/img/implant(2).png" class="img-fluid" alt="">
-            </div>
-            <div class="col-sm-4">
-                <p>Отбеливание зубов</p>
-                <img src="public/img/white(3).png" class="img-fluid" alt="">
-            </div>
-            <div class="col-sm-4">
-                <p>Детская стоматология</p>
-                <img src="public/img/child(4).png" class="img-fluid" alt="">
-            </div>
-            <div class="col-sm-4">
-                <p>Рентген-диагностика</p>
-                <img src="public/img/rent(5).png" class="img-fluid" alt="">
-            </div>
-            <div class="col-sm-4">
-                <p>Ортодонтия</p>
-                <img src="public/img/orto(6).png" class="img-fluid" alt="">
-            </div>
-            <div class="col-sm-4">
-                <p>Протезирование зубов</p>
-                <img src="public/img/protes(7).png" class="img-fluid" alt="">
-            </div>
-            <div class="col-sm-4">
-                <p>Хирургическая стоматология</p>
-                <img src="public/img/hirurg(8).png" class="img-fluid" alt="">
-             </div>
-            <div class="col-sm-4">
-                <p>Эстетическая стоматология</p>
-               <img src="public/img/estet(9).png" class="img-fluid" alt="">
-            </div>
-        </div>
-    </section>
--->
     <section class="doctor-list-block container">
         <h3 class="title">Наши врачи</h3>
         <div class="menuWrapper">

@@ -11301,47 +11301,6 @@ footer {
 
 .index-page {
   /*Услуги*/
-  /*    .titli-uslug {
-      	margin-top: 50px; 
-      }
-
-  	.services-block {
-  		.title {
-  			color: $mainPurple;
-  			text-align: center;
-  		}
-
-  		.col-sm-4 {
-  			border: 1px solid $mainPurple;
-  			background-color: $mainPurple;
-  			text-align: center;
-  			margin: 25px;
-  			font-weight:bolder;
-  			font-size: 24px;
-  			max-width: 270px;
-  			width: 100%;
-  			max-height: 270px;
-  			height: 100%;
-  			border-radius: 10px;
-  			color: white;
-  			padding: 10px 0px 0px 0px;
-  			overflow: hidden;
-
-  			.img-fluid {
-  				box-sizing:content-box;
-  				display: flex;
-  				flex-wrap: wrap;
-  				transition: opacity 0.2s linear;
-  			}
-
-  			.img-fluid:hover {
-  				opacity: 0;
-  				z-index:  1000;
-  				background-color: #ffffff;
-  			}
-  		}
-  	}
-  */
   /*Врачи*/
   /*О клинике*/
   /*ФОРМА ЗАПИСИ*/
@@ -11352,6 +11311,59 @@ footer {
   text-align: center;
   padding: 0 0 0 10px;
   margin: 10px;
+}
+.index-page .slide-block .slide .carousel-item {
+  position: relative;
+}
+.index-page .slide-block .slide .carousel-item .carousel-caption {
+  text-align: left;
+  left: 4%;
+  top: 14%;
+}
+.index-page .slide-block .slide .carousel-item .carousel-caption .title-slide {
+  color: #a631a7;
+  text-transform: uppercase;
+  font-size: 24px;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: -1px;
+  width: 360px;
+}
+.index-page .slide-block .slide .carousel-item .carousel-caption .text-slide {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: -1px;
+  width: 320px;
+  margin: 15px 0;
+}
+.index-page .slide-block .slide .carousel-item .carousel-caption .btn-slide {
+  background-color: #a631a7;
+  margin: 20px 0;
+  height: 35px;
+  width: 150px;
+  border-radius: 15px;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 14px;
+}
+.index-page .slide-block .slide-under {
+  background-color: #a631a7;
+}
+.index-page .slide-block .slide-under .slide-under-element {
+  margin: 20px auto 0 auto;
+  max-width: 300px;
+  text-align: center;
+}
+.index-page .slide-block .slide-under .slide-under-element .slide-under-text {
+  margin: 20px 0;
+  font-size: 14px;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.index-page .slide-block .slide-under .slide-under-element .slide-under-img {
+  height: 40px;
 }
 .index-page .services-block .services-titl {
   font-size: 28px;
@@ -11371,7 +11383,9 @@ footer {
   overflow: hidden;
 }
 .index-page .services-block .services-size .services-cell .services-img {
-  height: 170px;
+  max-height: 170px;
+  height: 100%;
+  max-width: 300px;
   width: 100%;
   transition-delay: 0.1s;
   transition-duration: 0.3s;
@@ -11388,9 +11402,10 @@ footer {
   height: 60px;
   font-size: 24px;
   padding: 0 10px;
-  width: 300px;
-  display: table-cell;
-  vertical-align: middle;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .index-page li {
   list-style-type: none;
