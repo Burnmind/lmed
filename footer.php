@@ -1,6 +1,6 @@
         </main>
-        <footer class="container">
-            <div class="footer-line d-flex justify-content-between">
+        <footer class="footer-line">
+            <div class="container d-flex justify-content-between">
                 <a href="/" class="logo-wrapper d-flex align-items-center">
                     <img src="public/img/logo-white.png" alt="Лмед">
                     <span class="d-none d-md-inline">Красивая улыбка - это простой способ быть лучше</span>

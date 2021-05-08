@@ -40,7 +40,7 @@
                     button-primary-violet">Записаться на прием</a>
                 </div>
                 <div class="map">
-                    ТУТ БУДЕТ ЖИТЬ КАРТА!
+                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A9118b506cdc686fcfb3d0847c9f2a264d819f833c37a7bec967a932589b741a0&width=100%25&height=400&lang=ru_RU&scroll=true"></script>
                 </div>
             </div>
         </div>
