@@ -116,6 +116,8 @@
     }
 
     .map {
+        width: 100%;
+        max-width: 480px;
         min-height: 410px;
 
         @media (max-width: 769px) {

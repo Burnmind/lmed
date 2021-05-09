@@ -8,10 +8,18 @@
 		padding: 0 0 0 10px;
 		margin: 10px;
 	}
+	
+/*Карусель*/
 
 	.slide-block {
+		padding: 0;
+
+		@media  (max-width: 768px) {
+			padding:0 12px;
+		}
+
 		@media  (max-width: 481px) {
-		padding:0;
+			padding: 0;
 		}
 
 		.slide {
@@ -19,6 +27,7 @@
 				position: relative;
 
 						.big-size {
+							display: block;
 						}
 
 						.small-size {
@@ -54,12 +63,16 @@
 
 					@media  (max-width: 768px) {
 						background-color: rgba(256, 256, 256, 0.5);
+						padding:0 20px 0 40px;
+
 					}
 
 			   		@media  (max-width: 481px) {
 			   			background-color: rgba(256, 256, 256, 0.5);
-			   			width: 320px;
-			   			left: 0;						
+			   			width: 260px;
+			   			left: 0;		
+			   			padding:0 5px 0 10px;	
+			   			margin: 0;			
 			   		}
 
 
@@ -70,6 +83,11 @@
 						text-decoration: none;
 						font-weight: 700;
 						letter-spacing: -1px;
+						margin: 15px 0;
+
+				   		@media  (max-width: 481px) {
+				   			margin: 10px 0 0 0;			
+			   			}
 
 					}
 
@@ -78,21 +96,20 @@
 						font-size: 18px;
 						font-weight: 400;
 						letter-spacing: -1px;
-						margin: 15px 0;
-
+						margin: 0;
 					}
 
 					.btn-slide {						
 						background-color:  $mainPurple;
 						border-color: $mainPurple;
+						border-radius: 11px;
 						margin: 20px 0;
-						height: 35px;
-						width: 150px;
-						border-radius: 15px;
-						text-transform: uppercase;
-						font-weight: 300;
-						font-size: 14px;
+						height: 32px;
+						width: 155px;
 
+				   		@media  (max-width: 481px) {
+				   			margin: 10px 0;			
+				   		}
 					}
 				}
 			}
@@ -112,12 +129,10 @@
 					text-align: center;
 					color: #ffffff;		
 					text-transform: uppercase;				
-
 				}
 
 				.slide-under-img {
 				height: 40px;
-
 				}
 			}
 		}
@@ -131,7 +146,6 @@
 		font-size: 28px;
 		margin-bottom: 20px;
 		margin-top: 50px;
-
 		}
 
 		.services-size {
@@ -155,12 +169,10 @@
 					transition-duration: 0.3s;
 					transition-property: all;
 					transition-timing-function: ease-in-out;
-
 				}
 
 				.services-img:hover {
 					opacity: 0;
-
 				}
 
 				.services-text {
@@ -174,8 +186,6 @@
 					display: flex;
 					justify-content: center;
 					align-items: center;
-
-					
 				}
 			}
 		}

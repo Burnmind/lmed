@@ -10860,19 +10860,29 @@ header .phone a {
 header .phone a:hover {
   opacity: 0.8;
 }
-header .navbar {
+header .menu-line {
   background: #8f34a3;
+}
+@media (max-width: 767px) {
+  header .menu-line {
+    background: #fff;
+  }
+}
+@media (max-width: 479px) {
+  header .menu-line {
+    border-bottom: 3px solid #8f34a3;
+  }
+}
+header .navbar {
   padding: 5px 30px;
 }
 @media (max-width: 767px) {
   header .navbar {
-    background: #fff;
     padding: 20px 15px;
   }
 }
 @media (max-width: 479px) {
   header .navbar {
-    border-bottom: 3px solid #8f34a3;
     padding: 20px 10px;
   }
 }
@@ -11005,22 +11015,19 @@ header .nav-item .sub-menu .sub-menu-link:hover {
   text-decoration: none;
 }
 
-@media (max-width: 481px) {
-  footer {
-    padding: 0 !important;
-  }
-}
-footer .footer-line {
-  padding: 23px 23px 17px 63px;
+footer.footer-line {
   background: #8f34a3;
 }
+footer .container {
+  padding: 23px 23px 17px 63px;
+}
 @media (max-width: 769px) {
-  footer .footer-line {
+  footer .container {
     padding: 23px 15px 17px;
   }
 }
 @media (max-width: 481px) {
-  footer .footer-line {
+  footer .container {
     padding: 15px;
   }
 }
@@ -11090,6 +11097,10 @@ footer {
   text-align: center;
   font-size: 14px;
   text-transform: uppercase;
+}
+.button-primary-violet:hover {
+  background: #6b277a;
+  color: #fff;
 }
 
 .button-primary-white {
@@ -11290,6 +11301,8 @@ footer {
   }
 }
 .contacts-block .map {
+  width: 100%;
+  max-width: 480px;
   min-height: 410px;
 }
 @media (max-width: 769px) {
@@ -11300,6 +11313,7 @@ footer {
 }
 
 .index-page {
+  /*Карусель*/
   /*Услуги*/
   /*Врачи*/
   /*О клинике*/
@@ -11312,6 +11326,14 @@ footer {
   padding: 0 0 0 10px;
   margin: 10px;
 }
+.index-page .slide-block {
+  padding: 0;
+}
+@media (max-width: 768px) {
+  .index-page .slide-block {
+    padding: 0 12px;
+  }
+}
 @media (max-width: 481px) {
   .index-page .slide-block {
     padding: 0;
@@ -11319,6 +11341,9 @@ footer {
 }
 .index-page .slide-block .slide .carousel-item {
   position: relative;
+}
+.index-page .slide-block .slide .carousel-item .big-size {
+  display: block;
 }
 .index-page .slide-block .slide .carousel-item .small-size {
   display: none;
@@ -11350,13 +11375,16 @@ footer {
 @media (max-width: 768px) {
   .index-page .slide-block .slide .carousel-item .carousel-caption {
     background-color: rgba(255, 255, 255, 0.5);
+    padding: 0 20px 0 40px;
   }
 }
 @media (max-width: 481px) {
   .index-page .slide-block .slide .carousel-item .carousel-caption {
     background-color: rgba(255, 255, 255, 0.5);
-    width: 320px;
+    width: 260px;
     left: 0;
+    padding: 0 5px 0 10px;
+    margin: 0;
   }
 }
 .index-page .slide-block .slide .carousel-item .carousel-caption .title-slide {
@@ -11366,28 +11394,32 @@ footer {
   text-decoration: none;
   font-weight: 700;
   letter-spacing: -1px;
+  margin: 15px 0;
+}
+@media (max-width: 481px) {
+  .index-page .slide-block .slide .carousel-item .carousel-caption .title-slide {
+    margin: 10px 0 0 0;
+  }
 }
 .index-page .slide-block .slide .carousel-item .carousel-caption .text-slide {
   color: #000000;
   font-size: 18px;
   font-weight: 400;
   letter-spacing: -1px;
-  margin: 15px 0;
+  margin: 0;
 }
 .index-page .slide-block .slide .carousel-item .carousel-caption .btn-slide {
-<<<<<<< HEAD
-  background-color: #a631a7;
-  border-color: #a631a7;
-=======
   background-color: #8f34a3;
->>>>>>> bb03454c6d5a267faafb647041543796ddeb51ca
+  border-color: #8f34a3;
+  border-radius: 11px;
   margin: 20px 0;
-  height: 35px;
-  width: 150px;
-  border-radius: 15px;
-  text-transform: uppercase;
-  font-weight: 300;
-  font-size: 14px;
+  height: 32px;
+  width: 155px;
+}
+@media (max-width: 481px) {
+  .index-page .slide-block .slide .carousel-item .carousel-caption .btn-slide {
+    margin: 10px 0;
+  }
 }
 .index-page .slide-block .slide-under {
   background-color: #8f34a3;
@@ -11914,31 +11946,28 @@ footer {
   }
 }
 
-.image-wrapper {
+.service-detail .image-wrapper {
   max-width: 680px;
   padding-right: 20px;
   box-sizing: content-box;
-  margin: 100px 0px 47px 130px;
+  margin: 100px 0 47px 130px;
 }
-
-.color-text {
+.service-detail .color-text {
   color: #8f34a3;
 }
-
-.description-wrapper {
+.service-detail .description-wrapper {
   width: 805px;
   box-sizing: content-box;
-  margin: 58px 5px 0px 90px;
+  margin: 58px 5px 0 90px;
   font-size: 18px;
   padding: 8px;
   line-height: 29px;
   letter-spacing: -0.35px;
 }
-
-.btn-wrapper {
+.service-detail .btn-wrapper {
   margin-top: 25px;
 }
-.btn-wrapper .btn {
+.service-detail .btn-wrapper .btn {
   padding: 15px;
   font-weight: bold;
   color: white;
@@ -11946,16 +11975,14 @@ footer {
   width: 95%;
   height: 60px;
   font-size: 18px;
-  margin: 0px 0px 45px 25px;
+  margin: 0 0 45px 25px;
 }
-
-.tittle {
+.service-detail .tittle {
   font-size: 18px;
   text-decoration: underline;
 }
-
-.list {
-  margin: 0px 0px 10px 0px;
+.service-detail .list {
+  margin: 0 0 10px 0;
 }
 
 /*# sourceMappingURL=styles.css.map */

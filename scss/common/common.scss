@@ -21,6 +21,11 @@ footer {
     text-align: center;
     font-size: 14px;
     text-transform: uppercase;
+
+    &:hover {
+        background: $darkPurple;
+        color: $white;
+    }
 }
 
 .button-primary-white {

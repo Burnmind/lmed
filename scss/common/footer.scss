@@ -1,13 +1,12 @@
 @import "../var";
 
 footer {
-    @media (max-width: 481px) {
-        padding: 0!important;
+    &.footer-line {
+        background: $mainPurple;
     }
 
-    .footer-line {
+    .container {
         padding: 23px 23px 17px 63px;
-        background: $mainPurple;
 
         @media (max-width: 769px) {
             padding: 23px 15px 17px;
