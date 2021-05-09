@@ -36,6 +36,7 @@
                 <a href="#" type="button" class="btn  btn-outline-light btn-slide">Подробнее</a>
             </div>
         </div>
+    </div>
     <div class="d-flex flex-wrap slide-under container">
         <div class="col-6  col-md-3 slide-under-element">
             <img src="public/img/icons/doc.png" class="slide-under-img">
