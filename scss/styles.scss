@@ -1,6 +1,6 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-@import "_var";
+@import "var";
 
 // layout
 @import "common/header";
@@ -18,5 +18,6 @@
 @import "pages/doctor-list";
 @import "pages/about";
 @import "pages/service-detail";
+@import "pages/contacts";
 
 

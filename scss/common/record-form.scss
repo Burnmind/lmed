@@ -1,55 +1,63 @@
 @import "../var";
-.form-container{
-	 border-style: solid;
+.form-container {
+	border-style: solid;
 	border-width: 5px;
 	border-color: $mainPurple;
 	border-radius: 13px;
-	height: 520px;
-	width: 575px;
 	margin-left: auto;
 	margin-right: auto;
 	overflow: hidden;
 
-
-   	form{
-    	margin-top:0;
+   	form {
+    	margin-top: 0;
+		padding-bottom: 22px;
+		background: $white;
    	}
+
+	input[type=text] {
+		height: 36px;
+	}
+
+	textarea {
+		height: 90px;
+	}
+
    	.form-control{
-    	border:3px solid $mainPurple;
+    	border: 2px solid $mainPurple;
     	padding: 10px;
     	width: 82%;
     	margin-left: auto;
     	margin-right: auto;
-    	border-radius: 15px;
+    	border-radius: 10px;
 	}
-	.form-text{
+
+	.form-text {
     	background-color: $mainPurple;
     	text-transform: uppercase;
-		color: #ffffff;
+		color: $white;
 		text-align: center;
-		font-size: 22px;
+		font-size: 16px;
 		text-decoration: none;
 		font-weight:700;
-		padding:  28px 0 ;
-		margin: 0 0 55px 0;
-
+		padding: 22px 0;
+		margin: 0 0 45px 0;
 	}
 
 	.button-form{
-	    border-radius: 20px;
+		display: block;
+		width: 190px;
+		height: 35px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 10px;
+		border-radius: 20px;
+		border-style: none;
 		background-color: $mainPurple;
 		border-color:  $mainPurple;
-		padding: 8px;
 		text-align: center;
 		font-weight: bolder;
-		font-size: 13px;
-		width: 245px;
-		height: 45px;
-		margin: 0px 0 0 0;
+		font-size: 12px;
+		color: $white;
 		text-transform: uppercase;
-		display: block;
-	   	margin-left: auto;
-		margin-right: auto;
-		color: #FFFFFF;
 	}
 }
