@@ -1,6 +1,15 @@
 @import "../var";
 .index-page {
 
+    .separator {
+        width: 5px;
+        height: 5px;
+        border: 5px solid $mainPurple;
+        border-top-color: transparent;
+        border-left-color: transparent;
+        transform: rotate(-45deg);
+    }
+
 	.title {
 	 text-transform: uppercase;
 		color: $mainPurple;
@@ -8,8 +17,6 @@
 		padding: 0 0 0 10px;
 		margin: 10px;
 	}
-
-/*Карусель*/
 
 	.slide-block {
 		padding: 0;
@@ -41,6 +48,7 @@
 
 						.small-size {
 							display: block;
+
 						}
 					}
 
@@ -63,8 +71,10 @@
 
 					@media  (max-width: 768px) {
 						background-color: rgba(256, 256, 256, 0.5);
-						padding:0 20px 0 40px;
-
+						padding:0 20px 0 20px;
+						margin: 0;
+						left: 0;
+						max-height: 240px;
 					}
 
 			   		@media  (max-width: 481px) {
@@ -138,8 +148,6 @@
 		}
 	}
 
-/*Услуги*/
-
 	.services-block {
 
 		.services-titl {
@@ -159,6 +167,32 @@
 				padding: 0;
 				margin: 0;
 				overflow: hidden;
+
+				.servis-href {
+					position: absolute;
+					transition:width 2s, height 2s, background-color 2s, transform 2s;
+
+					.d-flex {
+						align-items: center;	
+
+
+						.all-servis-href {
+
+
+						}
+
+						.servis-href-top {
+							color: #000000;
+
+
+						}
+					}
+				}
+
+				.servis-href:hover{
+						padding-top: 10%;
+
+				}
 
 				.services-img {
 					max-height: 170px;
@@ -190,7 +224,7 @@
 			}
 		}
 	}
-/*Врачи*/
+
 	li {
 	    list-style-type: none;
 	   }
@@ -280,23 +314,22 @@
 		font-weight:500;
 	}
 
-	/*О клинике*/
 	.about-block {
- 	margin-top:100px;
- 	margin-bottom:80px;
+	 	margin-top:100px;
+	 	margin-bottom:80px;
 
-	.button-about {
-		border-radius: $butBordR;
-		background-color: $mainPurple;
-		border-color: $mainPurple;
-		padding: 8px;
-		text-align: center;
-		font-weight: bolder;
-		font-size: 13px;
-		width: 178px;
-		height: 36px;
-		margin: 20px 0 0 0;
-		text-transform: uppercase;
+		.button-about {
+			border-radius: $butBordR;
+			background-color: $mainPurple;
+			border-color: $mainPurple;
+			padding: 8px;
+			text-align: center;
+			font-weight: bolder;
+			font-size: 13px;
+			width: 178px;
+			height: 36px;
+			margin: 20px 0 0 0;
+			text-transform: uppercase;
 		}
 
 		.title-oklin {

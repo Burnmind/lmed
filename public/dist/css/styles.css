@@ -11318,11 +11318,13 @@ footer {
   }
 }
 
-.index-page {
-  /*Карусель*/
-  /*Услуги*/
-  /*Врачи*/
-  /*О клинике*/
+.index-page .separator {
+  width: 5px;
+  height: 5px;
+  border: 5px solid #8f34a3;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  transform: rotate(-45deg);
 }
 .index-page .title {
   text-transform: uppercase;
@@ -11380,7 +11382,10 @@ footer {
 @media (max-width: 768px) {
   .index-page .slide-block .slide .carousel-item .carousel-caption {
     background-color: rgba(255, 255, 255, 0.5);
-    padding: 0 20px 0 40px;
+    padding: 0 20px 0 20px;
+    margin: 0;
+    left: 0;
+    max-height: 240px;
   }
 }
 @media (max-width: 481px) {
@@ -11460,6 +11465,19 @@ footer {
   padding: 0;
   margin: 0;
   overflow: hidden;
+}
+.index-page .services-block .services-size .services-cell .servis-href {
+  position: absolute;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+.index-page .services-block .services-size .services-cell .servis-href .d-flex {
+  align-items: center;
+}
+.index-page .services-block .services-size .services-cell .servis-href .d-flex .servis-href-top {
+  color: #000000;
+}
+.index-page .services-block .services-size .services-cell .servis-href:hover {
+  padding-top: 10%;
 }
 .index-page .services-block .services-size .services-cell .services-img {
   max-height: 170px;

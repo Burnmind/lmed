@@ -1,46 +1,46 @@
 <? $pageType = 'index-page'; ?>
 <? require 'header.php' ?>
 <section class="slide-block container">
-    <div id="carousel" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="img-slide big-size" src="public/img/slide.jpg" alt="Первый слайд">
-                <img class="img-slide small-size" src="public/img/slide-md.png" alt="Первый слайд">
-                <div class="carousel-caption">
-                    <h3 class="title-slide">Эффективное отбеливание за&nbsp;1&nbsp;визит</h3>
-                    <p class="text-slide">По&nbsp;инновационной технологии ZOOM-4 всего&nbsp;от&nbsp;20&nbsp;000 рублей</p>
-                    <a href="#" type="button" class="btn button-primary-violet  btn-outline-light btn-slide">Подробнее</a>
+        <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="img-slide big-size" src="public/img/slide.jpg" alt="Первый слайд">
+                    <img class="img-slide small-size" src="public/img/slide-md.png" alt="Первый слайд">
+                    <div class="carousel-caption">
+                        <h3 class="title-slide">Эффективное отбеливание за&nbsp;1&nbsp;визит</h3>
+                        <p class="text-slide">По&nbsp;инновационной технологии ZOOM-4 всего&nbsp;от&nbsp;20&nbsp;000 рублей</p>
+                        <a href="#" type="button" class="btn button-primary-violet  btn-outline-light btn-slide">Подробнее</a>
+                    </div>
                 </div>
-            </div>
-            <div class="carousel-item">
-                <img class="img-slide big-size" src="public/img/slide.jpg" alt="Первый слайд">
-                <img class="img-slide small-size" src="public/img/slide-md.png" alt="Первый слайд">
-                <div class="carousel-caption">
-                    <h3 class="title-slide">Второй элемент</h3>
-                    <p class="text-slide">Ты знал, что одднажды их разум и сила достойные править природой машин</p>
-                    <a href="#" type="button" class="btn button-primary-violet  btn-outline-light btn-slide">Подробнее</a>
+                <div class="carousel-item">
+                    <img class="img-slide big-size" src="public/img/slide.jpg" alt="Второй слайд">
+                    <img class="img-slide small-size" src="public/img/slide-md.png" alt="Второй слайд">
+                    <div class="carousel-caption">
+                        <h3 class="title-slide">Второй элемент</h3>
+                        <p class="text-slide">Ты знал, что одднажды их разум и сила достойные править природой машин</p>
+                        <a href="#" type="button" class="btn button-primary-violet  btn-outline-light btn-slide">Подробнее</a>
+                    </div>
                 </div>
-            </div>
-            <div class="carousel-item">
-                <img class="img-slide big-size" src="public/img/slide.jpg" alt="Первый слайд">
-                <img class="img-slide small-size" src="public/img/slide-md.png" alt="Первый слайд">
-                <div class="carousel-caption">
-                    <h3 class="title-slide">Третий элемент</h3>
-                    <p class="text-slide">Уймут жажду власти, излечат гордыню коль вступят в игру союз чувств и души</p>
-                    <a href="#" type="button" class="btn button-primary-violet  btn-outline-light btn-slide">Подробнее</a>
+                <div class="carousel-item">
+                    <img class="img-slide big-size" src="public/img/slide.jpg" alt="Третий слайд">
+                    <img class="img-slide small-size" src="public/img/slide-md.png" alt="Третий слайд">
+                    <div class="carousel-caption">
+                        <h3 class="title-slide">Третий элемент</h3>
+                        <p class="text-slide">Уймут жажду власти, излечат гордыню коль вступят в игру союз чувств и души</p>
+                        <a href="#" type="button" class="btn button-primary-violet  btn-outline-light btn-slide">Подробнее</a>
+                    </div>
                 </div>
-            </div>
-            <div class="carousel-item">
-                <img class="img-slide big-size" src="public/img/slide.jpg" alt="Первый слайд">
-                <img class="img-slide small-size" src="public/img/slide-md.png" alt="Первый слайд">
-                <div class="carousel-caption">
-                    <h3 class="title-slide">4й элемент</h3>
-                    <p class="text-slide">Годы отчаяния, годы лишения. Всё потерял, но игра стоит свечь</p>
-                    <a href="#" type="button" class="btn button-primary-violet  btn-outline-light btn-slide">Подробнее</a>
+                <div class="carousel-item">
+                    <img class="img-slide big-size" src="public/img/slide.jpg" alt="Четвёртый слайд">
+                    <img class="img-slide small-size" src="public/img/slide-md.png" alt="Четвёртый слайд">
+                    <div class="carousel-caption">
+                        <h3 class="title-slide">4й элемент</h3>
+                        <p class="text-slide">Годы отчаяния, годы лишения. Всё потерял, но игра стоит свеч</p>
+                        <a href="#" type="button" class="btn button-primary-violet  btn-outline-light btn-slide">Подробнее</a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
     <div class="d-flex flex-wrap slide-under container">
         <div class="col-6  col-md-3 slide-under-element">
             <img src="public/img/icons/doc.png" class="slide-under-img">
@@ -68,6 +68,11 @@
                     <div class="services-cell">
                         <div class="services-text"><span>Лечение зубов</span></div>
                         <img src="public/img/heal(1).png" class="img-fluid  services-img" alt="">
+                        <div class="servis-href">
+                            <div class="d-flex"><div class="separator"></div><a href="#" class="servis-href-top">Услуга</a></div>
+                            <div class="d-flex"><div class="separator"></div><a href="#" class="servis-href-top">Услуга</a></div>
+                            <div class="d-flex"><a href="#" class="all-servis-href">Показать все услуги</a></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -213,5 +218,5 @@
         </div>
     </section>
 
-    <? require 'partials/contacts.php' ?>
+    <? require 'partials/contacts.php' ?> 
 <? require 'footer.php' ?>
