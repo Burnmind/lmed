@@ -11465,19 +11465,30 @@ footer {
   padding: 0;
   margin: 0;
   overflow: hidden;
+  position: relative;
 }
-.index-page .services-block .services-size .services-cell .servis-href {
+.index-page .services-block .services-size .services-cell .all-servis-href {
+  margin: 10px 0 10px 0;
+  padding-top: 10%;
+  background-color: #ffffff;
+  transition-delay: 0.2s;
+  transition-duration: 0.4s;
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+  transfotm: translateX(-250px);
   position: absolute;
-  transition: width 2s, height 2s, background-color 2s, transform 2s;
 }
-.index-page .services-block .services-size .services-cell .servis-href .d-flex {
+.index-page .services-block .services-size .services-cell .all-servis-href .d-flex {
   align-items: center;
 }
-.index-page .services-block .services-size .services-cell .servis-href .d-flex .servis-href-top {
-  color: #000000;
+.index-page .services-block .services-size .services-cell .all-servis-href .d-flex .servis-href {
+  margin: auto 0 auto 0;
+  font-size: 20;
 }
-.index-page .services-block .services-size .services-cell .servis-href:hover {
-  padding-top: 10%;
+.index-page .services-block .services-size .services-cell .all-servis-href .d-flex .servis-href-top {
+  font-size: 18;
+  color: #000000;
+  padding: auto;
 }
 .index-page .services-block .services-size .services-cell .services-img {
   max-height: 170px;
@@ -11488,9 +11499,6 @@ footer {
   transition-duration: 0.3s;
   transition-property: all;
   transition-timing-function: ease-in-out;
-}
-.index-page .services-block .services-size .services-cell .services-img:hover {
-  opacity: 0;
 }
 .index-page .services-block .services-size .services-cell .services-text {
   background-color: #8f34a3;
@@ -11503,6 +11511,10 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.index-page .services-block .services-size .all-servis-href:hover {
+  display: block;
+  padding-top: 0%;
 }
 .index-page li {
   list-style-type: none;

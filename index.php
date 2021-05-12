@@ -65,14 +65,14 @@
         <div class="d-flex flex-wrap">
            <div class="col-6  col-md-4">
                 <div class="services-size">
-                    <div class="services-cell">
+                    <div class="services-cell container-fluid">
                         <div class="services-text"><span>Лечение зубов</span></div>
-                        <img src="public/img/heal(1).png" class="img-fluid  services-img" alt="">
-                        <div class="servis-href">
+                        <div class="all-servis-href">
                             <div class="d-flex"><div class="separator"></div><a href="#" class="servis-href-top">Услуга</a></div>
                             <div class="d-flex"><div class="separator"></div><a href="#" class="servis-href-top">Услуга</a></div>
-                            <div class="d-flex"><a href="#" class="all-servis-href">Показать все услуги</a></div>
+                            <div class="d-flex"><a href="#" class="servis-href">Показать все услуги</a></div>
                         </div>
+                        <img src="public/img/heal(1).png" class="img-fluid  services-img" alt="">
                     </div>
                 </div>
             </div>
