@@ -60,7 +60,51 @@
         </div>
     </div>
 </section>
-<section class="services-block container">
+<section class="service">
+    <div class="service-container container">
+        <h3 class="service-title">Услуги стоматологии</h3>
+        <div class="service-block">
+            <div class="service-item">
+                <p class="service-name">Название ячейки</p>
+                <div class="service-link">
+                    <div class="separator"></div><a href="#" class="service-link-small">Услуга</a>
+                    <div class="separator"></div><a href="#" class="service-link-small">Услуга</a>
+                    <a href="#" class="service-link-big">Показать все услуги</a>
+                </div>
+                <img src="public/img/heal(1).png" alt="Лечение зубов" class="service-img">
+            </div>
+                <div class="service-item">
+                <p class="service-name">Название ячейки</p>
+                <div class="service-link">
+                    <div class="separator"></div><a href="#" class="service-link-small">Услуга</a>
+                    <div class="separator"></div><a href="#" class="service-link-small">Услуга</a>
+                    <a href="#" class="service-link-big">Показать все услуги</a>
+                </div>
+                <img src="public/img/heal(1).png" alt="Лечение зубов" class="service-img">
+            </div>
+                <div class="service-item">
+                <p class="service-name">Название ячейки</p>
+                <div class="service-link">
+                    <div class="separator"></div><a href="#" class="service-link-small">Услуга</a>
+                    <div class="separator"></div><a href="#" class="service-link-small">Услуга</a>
+                    <a href="#" class="service-link-big">Показать все услуги</a>
+                </div>
+                <img src="public/img/heal(1).png" alt="Лечение зубов" class="service-img">
+            </div>
+                <div class="service-item">
+                <p class="service-name">Название ячейки</p>
+                <div class="service-link">
+                    <div class="separator"></div><a href="#" class="service-link-small">Услуга</a>
+                    <div class="separator"></div><a href="#" class="service-link-small">Услуга</a>
+                    <a href="#" class="service-link-big">Показать все услуги</a>
+                </div>
+                <img src="public/img/heal(1).png" alt="Лечение зубов" class="service-img">
+            </div>
+        </div>
+    </div>
+</section>
+<!--
+<section class="services-block container"> 
         <h3 class="services-title title">Услуги стоматологии<h3>
         <div class="d-flex flex-wrap">
            <div class="col-6  col-md-4">
@@ -142,6 +186,7 @@
             </div>
         </div>
     </section>
+-->
     <section class="doctor-list-block container">
         <h3 class="title">Наши врачи</h3>
         <div class="menuWrapper">
