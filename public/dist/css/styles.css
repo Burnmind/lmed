@@ -11318,90 +11318,6 @@ footer {
   }
 }
 
-.index-page {
-  /*	.services-block {
-
-  		.services-titl {
-  		font-size: 28px;
-  		margin-bottom: 20px;
-  		margin-top: 50px;
-  		}
-
-  		.services-size {
-  		margin: 20px 25px;
-
-  			.services-cell {
-  				border-style: solid;
-  				border-width: 1px;
-  				border-color: $mainPurple;
-  				border-radius: 13px;
-  				padding: 0;
-  				margin: 0;
-  				overflow: hidden;
-  				position: relative;
-
-  				.all-servis-href {
-  					margin: 10px 0 10px 0;
-  					padding-top: 10%;
-  					background-color: #ffffff;
-  					transition-delay: 0.2s;
-  					transition-duration: 0.4s;
-  					transition-property: all;
-  					transition-timing-function: ease-in-out;
-  					transfotm: translateX(-250px);
-  					position: absolute;
-
-  					.d-flex {
-  						align-items: center;	
-
-
-  						.servis-href {
-  							margin: auto 0 auto 0;
-  							font-size: 20;
-  						}
-
-  						.servis-href-top {
-  							font-size: 18;
-  							color: #000000;
-  							padding: auto;
-  						}
-  					}
-  				}
-
-  				.services-img {
-  					max-height: 170px;
-  					height: 100%;
-  					max-width: 300px;
-  					width: 100%;
-  					transition-delay: 0.1s;
-  					transition-duration: 0.3s;
-  					transition-property: all;
-  					transition-timing-function: ease-in-out;
-
-  				}
-
-  				.services-text {
-  					background-color:  $mainPurple;
-  					color: #fff;
-  					text-align: center;
-  					height: 60px;
-  					font-size: 24px;
-  					padding: 0 10px;
-  					width: auto;
-  					display: flex;
-  					justify-content: center;
-  					align-items: center;
-  				}
-  			}
-
-  			.all-servis-href:hover {
-  			    display: block;
-  			    padding-top: 0%;
-
-  			}
-  		}
-  	}*/
-}
 .index-page .separator {
   width: 5px;
   height: 5px;
@@ -11496,7 +11412,7 @@ footer {
   }
 }
 .index-page .slide-block .slide .carousel-item .carousel-caption .text-slide {
-  color: #000000;
+  color: #000;
   font-size: 18px;
   font-weight: 400;
   letter-spacing: -1px;
@@ -11527,7 +11443,7 @@ footer {
   margin: 20px 0;
   font-size: 14px;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
   text-transform: uppercase;
 }
 .index-page .slide-block .slide-under .slide-under-element .slide-under-img {
@@ -11548,58 +11464,87 @@ footer {
   flex-wrap: wrap;
 }
 .index-page .service-container .service-block .service-item {
-  flex: 0 0 33.333%;
+  flex: 0 0 30%;
   position: relative;
   border-style: solid;
   border-width: 2px;
   border-color: #8f34a3;
   border-radius: 10px;
   padding: -15px;
-  margin: 15px auto;
+  margin: 20px auto;
   overflow: hidden;
   max-height: 228px;
   max-width: 260px;
+  background-color: #8f34a3;
+}
+@media (max-width: 768px) {
+  .index-page .service-container .service-block .service-item {
+    flex: 0 0 45%;
+  }
 }
 .index-page .service-container .service-block .service-item .service-name {
   text-align: center;
-  color: #ffffff;
+  color: #fff;
   background-color: #8f34a3;
-  margin: 0;
+  margin: 0px;
+  height: 60px;
+  justify-content: center;
+  width: auto;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  line-height: 1.2;
+  font-weight: 700;
+  z-index: 100;
+  position: relative;
 }
 .index-page .service-container .service-block .service-item .service-link {
   position: absolute;
   text-align: center;
   align-items: center;
-  top: 260px;
-  background-color: #ffffff;
-  z-index: 10;
+  bottom: -300px;
+  background-color: #fff;
+  transition-delay: 0.1s;
+  transition-duration: 0.2s;
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+  z-index: 1;
+  max-width: 300px;
+  max-height: 250px;
+  width: 100%;
+  height: 100%;
+  padding: 40px 0;
 }
-.index-page .service-container .service-block .service-item .service-link .service-link-small {
+.index-page .service-container .service-block .service-item .service-link .link-position {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin-left: 5px;
+}
+.index-page .service-container .service-block .service-item .service-link .link-position .service-link-small {
   font-size: 24px;
   line-height: 1.2;
   font-weight: 400;
   text-decoration: underline;
-  color: #000000;
-  display: flex;
-  text-align: center;
+  color: #000;
+  margin: 0 10px 5px;
 }
-.index-page .service-container .service-block .service-item .service-link .service-link-big {
+.index-page .service-container .service-block .service-item .service-link .link-position .service-link-big {
   font-size: 24px;
   line-height: 1.2;
   font-weight: 400;
   text-decoration: underline;
   color: #8f34a3;
-  text-align: center;
-  display: flex;
+  margin-left: 5px;
 }
 .index-page .service-container .service-block .service-item .service-img {
-  display: flex;
-  align-items: center;
-  justify-self: center;
-  z-index: 1;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  object-fit: cover;
 }
-.index-page .service-item:hover .service-link {
-  top: 1px;
+.index-page .service-container .service-block .service-item:hover .service-link {
+  bottom: -25%;
 }
 .index-page li {
   list-style-type: none;
@@ -11636,7 +11581,7 @@ footer {
   width: 125px;
   height: 125px;
   overflow: hidden;
-  border: 1px solid #000000;
+  border: 1px solid #000;
   border-radius: 100%;
   display: flex;
   position: relative;
