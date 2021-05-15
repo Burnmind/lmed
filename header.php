@@ -10,6 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <link href="public/dist/css/styles.css" rel="stylesheet" crossorigin="anonymous">
+    <link href="node_modules/swiper/swiper-bundle.min.css" rel="stylesheet" crossorigin="anonymous">
     <link rel="shortcut icon" type="image/png" href="/favicon.ico">
 
     <title>Лмед</title>
@@ -17,13 +18,13 @@
 <body>
     <header>
         <div class="container">
-            <div class="top-line d-flex justify-content-between flex-wrap flex-md-nowrap justify-content-md-start
+            <div class="top-line d-flex justify-content-between flex-wrap flex-lg-nowrap justify-content-lg-start
             align-items-center">
-                <a href="/" class="logo-wrapper d-none d-md-flex align-items-center">
+                <a href="/" class="logo-wrapper d-none d-lg-flex align-items-center">
                     <img src="public/img/logo.png" alt="Лмед">
                     <span>Красивая улыбка - это простой способ быть лучше</span>
                 </a>
-                <div class="address-wrapper d-none d-md-block">
+                <div class="address-wrapper d-none d-lg-block">
                     <div class="address d-flex align-items-center">
                         <img src="public/img/icons/icon-pin.png" class="icon-pin" alt="">
                         <span>г.Москва, ул.Зюзинская, дом 6</span>
@@ -48,7 +49,7 @@
                         <img src="public/img/wa.png" alt="">
                     </a>
                 </div>
-                <div class="contact-block d-none d-md-block">
+                <div class="contact-block d-none d-lg-block">
                     <div class="phone">
                         <a href="tel:+74959688011">
                             <img src="public/img/icons/icon-phone.png" class="icon-phone" alt=""> +7 (495) 968-80-11
@@ -57,18 +58,18 @@
                     <a href="javascript:void(0)" type="button"
                        class="btn btn-outline-light button-primary-violet">Оставить заявку</a>
                 </div>
-                <div class="phone order-1 d-block d-md-none">
+                <div class="phone order-1 d-block d-lg-none">
                     <a href="tel:+74959688011">
                         +7 (495) 968-80-11
                     </a>
                 </div>
                 <a href="javascript:void(0)" type="button"
-                   class="btn btn-outline-light button-primary-white d-block d-md-none">Оставить заявку</a>
+                   class="btn btn-outline-light button-primary-white d-block d-lg-none">Оставить заявку</a>
             </div>
         </div>
         <div class="menu-line">
-            <nav class="container navbar navbar-expand-md">
-                <a href="/" class="logo-wrapper d-flex d-md-none align-items-center">
+            <nav class="container navbar navbar-expand-lg">
+                <a href="/" class="logo-wrapper d-flex d-lg-none align-items-center">
                     <img src="public/img/logo.png" alt="Лмед">
                     <span>Красивая улыбка - это простой способ быть лучше</span>
                 </a>
@@ -77,7 +78,7 @@
                         <li class="nav-item">
                             <a href="javascript:void(0)" class="nav-link">О клинике</a>
                         </li>
-                        <li class="nav-item navbar-expand-md">
+                        <li class="nav-item navbar-expand-lg">
                             <a href="javascript:void(0)"
                                class="nav-link navbar-toggler"
                                data-bs-toggle="collapse"
@@ -85,7 +86,7 @@
                                aria-controls="servicesMenu"
                                aria-expanded="false">Услуги стоматологии</a>
                             <a href="javascript:void(0)"
-                               class="nav-link d-none d-md-inline-block">Услуги стоматологии</a>
+                               class="nav-link d-none d-lg-inline-block">Услуги стоматологии</a>
                             <div class="collapse" id="servicesMenu">
                                 <div class="sub-menu-wrapper">
                                     <ul class="sub-menu">

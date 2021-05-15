@@ -16,5 +16,6 @@
             </div>
         </footer>
         <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
+        <script src="public/dist/js/main.js" crossorigin="anonymous" type="module"></script>
     </body>
 </html>

@@ -10,7 +10,7 @@ header {
     .top-line {
         padding: 16px 20px 12px 10px;
 
-        @media (max-width: 767px) {
+        @media (max-width: 991px) {
             background: $mainPurple;
         }
 
@@ -24,14 +24,14 @@ header {
         text-decoration: none;
         padding-top: 10px;
 
-        @media (max-width: 767px) {
+        @media (max-width: 991px) {
             padding-top: 0;
         }
 
         img {
             width: 110px;
 
-            @media (max-width: 767px) {
+            @media (max-width: 991px) {
                 width: 90px;
             }
 
@@ -47,7 +47,7 @@ header {
             font-weight: bold;
             color: $mainPurple;
 
-            @media (max-width: 767px) {
+            @media (max-width: 991px) {
                 padding-left: 10px;
                 max-width: 160px;
                 font-size: 12px;
@@ -89,7 +89,7 @@ header {
         padding: 0 35px;
         margin: 0 -5px;
 
-        @media (max-width: 1024px) {
+        @media (max-width: 991px) {
             padding: 0 15px;
         }
 
@@ -123,7 +123,7 @@ header {
     .phone {
         margin-bottom: 8px;
 
-        @media (max-width: 767px) {
+        @media (max-width: 991px) {
             margin: 5px auto;
         }
 
@@ -133,7 +133,7 @@ header {
             font-size: 17px;
             color: $black;
 
-            @media (max-width: 767px) {
+            @media (max-width: 991px) {
                 color: $white;
             }
 
@@ -146,7 +146,7 @@ header {
     .menu-line {
         background: $mainPurple;
 
-        @media (max-width: 767px) {
+        @media (max-width: 991px) {
             background: $white;
         }
 
@@ -158,7 +158,7 @@ header {
     .navbar {
         padding: 5px 30px;
 
-        @media (max-width: 767px) {
+        @media (max-width: 991px) {
             padding: 20px 15px;
         }
 
@@ -178,7 +178,7 @@ header {
     .nav-item {
         position: relative;
 
-        @media (max-width: 767px) {
+        @media (max-width: 991px) {
             padding: 20px 0;
             border-bottom: 1px solid $mainPurple;
 
@@ -193,14 +193,14 @@ header {
             font-size: 18px;
             color: $white;
 
-            @media (max-width: 767px) {
+            @media (max-width: 991px) {
                 font-weight: bold;
                 color: $black;
             }
         }
 
         .collapse {
-            @media (min-width: 767px) {
+            @media (min-width: 992px) {
                 display: block;
             }
         }
@@ -209,7 +209,7 @@ header {
             .sub-menu-wrapper {
                 height: 600px;
 
-                @media (max-width: 767px) {
+                @media (max-width: 991px) {
                     height: auto;
                 }
             }
@@ -225,7 +225,7 @@ header {
             z-index: 100;
             transition: 0.3s;
 
-            @media (max-width: 769px) {
+            @media (max-width: 991px) {
                 position: static;
                 transform: none;
                 height: auto;
@@ -241,7 +241,7 @@ header {
             border-bottom-left-radius: $butBordR;
             border-bottom-right-radius: $butBordR;
 
-            @media (max-width: 769px) {
+            @media (max-width: 991px) {
                 width: auto;
                 padding: 0 0 0 20px;
                 border: none;
@@ -253,7 +253,7 @@ header {
                 padding: 10px 0;
                 list-style: none;
 
-                @media (max-width: 769px) {
+                @media (max-width: 991px) {
                     padding: 20px 0;
                     border-bottom: 1px solid $mainPurple;
 
@@ -270,7 +270,7 @@ header {
                     text-transform: inherit;
                     text-align: center;
 
-                    @media (max-width: 769px) {
+                    @media (max-width: 991px) {
                         padding-left: 0;
                         text-transform: uppercase;
                         font-size: 18px;
@@ -289,7 +289,7 @@ header {
                 border-left-color: transparent;
                 transform: rotate(-45deg);
 
-                @media (max-width: 769px) {
+                @media (max-width: 991px) {
                     display: none;
                 }
             }

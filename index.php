@@ -1,46 +1,46 @@
 <? $pageType = 'index-page'; ?>
 <? require 'header.php' ?>
 <section class="slide-block container">
-        <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="img-slide big-size" src="public/img/slide.jpg" alt="Первый слайд">
-                    <img class="img-slide small-size" src="public/img/slide-md.png" alt="Первый слайд">
-                    <div class="carousel-caption">
-                        <h3 class="title-slide">Эффективное отбеливание за&nbsp;1&nbsp;визит</h3>
-                        <p class="text-slide">По&nbsp;инновационной технологии ZOOM-4 всего&nbsp;от&nbsp;20&nbsp;000 рублей</p>
-                        <a href="#" type="button" class="btn button-primary-violet  btn-outline-light btn-slide">Подробнее</a>
-                    </div>
+    <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="img-slide big-size" src="public/img/slide.jpg" alt="Первый слайд">
+                <img class="img-slide small-size" src="public/img/slide-md.png" alt="Первый слайд">
+                <div class="carousel-caption">
+                    <h3 class="title-slide">Эффективное отбеливание за&nbsp;1&nbsp;визит</h3>
+                    <p class="text-slide">По&nbsp;инновационной технологии ZOOM-4 всего&nbsp;от&nbsp;20&nbsp;000 рублей</p>
+                    <a href="#" type="button" class="btn button-primary-violet  btn-outline-light btn-slide">Подробнее</a>
                 </div>
-                <div class="carousel-item">
-                    <img class="img-slide big-size" src="public/img/slide.jpg" alt="Второй слайд">
-                    <img class="img-slide small-size" src="public/img/slide-md.png" alt="Второй слайд">
-                    <div class="carousel-caption">
-                        <h3 class="title-slide">Второй элемент</h3>
-                        <p class="text-slide">Ты знал, что одднажды их разум и сила достойные править природой машин</p>
-                        <a href="#" type="button" class="btn button-primary-violet  btn-outline-light btn-slide">Подробнее</a>
-                    </div>
+            </div>
+            <div class="carousel-item">
+                <img class="img-slide big-size" src="public/img/slide.jpg" alt="Второй слайд">
+                <img class="img-slide small-size" src="public/img/slide-md.png" alt="Второй слайд">
+                <div class="carousel-caption">
+                    <h3 class="title-slide">Второй элемент</h3>
+                    <p class="text-slide">По&nbsp;инновационной технологии ZOOM-4 всего&nbsp;от&nbsp;20&nbsp;000 рублей</p>
+                    <a href="#" type="button" class="btn button-primary-violet  btn-outline-light btn-slide">Подробнее</a>
                 </div>
-                <div class="carousel-item">
-                    <img class="img-slide big-size" src="public/img/slide.jpg" alt="Третий слайд">
-                    <img class="img-slide small-size" src="public/img/slide-md.png" alt="Третий слайд">
-                    <div class="carousel-caption">
-                        <h3 class="title-slide">Третий элемент</h3>
-                        <p class="text-slide">Уймут жажду власти, излечат гордыню коль вступят в игру союз чувств и души</p>
-                        <a href="#" type="button" class="btn button-primary-violet  btn-outline-light btn-slide">Подробнее</a>
-                    </div>
+            </div>
+            <div class="carousel-item">
+                <img class="img-slide big-size" src="public/img/slide.jpg" alt="Третий слайд">
+                <img class="img-slide small-size" src="public/img/slide-md.png" alt="Третий слайд">
+                <div class="carousel-caption">
+                    <h3 class="title-slide">Третий элемент</h3>
+                    <p class="text-slide">По&nbsp;инновационной технологии ZOOM-4 всего&nbsp;от&nbsp;20&nbsp;000 рублей</p>
+                    <a href="#" type="button" class="btn button-primary-violet  btn-outline-light btn-slide">Подробнее</a>
                 </div>
-                <div class="carousel-item">
-                    <img class="img-slide big-size" src="public/img/slide.jpg" alt="Четвёртый слайд">
-                    <img class="img-slide small-size" src="public/img/slide-md.png" alt="Четвёртый слайд">
-                    <div class="carousel-caption">
-                        <h3 class="title-slide">4й элемент</h3>
-                        <p class="text-slide">Годы отчаяния, годы лишения. Всё потерял, но игра стоит свеч</p>
-                        <a href="#" type="button" class="btn button-primary-violet  btn-outline-light btn-slide">Подробнее</a>
-                    </div>
+            </div>
+            <div class="carousel-item">
+                <img class="img-slide big-size" src="public/img/slide.jpg" alt="Четвёртый слайд">
+                <img class="img-slide small-size" src="public/img/slide-md.png" alt="Четвёртый слайд">
+                <div class="carousel-caption">
+                    <h3 class="title-slide">4й элемент</h3>
+                    <p class="text-slide">Годы отчаяния, годы лишения. Всё потерял, но игра стоит свеч</p>
+                    <a href="#" type="button" class="btn button-primary-violet  btn-outline-light btn-slide">Подробнее</a>
                 </div>
             </div>
         </div>
+    </div>
     <div class="d-flex flex-wrap slide-under container">
         <div class="col-6  col-md-3 slide-under-element">
             <img src="public/img/icons/doc.png" class="slide-under-img">
@@ -60,135 +60,75 @@
         </div>
     </div>
 </section>
-<section class="service">
-    <div class="service-container container">
-        <h3 class="service-title">Услуги стоматологии</h3>
-        <div class="service-block">
-            <div class="service-item">
-                <p class="service-name">Лечение зубов</p>
-                <div class="service-link">
-                    <div class="link-position"><div class="separator"></div><a href="#" class="service-link-small">Лечение кист зубов</a></div>
-                    <div class="link-position"><div class="separator"></div><a href="#" class="service-link-small">Лечение пальпита</a></div>
-                    <div class="link-position"><a href="#" class="service-link-big">Показать все услуги</a></div>
-                </div>
-                <img src="public/img/heal(1).png" alt="Лечение зубов" class="service-img">
-            </div>
-            <div class="service-item">
-                <p class="service-name">Хирургическая стоматология</p>
-                <div class="service-link">
-                    <div class="link-position"><div class="separator"></div><a href="#" class="service-link-small">Лечение кист зубов</a></div>
-                    <div class="link-position"><div class="separator"></div><a href="#" class="service-link-small">Лечение пальпита</a></div>
-                    <div class="link-position"><a href="#" class="service-link-big">Показать все услуги</a></div>
-                </div>
-                <img src="public/img/heal(1).png" alt="Лечение зубов" class="service-img">
-            </div>
-            <div class="service-item">
-                <p class="service-name">Лечение зубов</p>
-                <div class="service-link">
-                    <div class="link-position"><div class="separator"></div><a href="#" class="service-link-small">Лечение кист зубов</a></div>
-                    <div class="link-position"><div class="separator"></div><a href="#" class="service-link-small">Лечение пальпита</a></div>
-                    <div class="link-position"><a href="#" class="service-link-big">Показать все услуги</a></div>
-                </div>
-                <img src="public/img/heal(1).png" alt="Лечение зубов" class="service-img">
-            </div>
-            <div class="service-item">
-                <p class="service-name">Лечение зубов</p>
-                <div class="service-link">
-                    <div class="link-position"><div class="separator"></div><a href="#" class="service-link-small">Лечение кист зубов</a></div>
-                    <div class="link-position"><div class="separator"></div><a href="#" class="service-link-small">Лечение пальпита</a></div>
-                    <div class="link-position"><a href="#" class="service-link-big">Показать все услуги</a></div>
-                </div>
-                <img src="public/img/heal(1).png" alt="Лечение зубов" class="service-img">
-            </div>
-            <div class="service-item">
-                <p class="service-name">Лечение зубов</p>
-                <div class="service-link">
-                    <div class="link-position"><div class="separator"></div><a href="#" class="service-link-small">Лечение кист зубов</a></div>
-                    <div class="link-position"><div class="separator"></div><a href="#" class="service-link-small">Лечение пальпита</a></div>
-                    <div class="link-position"><a href="#" class="service-link-big">Показать все услуги</a></div>
-                </div>
-                <img src="public/img/heal(1).png" alt="Лечение зубов" class="service-img">
-            </div>
-            <div class="service-item">
-                <p class="service-name">Лечение зубов</p>
-                <div class="service-link">
-                    <div class="link-position"><div class="separator"></div><a href="#" class="service-link-small">Лечение кист зубов</a></div>
-                    <div class="link-position"><div class="separator"></div><a href="#" class="service-link-small">Лечение пальпита</a></div>
-                    <div class="link-position"><a href="#" class="service-link-big">Показать все услуги</a></div>
-                </div>
-                <img src="public/img/heal(1).png" alt="Лечение зубов" class="service-img">
-            </div>
-            <div class="service-item">
-                <p class="service-name">Лечение зубов</p>
-                <div class="service-link">
-                    <div class="link-position"><div class="separator"></div><a href="#" class="service-link-small">Лечение кист зубов</a></div>
-                    <div class="link-position"><div class="separator"></div><a href="#" class="service-link-small">Лечение пальпита</a></div>
-                    <div class="link-position"><a href="#" class="service-link-big">Показать все услуги</a></div>
-                </div>
-                <img src="public/img/heal(1).png" alt="Лечение зубов" class="service-img">
-            </div>
-        </div>
-    </div>
-</section>
+
+<? require 'partials/service-list.php' ?>
+
 <section class="doctor-list-block container">
     <h3 class="title">Наши врачи</h3>
     <div class="menuWrapper">
-        <div class="menuLimiter">
-            <menu class="menu">
-                <li class="menu-item">
-                    <div class="img-ring">
-                        <img alt="" src="public/img/doctor.jpg" class="img-ring-im">
+        <div class="menuLimiter swiper-container js-swiper-container">
+            <menu class="menu swiper-wrapper">
+                <li class="menu-item swiper-slide">
+                    <div class="doctor-card">
+                        <div class="img-ring">
+                            <img alt="" src="public/img/doctor.jpg" class="img-ring-im">
+                        </div>
+                        <a href="#" class="doctir-name">Иванова Елена Вениаминовна</a>
+                        <p class="doctir-spec">Стоматолог-ортопед</p>
                     </div>
-                    <a href="#" class="doctir-name">Иванова Елена Вениаминовна</a>
-                    <p class="doctir-spec">Стоматолог-ортопед</p>
                 </li>
-                <li class="menu-item" >
-                    <div class="img-ring">
-                        <img alt="" src="https://jrnlst.ru/sites/default/files/covers/cover_6.jpg" class="img-ring-im" >
+                <li class="menu-item swiper-slide">
+                    <div class="doctor-card">
+                        <div class="img-ring">
+                            <img alt="" src="public/img/doctor.jpg" class="img-ring-im">
+                        </div>
+                        <a href="#" class="doctir-name">Иванова Елена Вениаминовна</a>
+                        <p class="doctir-spec">Стоматолог-ортопед</p>
                     </div>
-                    <a href="#" class="doctir-name">Иванова Елена Вениаминовна</a>
-                    <p class="doctir-spec">Стоматолог-ортопед</p>
                 </li>
-                <li class="menu-item" >
-                    <div class="img-ring">
-                        <img alt="" src="https://img.rl0.ru/afisha/400x-/daily.afisha.ru/uploads/images/c/cf/ccf7a86d37854b4e911c67a6d10c024b.jpg" class="img-ring-im">
+                <li class="menu-item swiper-slide">
+                    <div class="doctor-card">
+                        <div class="img-ring">
+                            <img alt="" src="public/img/doctor.jpg" class="img-ring-im">
+                        </div>
+                        <a href="#" class="doctir-name">Иванова Елена Вениаминовна</a>
+                        <p class="doctir-spec">Стоматолог-ортопед</p>
                     </div>
-                    <a href="#" class="doctir-name">Иванова Елена Вениаминовна</a>
-                    <p class="doctir-spec">Стоматолог-ортопед</p>
                 </li>
-                                    <li class="menu-item">
-                    <div class="img-ring">
-                        <img alt="" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8ziK68JnyTZnYE73Xnu89aU2d8KWprI9nYQ&usqp=CAU" class="img-ring-im">
+                <li class="menu-item swiper-slide">
+                    <div class="doctor-card">
+                        <div class="img-ring">
+                            <img alt="" src="public/img/doctor.jpg" class="img-ring-im">
+                        </div>
+                        <a href="#" class="doctir-name">Иванова Елена Вениаминовна</a>
+                        <p class="doctir-spec">Стоматолог-ортопед</p>
                     </div>
-                    <a href="#" class="doctir-name">Иванова Елена Вениаминовна</a>
-                    <p class="doctir-spec">Стоматолог-ортопед</p>
                 </li>
-                <li class="menu-item" >
-                    <div class="img-ring">
-                        <img alt="" src="public/img/doctor.jpg" class="img-ring-im">
+                <li class="menu-item swiper-slide">
+                    <div class="doctor-card">
+                        <div class="img-ring">
+                            <img alt="" src="public/img/doctor.jpg" class="img-ring-im">
+                        </div>
+                        <a href="#" class="doctir-name">Иванова Елена Вениаминовна</a>
+                        <p class="doctir-spec">Стоматолог-ортопед</p>
                     </div>
-                    <a href="#" class="doctir-name">Иванова Елена Вениаминовна</a>
-                    <p class="doctir-spec">Стоматолог-ортопед</p>
                 </li>
-                <li class="menu-item" >
-                    <div class="img-ring">
-                        <img alt="" src="public/img/doctor.jpg" class="img-ring-im">
+                <li class="menu-item swiper-slide">
+                    <div class="doctor-card">
+                        <div class="img-ring">
+                            <img alt="" src="public/img/doctor.jpg" class="img-ring-im">
+                        </div>
+                        <a href="#" class="doctir-name">Иванова Елена Вениаминовна</a>
+                        <p class="doctir-spec">Стоматолог-ортопед</p>
                     </div>
-                    <a href="#" class="doctir-name">Иванова Елена Вениаминовна</a>
-                    <p class="doctir-spec">Стоматолог-ортопед</p>
-                </li>
-                                    <li class="menu-item">
-                    <div class="img-ring">
-                        <img alt="" src="public/img/doctor.jpg" class="img-ring-im">
-                    </div>
-                    <a href="#" class="doctir-name">Иванова Елена Вениаминовна</a>
-                    <p class="doctir-spec">Стоматолог-ортопед</p>
                 </li>
             </menu>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
         </div>
     </div>
-     <div>
-     <a href="#" type="button" class="btn button-primary-violet  btn-outline-light but-spec">Все специалисты клиники</a>
+     <div class="container">
+        <a href="#" type="button" class="btn button-primary-violet  btn-outline-light but-spec">Все специалисты клиники</a>
      </div>
 </section>
 
@@ -206,5 +146,5 @@
     </div>
 </section>
 
-    <? require 'partials/contacts.php' ?> 
+<? require 'partials/contacts.php' ?>
 <? require 'footer.php' ?>

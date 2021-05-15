@@ -28,6 +28,11 @@ footer {
     }
 }
 
+input[type="submit"],
+button {
+    -webkit-appearance: none;
+}
+
 .button-primary-white {
     color: $mainPurple;
     background-color: $white;

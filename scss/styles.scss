@@ -6,11 +6,12 @@
 @import "common/header";
 @import "common/footer";
 @import "common/common";
-@import "common/record-form";
 
 // partials
 @import "partials/breadcrumbs";
 @import "partials/contacts";
+@import "partials/record-form";
+@import "partials/service-list";
 
 // pages
 @import "pages/index";
@@ -19,5 +20,4 @@
 @import "pages/about";
 @import "pages/service-detail";
 @import "pages/contacts";
-
-
+@import "pages/services";
