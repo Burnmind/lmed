@@ -10,6 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <link href="public/dist/css/styles.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/png" href="/favicon.ico">
 
     <title>Лмед</title>
 </head>
@@ -64,7 +65,9 @@
                 <a href="javascript:void(0)" type="button"
                    class="btn btn-outline-light button-primary-white d-block d-md-none">Оставить заявку</a>
             </div>
-            <nav class="navbar navbar-expand-md">
+        </div>
+        <div class="menu-line">
+            <nav class="container navbar navbar-expand-md">
                 <a href="/" class="logo-wrapper d-flex d-md-none align-items-center">
                     <img src="public/img/logo.png" alt="Лмед">
                     <span>Красивая улыбка - это простой способ быть лучше</span>
@@ -74,8 +77,37 @@
                         <li class="nav-item">
                             <a href="javascript:void(0)" class="nav-link">О клинике</a>
                         </li>
-                        <li class="nav-item">
-                            <a href="javascript:void(0)" class="nav-link">Услуги стоматологии</a>
+                        <li class="nav-item navbar-expand-md">
+                            <a href="javascript:void(0)"
+                               class="nav-link navbar-toggler"
+                               data-bs-toggle="collapse"
+                               data-bs-target="#servicesMenu"
+                               aria-controls="servicesMenu"
+                               aria-expanded="false">Услуги стоматологии</a>
+                            <a href="javascript:void(0)"
+                               class="nav-link d-none d-md-inline-block">Услуги стоматологии</a>
+                            <div class="collapse" id="servicesMenu">
+                                <div class="sub-menu-wrapper">
+                                    <ul class="sub-menu">
+                                        <li class="sub-menu-item">
+                                            <div class="separator"></div>
+                                            <a href="javascript:void(0)" class="sub-menu-link">Хирургическая стоматология</a>
+                                        </li>
+                                        <li class="sub-menu-item">
+                                            <div class="separator"></div>
+                                            <a href="javascript:void(0)" class="sub-menu-link">Лечение зубов</a>
+                                        </li>
+                                        <li class="sub-menu-item">
+                                            <div class="separator"></div>
+                                            <a href="javascript:void(0)" class="sub-menu-link">Детская стоматология</a>
+                                        </li>
+                                        <li class="sub-menu-item">
+                                            <div class="separator"></div>
+                                            <a href="javascript:void(0)" class="sub-menu-link">Отбеливание зубов</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                         </li>
                         <li class="nav-item">
                             <a href="javascript:void(0)" class="nav-link">Цены</a>

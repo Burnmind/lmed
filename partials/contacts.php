@@ -1,3 +1,6 @@
+<?
+/** @var string $pageType */
+?>
 <section class="contacts-block">
     <div class="container">
         <div class="contacts-and-map">
@@ -36,11 +39,16 @@
                             <img src="public/img/wa.png" alt="">
                         </a>
                     </div>
-                    <a href="javascript:void(0)" type="button" class="btn btn-outline-light
-                    button-primary-violet">Записаться на прием</a>
+                    <? if ($pageType != 'contacts-page'): ?>
+                        <a href="javascript:void(0)" type="button" class="btn btn-outline-light
+                        button-primary-violet">Записаться на прием</a>
+                    <? endif ?>
                 </div>
+                <? if ($pageType == 'contacts-page'): ?>
+                    <? require 'partials/record-form.php' ?>
+                <? endif ?>
                 <div class="map">
-                    ТУТ БУДЕТ ЖИТЬ КАРТА!
+                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A9118b506cdc686fcfb3d0847c9f2a264d819f833c37a7bec967a932589b741a0&width=100%25&height=400&lang=ru_RU&scroll=true"></script>
                 </div>
             </div>
         </div>
