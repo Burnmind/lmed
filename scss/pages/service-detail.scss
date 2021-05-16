@@ -4,7 +4,7 @@
 	max-width: 680px;
 	padding-right: 20px;
 	box-sizing: content-box;
-	margin: 100px 0px 47px 130px;
+	margin: 78px 0px 47px 130px;
 }
 .color-text {color: $mainPurple
 }			
@@ -32,10 +32,44 @@
 			margin: 0px 0px 45px 25px;
 		}
 	}
+
 .tittle {
 	font-size: 18px;
 	text-decoration: underline;
 }
+
 .list {
 	margin: 0px 0px 10px 0px;
+}
+
+.title1 {
+		color: $mainPurple;
+		text-align: center;
+		font-size: 23px;
+		padding: 53px 0px 27px 0px;
+}
+
+.roster {
+	font-size: 21px;
+	padding: 20px 0px 5px 10px;
+	width: 360px;
+	color-text: black; 
+
+	li {
+		list-style-type: none;
+		align-items: center;
+		display: flex;
+		padding: 2px 0px 1px 5px;
+	}
+}
+.url:hover { font-weight: bold;
+}
+
+.separator {
+width: 5px;
+height: 5px;
+border: 5px solid $mainPurple;
+border-top-color: transparent;
+border-left-color: transparent;
+transform: rotate(-45deg);
 }
