@@ -10728,7 +10728,7 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-@media (max-width: 479px) {
+@media (max-width: 768px) {
   header .container {
     padding: 0;
   }
@@ -11991,23 +11991,34 @@ button {
   }
 }
 
-.service-detail .image-wrapper {
-  max-width: 680px;
-  padding-right: 20px;
-  box-sizing: content-box;
-  margin: 100px 0 47px 130px;
-}
 .service-detail .color-text {
   color: #8f34a3;
 }
 .service-detail .description-wrapper {
-  width: 805px;
-  box-sizing: content-box;
-  margin: 58px 5px 0 90px;
+  width: 100%;
+  max-width: 805px;
+  margin: 58px auto 0;
   font-size: 18px;
   padding: 8px;
   line-height: 29px;
-  letter-spacing: -0.35px;
+}
+@media (max-width: 768px) {
+  .service-detail .description-wrapper {
+    margin: 20px auto 0;
+  }
+}
+.service-detail .image-wrapper {
+  max-width: 680px;
+  box-sizing: content-box;
+  margin: 100px auto 47px;
+}
+@media (max-width: 768px) {
+  .service-detail .image-wrapper {
+    margin: 30px auto;
+  }
+}
+.service-detail .color-text {
+  color: #8f34a3;
 }
 .service-detail .btn-wrapper {
   margin-top: 25px;
@@ -12020,7 +12031,55 @@ button {
   width: 95%;
   height: 60px;
   font-size: 18px;
-  margin: 0 0 45px 25px;
+  margin-bottom: 45px;
+}
+.service-detail .list {
+  margin: 0 0 10px 0;
+}
+.service-detail .title1 {
+  color: #8f34a3;
+  text-align: center;
+  font-size: 23px;
+  padding: 53px 0 27px;
+}
+.service-detail .roster {
+  font-size: 21px;
+  padding: 20px 0 5px 10px;
+  max-width: 360px;
+  width: 100%;
+  color: #000;
+}
+@media (max-width: 768px) {
+  .service-detail .roster {
+    padding: 20px 0 5px;
+  }
+}
+@media (max-width: 768px) {
+  .service-detail .roster ul {
+    padding-left: 0;
+  }
+}
+.service-detail .roster li {
+  list-style-type: none;
+  align-items: center;
+  display: flex;
+  padding: 2px 0 1px 5px;
+}
+.service-detail .url {
+  padding-left: 10px;
+  color: #000;
+}
+.service-detail .url:hover {
+  font-weight: bold;
+  letter-spacing: -0.5px;
+}
+.service-detail .separator {
+  width: 5px;
+  height: 5px;
+  border: 5px solid #8f34a3;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  transform: rotate(-45deg);
 }
 .service-detail .tittle {
   font-size: 18px;
