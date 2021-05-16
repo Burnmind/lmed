@@ -1,7 +1,26 @@
 <?  $pageType = 'service-detail'; ?>
 <? require 'header.php' ?>
-
 <section class="container">
+	 <div class="title1"><b>ХИРУРГИЧЕСКАЯ СТОМАТОЛОГИЯ</b></div>
+	 <div class="row">
+	 	<div class="coll-md-6">
+	 		<div class="roster">
+	 		<ul>
+	 		<li> <div class="separator"> </div><a href="" style="color:black" class="url">Удаление зубов на верхней челюсти </a></li> 
+	 		<li> <div class="separator"> </div><a href="" style="color:black" class="url">Удаление зубов на нижней челюсти </a></li> 
+	 		<li> <div class="separator"> </div><a href="" style="color:black" class="url">Сложное удаление </a></li> </a>
+	 		<li> <div class="separator"> </div><a href="" style="color:black" class="url">Удаление зубов беременным </a></li> 
+	 		<li> <div class="separator"> </div><a href="" style="color:black" class="url">Удаление зубов мудрости на верхней нижней челюсти </a></li> 
+	 		<li> <div class="separator"> </div><a href="" style="color:black" class="url">Удаление кисты </a></li> 
+	 		<li> <div class="separator"> </div><a href="" style="color:black" class="url">Удаление молочных зубов </a></li> 
+	 		<li> <div class="separator"> </div><a href="" style="color:black" class="url">Удаление ретинированного зуба </a></li> 
+	 		</ul></div>
+	 		</div>
+	 	</div>
+	 	<div class="coll-md-6">
+	 		<include>
+	 	</div>
+	 </div>
 	<div class="image-wrapper">
 		<img src="public/img/teeth.png" alt="" class="img-fluid">
 	</div>
