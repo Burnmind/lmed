@@ -22,7 +22,9 @@ $pageType = 'doctor-page'; ?>
 		<div class="image-wrapper">
 			<img src="public/img/doctor.jpg" alt="" class="img-fluid">
 			<div class="btn-wrapper d-flex justify-content-center">
-                <a href="#" type="button"  id="zapisatsa" class="btn outline-light" style="background-color: #a631a7" > Записаться на прием</a>
+                <a href="#" type="button"
+                   data-bs-toggle="modal" data-bs-target="#recordFormModal"
+                   class="btn button-primary-violet"> Записаться на прием</a>
             </div>
 		</div>
 		<div class="description-wrapper">

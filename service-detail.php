@@ -1,4 +1,20 @@
-<?  $pageType = 'service-detail'; ?>
+<?  $pageType = 'service-detail';
+
+$breadcrumbs = [
+    [
+        'NAME' => 'Главная',
+        'URL'  => '/',
+    ],
+    [
+        'NAME' => 'Услуги',
+        'URL'  => '/services.php',
+    ],
+    [
+        'NAME' => 'ХИРУРГИЧЕСКАЯ СТОМАТОЛОГИЯ',
+        'URL'  => '',
+    ]
+];
+?>
 <? require 'header.php' ?>
 <section class="container">
 	 <h1 class="title1"><b>ХИРУРГИЧЕСКАЯ СТОМАТОЛОГИЯ</b></h1>
@@ -78,7 +94,9 @@
             <span class="color-text"><b>стоматологии детям и&nbsp;взрослым на&nbsp;Болотниковой.</b></span></p>
 	</div>
 	 <div class="btn-wrapper d-flex justify-content-center">
-        <a href="#" type="button" class="btn outline-light button-primary-violet"> Записаться на прием</a>
+        <a href="#" type="button"
+           data-bs-toggle="modal" data-bs-target="#recordFormModal"
+           class="btn button-primary-violet"> Записаться на прием</a>
     </div>
 </section>
 

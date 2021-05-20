@@ -57,6 +57,11 @@ header {
 
     .address {
         font-size: 14px;
+
+        .fa-map-marker {
+            color: $mainPurple;
+            margin-right: 5px;
+        }
     }
 
     .icon-pin {
@@ -86,7 +91,7 @@ header {
     }
 
     .social-links-wrapper {
-        padding: 0 35px;
+        padding: 0 30px;
         margin: 0 -5px;
 
         @media (max-width: 991px) {
@@ -108,12 +113,8 @@ header {
     }
 
     .contact-block {
+        margin-left: auto;
         align-self: flex-start;
-
-        .icon-phone {
-            width: 22px;
-            height: 22px;
-        }
 
         .btn {
             width: 190px;
@@ -127,7 +128,16 @@ header {
             margin: 5px auto;
         }
 
+        .fa-phone {
+            color: $mainPurple;
+            font-size: 1.5em!important;
+            margin-right: 10px;
+            padding-top: 5px;
+        }
+
         a {
+            display: flex;
+            align-items: center;
             text-decoration: none;
             font-weight: bold;
             font-size: 17px;
@@ -199,7 +209,7 @@ header {
             }
         }
 
-        .collapse {
+        >.collapse {
             @media (min-width: 992px) {
                 display: block;
             }
@@ -207,16 +217,16 @@ header {
 
         &:hover {
             .sub-menu-wrapper {
-                height: 600px;
+                max-height: 600px;
 
                 @media (max-width: 991px) {
-                    height: auto;
+                    max-height: none;
                 }
             }
         }
 
         .sub-menu-wrapper {
-            height: 0;
+            max-height: 0;
             position: absolute;
             bottom: -5px;
             left: 50%;
@@ -234,7 +244,7 @@ header {
 
         .sub-menu {
             width: 250px;
-            padding: 10px 60px 40px 20px;
+            padding: 10px 40px 40px 20px;
             background: $white;
             border: 1px solid $mainPurple;
             border-top: 0;
@@ -249,7 +259,7 @@ header {
 
             .sub-menu-item {
                 display: flex;
-                align-items: center;
+                flex-direction: column;
                 padding: 10px 0;
                 list-style: none;
 
@@ -263,7 +273,13 @@ header {
                     }
                 }
 
+                ul {
+                    width: 100%;
+                }
+
                 a {
+                    display: flex;
+                    align-items: center;
                     padding-left: 20px;
                     flex-grow: 1;
                     font-size: 14px;
@@ -278,6 +294,10 @@ header {
                         text-align: left;
                         color: $black;
                     }
+                }
+
+                span {
+                    margin-left: 15px;
                 }
             }
 

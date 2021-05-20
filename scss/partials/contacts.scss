@@ -9,7 +9,6 @@
 
     .contacts-and-map {
         background: $backgroundGray;
-        padding-bottom: 60px;
     }
 
     .title {
@@ -49,7 +48,8 @@
             }
         }
 
-        .icon-pin {
+        .fa-map-marker {
+            color: $mainPurple;
             width: 30px;
             padding: 0 25px 0 10px;
             box-sizing: content-box;
@@ -73,6 +73,8 @@
             padding-top: 20px;
 
             a {
+                display: flex;
+                align-items: center;
                 text-decoration: none;
                 font-weight: bold;
                 font-size: 24px;
@@ -84,7 +86,8 @@
             }
         }
 
-        .icon-phone {
+        .fa-phone {
+            color: $mainPurple;
             padding: 0 10px;
         }
 
@@ -118,7 +121,11 @@
     .map {
         width: 100%;
         max-width: 480px;
-        min-height: 400px;
+        min-height: 460px;
+
+        >ymaps {
+            min-height: 460px;
+        }
 
         @media (max-width: 769px) {
             width: 100%;

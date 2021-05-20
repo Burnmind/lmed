@@ -15,6 +15,7 @@ footer {
 }
 
 .button-primary-violet {
+    color: $white;
     border-radius: $butBordR;
     background-color: $mainPurple;
     padding: 5px;
@@ -30,7 +31,7 @@ footer {
 
 input[type="submit"],
 button {
-    -webkit-appearance: none;
+    -webkit-appearance: none!important;
 }
 
 .button-primary-white {
@@ -39,4 +40,40 @@ button {
     font-size: 14px;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+.modal-dialog {
+    .popup-content {
+        display: flex;
+        flex-direction: column;
+        pointer-events: auto;
+    }
+
+    .btn-close {
+        align-self: flex-end;
+    }
+}
+
+.popup-success {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: $white;
+    border: 3px solid $mainPurple;
+
+    .image-wrapper {
+        margin: 0 auto;
+        max-width: 300px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .success-title {
+        color: $mainPurple;
+        font-weight: bold;
+        font-size: 18px;
+        text-align: center;
+    }
 }

@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "bootstrap": "^5.0.0-beta3",
+    "font-awesome": "^4.7.0",
     "swiper": "^6.6.1"
   },
   "devDependencies": {

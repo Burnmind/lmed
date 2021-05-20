@@ -15,6 +15,31 @@
                 </div>
             </div>
         </footer>
+        <div class="modal fade" id="recordFormModal" tabindex="-1" aria-labelledby="recordFormModalLabel"
+             aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="popup-content">
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <? require 'partials/record-form.php' ?>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModalLabel"
+             aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="popup-content">
+                    <div class="popup-success">
+                        <div class="image-wrapper">
+                            <img src="./public/img/success.png" alt="success">
+                        </div>
+                        <div class="success-title">
+                            Вы записаны<br>
+                            скоро мы перезвоним
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
         <script src="public/dist/js/main.js" crossorigin="anonymous" type="module"></script>
     </body>

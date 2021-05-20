@@ -26,7 +26,7 @@
                 </a>
                 <div class="address-wrapper d-none d-lg-block">
                     <div class="address d-flex align-items-center">
-                        <img src="public/img/icons/icon-pin.png" class="icon-pin" alt="">
+                        <i class="fa fa-map-marker" aria-hidden="true" ></i>
                         <span>г.Москва, ул.Зюзинская, дом 6</span>
                     </div>
                     <div class="metro-list-wrapper d-flex">
@@ -52,11 +52,13 @@
                 <div class="contact-block d-none d-lg-block">
                     <div class="phone">
                         <a href="tel:+74959688011">
-                            <img src="public/img/icons/icon-phone.png" class="icon-phone" alt=""> +7 (495) 968-80-11
+                            <i class="fa fa-phone" aria-hidden="true" ></i>
+                            <span>+7 (495) 968-80-11</span>
                         </a>
                     </div>
                     <a href="javascript:void(0)" type="button"
-                       class="btn btn-outline-light button-primary-violet">Оставить заявку</a>
+                       data-bs-toggle="modal" data-bs-target="#recordFormModal"
+                       class="btn button-primary-violet">Оставить заявку</a>
                 </div>
                 <div class="phone order-1 d-block d-lg-none">
                     <a href="tel:+74959688011">
@@ -64,7 +66,8 @@
                     </a>
                 </div>
                 <a href="javascript:void(0)" type="button"
-                   class="btn btn-outline-light button-primary-white d-block d-lg-none">Оставить заявку</a>
+                   data-bs-toggle="modal" data-bs-target="#recordFormModal"
+                   class="btn button-primary-white d-block d-lg-none">Оставить заявку</a>
             </div>
         </div>
         <div class="menu-line">
@@ -91,20 +94,61 @@
                                 <div class="sub-menu-wrapper">
                                     <ul class="sub-menu">
                                         <li class="sub-menu-item">
-                                            <div class="separator"></div>
-                                            <a href="javascript:void(0)" class="sub-menu-link">Хирургическая стоматология</a>
+                                            <a href="javascript:void(0)" class="sub-menu-link">
+                                                <div class="separator"></div>
+                                                <span>Хирургическая стоматология</span>
+                                            </a>
                                         </li>
                                         <li class="sub-menu-item">
-                                            <div class="separator"></div>
-                                            <a href="javascript:void(0)" class="sub-menu-link">Лечение зубов</a>
+                                            <a href="javascript:void(0)"
+                                               data-bs-toggle="collapse"
+                                               data-bs-target="#teethMedicine"
+                                               aria-controls="teethMedicine"
+                                               aria-expanded="false"
+                                               class="sub-menu-link">
+                                                <div class="separator"></div>
+                                                <span>Лечение зубов</span>
+                                            </a>
+                                            <div class="collapse" id="teethMedicine">
+                                                <ul>
+                                                    <li class="sub-menu-item">
+                                                        <a href="javascript:void(0)" class="sub-menu-link">
+                                                            <div class="separator"></div>
+                                                            <span>Хирургическая стоматология</span>
+                                                        </a>
+                                                    </li>
+                                                    <li class="sub-menu-item">
+                                                        <a href="javascript:void(0)" class="sub-menu-link">
+                                                            <div class="separator"></div>
+                                                            <span>Лечение зубов</span>
+                                                        </a>
+                                                    </li>
+                                                    <li class="sub-menu-item">
+                                                        <a href="javascript:void(0)" class="sub-menu-link">
+                                                            <div class="separator"></div>
+                                                            <span>Детская стоматология</span>
+                                                        </a>
+                                                    </li>
+                                                    <li class="sub-menu-item">
+                                                        <a href="javascript:void(0)" class="sub-menu-link">
+                                                            <div class="separator"></div>
+                                                            <span>Отбеливание зубов</span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
                                         </li>
                                         <li class="sub-menu-item">
-                                            <div class="separator"></div>
-                                            <a href="javascript:void(0)" class="sub-menu-link">Детская стоматология</a>
+                                            <a href="javascript:void(0)" class="sub-menu-link">
+                                                <div class="separator"></div>
+                                                <span>Детская стоматология</span>
+                                            </a>
                                         </li>
                                         <li class="sub-menu-item">
-                                            <div class="separator"></div>
-                                            <a href="javascript:void(0)" class="sub-menu-link">Отбеливание зубов</a>
+                                            <a href="javascript:void(0)" class="sub-menu-link">
+                                                <div class="separator"></div>
+                                                <span>Отбеливание зубов</span>
+                                            </a>
                                         </li>
                                     </ul>
                                 </div>

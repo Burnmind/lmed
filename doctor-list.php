@@ -30,7 +30,9 @@ $pageType = 'doctor-list-page'; ?>
                 </div>
             </div>
             <div class="btn-wrapper d-flex justify-content-center">
-                <a href="#" type="button" class="btn outline-light button-primary-violet"> Записаться на прием</a>
+                <a href="#" type="button"
+                   data-bs-toggle="modal" data-bs-target="#recordFormModal"
+                   class="btn button-primary-violet"> Записаться на прием</a>
             </div>
         </div>
         <div class="doctor-block">
@@ -48,7 +50,9 @@ $pageType = 'doctor-list-page'; ?>
                 </div>
             </div>
             <div class="btn-wrapper d-flex justify-content-center">
-                <a href="#" type="button" class="btn outline-light button-primary-violet"> Записаться на прием</a>
+                <a href="#" type="button"
+                   data-bs-toggle="modal" data-bs-target="#recordFormModal"
+                   class="btn button-primary-violet"> Записаться на прием</a>
             </div>
         </div>
         <div class="doctor-block">
@@ -66,7 +70,9 @@ $pageType = 'doctor-list-page'; ?>
                 </div>
             </div>
             <div class="btn-wrapper d-flex justify-content-center">
-                <a href="#" type="button" class="btn outline-light button-primary-violet"> Записаться на прием</a>
+                <a href="#" type="button"
+                   data-bs-toggle="modal" data-bs-target="#recordFormModal"
+                   class="btn button-primary-violet"> Записаться на прием</a>
             </div>
         </div>
     </div>

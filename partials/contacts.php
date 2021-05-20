@@ -11,7 +11,7 @@
                 <div class="contacts">
                     <div class="address-wrapper">
                         <div class="address d-flex align-items-center">
-                            <img src="public/img/icons/icon-pin-big.png" class="icon-pin" alt="">
+                            <i class="fa fa-map-marker fa-2x" aria-hidden="true" ></i>
                             <span>г.Москва, ул.Зюзинская, дом 6</span>
                         </div>
                         <div class="metro-list-wrapper d-flex align-items-center">
@@ -25,7 +25,7 @@
                     </div>
                     <div class="phone">
                         <a href="tel:+74959688011">
-                            <img src="public/img/icons/icon-phone.png" class="icon-phone" alt=""> +7 (495) 968-80-11
+                            <i class="fa fa-phone fa-2x" aria-hidden="true" ></i> +7 (495) 968-80-11
                         </a>
                     </div>
                     <div class="social-links-wrapper d-flex">
@@ -40,8 +40,9 @@
                         </a>
                     </div>
                     <? if ($pageType != 'contacts-page'): ?>
-                        <a href="javascript:void(0)" type="button" class="btn btn-outline-light
-                        button-primary-violet">Записаться на прием</a>
+                        <a href="javascript:void(0)" type="button"
+                           data-bs-toggle="modal" data-bs-target="#recordFormModal"
+                           class="btn button-primary-violet">Записаться на прием</a>
                     <? endif ?>
                 </div>
                 <? if ($pageType == 'contacts-page'): ?>

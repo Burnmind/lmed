@@ -9,14 +9,6 @@
         transform: rotate(-45deg);
     }
 
-	.title {
-	 	text-transform: uppercase;
-		color: $mainPurple;
-		text-align: center;
-		padding: 0 0 0 10px;
-		margin: 10px;
-	}
-
 	.slide-block {
 		padding: 0;
 
@@ -154,9 +146,22 @@
 		padding-left: 0;
 	}
 
+	.about-block,
 	.doctor-list-block {
-		background-color: #ecebeb;
+		.title {
+			font-weight: bold;
+			text-transform: uppercase;
+			color: $mainPurple;
+			text-align: center;
+			padding: 0 0 0 10px;
+			margin: 10px;
+		}
+	}
+
+	.doctor-list-block {
+		margin-top: 50px;
 		padding: 40px 0 40px 0;
+		background-color: #ecebeb;
 	}
 
 	.swiper-button-prev,
@@ -264,8 +269,8 @@
 	}
 
 	.about-block {
-	 	margin-top:100px;
-	 	margin-bottom:80px;
+	 	margin-top: 65px;
+	 	margin-bottom: 80px;
 
 		.button-about {
 			border-radius: $butBordR;

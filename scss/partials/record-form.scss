@@ -1,18 +1,15 @@
 @import "../var";
 .form-container {
-	border-style: solid;
-	border-width: 5px;
-	border-color: $mainPurple;
-	border-radius: 13px;
 	margin-left: auto;
 	margin-right: auto;
-	overflow: hidden;
 
    	form {
-    	margin-top: 0;
+		margin-top: 0;
 		padding-bottom: 22px;
 		background: $white;
-   	}
+		border: 5px solid $mainPurple;
+		border-radius: 13px;
+	}
 
 	input[type=text] {
 		height: 36px;
