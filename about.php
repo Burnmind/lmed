@@ -1,44 +1,49 @@
+<?
+$breadcrumbs = [
+    [
+        'NAME' => 'Главная',
+        'URL'  => '/',
+    ],
+    [
+        'NAME' => 'О клинике',
+        'URL'  => '/about.php',
+    ]
+];
+
+$pageType = 'about-page';
+?>
 <? require 'header.php' ?>
-<section class="about-page container">
-	<br><br><!-- ВСЕ ТОЖЕ САМОЕ -->
-	<br><br>
-	<h1><p  class="title">О КЛИНИКЕ</p><br><br></h1>
-	<div class="row">
-		<div class="col-sm">
-<<<<<<< HEAD:oklinike.php
-			<img src="photo.png" class="img-fluid">
-				<div class="row">
-					<div class="col-sm-4">
-						<img src="photo.png" class="img-fluid minipho mx-auto">
-					</div>
-					<div class="col-sm-4">
-						<img src="photo.png" class="img-fluid minipho mx-auto">
-					</div>
-					<div class="col-sm-4">
-						<img src="photo.png" class="img-fluid minipho mx-auto">
-					</div>
-					<div class="col-sm-4">
-						<img src="photo.png" class="img-fluid minipho mx-auto">
-					</div>
-					<div class="col-sm-4">
-						<img src="photo.png" class="img-fluid minipho mx-auto">
-					</div>
-					<div class="col-sm-4">
-						<img src="photo.png" class="img-fluid minipho mx-auto">
-					</div>
+<section class="container gallery-wrapper">
+	<div class="container">
+	<h1 class="title-ab">О КЛИНИКЕ</h1>
+	<div class="row gallery justify-content-center justify-content-lg-start">
+		<div class="gallery-column">
+			<img src="public/img/photo.png"  class="img-fluid titleimg">
+			<div class="d-flex flex-wrap min-gallery">
+                <img src="public/img/photo.png" class="img-fluid minipho" alt="">
+                <img src="public/img/photo.png" class="img-fluid minipho" alt="">
+                <img src="public/img/photo.png" class="img-fluid minipho" alt="">
+                <img src="public/img/photo.png" class="img-fluid minipho" alt="">
+                <img src="public/img/photo.png" class="img-fluid minipho" alt="">
+                <img src="public/img/photo.png" class="img-fluid minipho" alt="">
 			</div>
-=======
-			<img src="public/img/photo.png" class="img-fluid">
->>>>>>> fc264ee4c1d4fc8341463f4097ef2b21536a210d:about.php
 		</div>
-		<div class="col-sm">
-			<h5><p>Наша клиника отличается особым отношением к&nbsp;своим пациентам. Прекрасное современное инновационное оснощение, уникальные передоыфе технологии, грамотные специалисты и&nbsp;уютная обстановка позволили нам завоевать признание и&nbsp;любовь наших пациентов. Мы&nbsp;в&nbsp;первую очередь заботимся о&nbsp;вашем здоровье. Стоматология для нас&nbsp;&mdash; это не&nbsp;только работа, но&nbsp;и&nbsp;признание.
-				<br><br><br>
-			Мы&nbsp;успешно осуществляем весь комплекс стоматологических услуг с&nbsp;максимальным комфортом для пациента
-				<br><br><br><br><br>
-			Мы&nbsp;используем только самое передовое оборудование
-			</p></h5>
+		<div class="description-column">
+            <p>Наша клиника отличается особым отношением к&nbsp;своим пациентам. Прекрасное современное инновационное оснощение, уникальные передоыфе технологии, грамотные специалисты и&nbsp;уютная обстановка позволили нам завоевать признание и&nbsp;любовь наших пациентов. Мы&nbsp;в&nbsp;первую очередь заботимся о&nbsp;вашем здоровье. Стоматология для нас&nbsp;&mdash; это не&nbsp;только работа, но&nbsp;и&nbsp;признание.</p>
+			<p>Мы&nbsp;успешно осуществляем весь комплекс стоматологических услуг с&nbsp;максимальным комфортом для пациентов</p>
+			<p>Мы&nbsp;используем только самое передовое оборудование швейцарского производства.</p>
+		</div>
+	</div>
+		<h2 class="title-ab licenset">ЛИЦЕНЗИИ</h2>
+		<div class="row">
+            <img src="public/img/photo.png" class="img-fluid minipho licensetimg" alt="">
+            <img src="public/img/photo.png" class="img-fluid minipho licensetimg" alt="">
+            <img src="public/img/photo.png" class="img-fluid minipho licensetimg" alt="">
+            <img src="public/img/photo.png" class="img-fluid minipho licensetimg" alt="">
+            <img src="public/img/photo.png" class="img-fluid minipho licensetimg" alt="">
+            <img src="public/img/photo.png" class="img-fluid minipho licensetimg" alt="">
 		</div>
 	</div>
 </section>
+<? require 'partials/contacts.php' ?>
 <? require 'footer.php' ?>

@@ -1,0 +1,113 @@
+@import '../var';
+
+.service-detail {
+    .color-text {
+        color: $mainPurple
+    }
+
+    .description-wrapper {
+        width: 100%;
+        max-width: 805px;
+        margin: 58px auto 0;
+        font-size: 18px;
+        padding: 8px;
+        line-height: 29px;
+
+        @media (max-width: 768px) {
+            margin: 20px auto 0;
+        }
+    }
+
+    .image-wrapper {
+        max-width: 680px;
+        box-sizing: content-box;
+        margin: 100px auto 47px;
+
+        @media (max-width: 768px) {
+            margin: 30px auto;
+        }
+    }
+
+    .color-text {
+        color: $mainPurple
+    }
+
+    .btn-wrapper {
+        margin-top: 25px;
+
+        .btn {
+            padding: 15px;
+            font-weight: bold;
+            color: white;
+            max-width: 350px;
+            width: 95%;
+            height: 60px;
+            font-size: 18px;
+            margin-bottom: 45px;
+        }
+    }
+
+    .list {
+        margin: 0 0 10px 0;
+    }
+
+    .title1 {
+        color: $mainPurple;
+        text-align: center;
+        font-size: 23px;
+        padding: 53px 0 27px;
+    }
+
+    .roster {
+        font-size: 21px;
+        padding: 20px 0 5px 10px;
+        max-width: 360px;
+        width: 100%;
+        color: $black;
+
+        @media (max-width: 768px) {
+            padding: 20px 0 5px;
+        }
+
+        ul {
+            @media (max-width: 768px) {
+                padding-left: 0;
+            }
+        }
+
+        li {
+            list-style-type: none;
+            align-items: center;
+            display: flex;
+            padding: 2px 0 1px 5px;
+        }
+    }
+
+    .url {
+        padding-left: 10px;
+        color: $black;
+
+        &:hover {
+            font-weight: bold;
+            letter-spacing: -.5px;
+        }
+    }
+
+    .separator {
+        width: 5px;
+        height: 5px;
+        border: 5px solid $mainPurple;
+        border-top-color: transparent;
+        border-left-color: transparent;
+        transform: rotate(-45deg);
+    }
+
+    .tittle {
+        font-size: 18px;
+        text-decoration: underline;
+    }
+
+    .list {
+        margin: 0 0 10px 0;
+    }
+}

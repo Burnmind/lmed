@@ -1,20 +1,305 @@
-@import '../var';
+@import "../var";
+.index-page {
 
-.about-block {
+	//.service-title{
+	//	letter-spacing: -1.2px;
+	//	margin: 50px 0 23px 0;
+	//}
+
+	.separator {
+		width: 5px;
+		height: 5px;
+		border: 5px solid $mainPurple;
+		border-top-color: transparent;
+		border-left-color: transparent;
+		transform: rotate(-45deg);
+	}
+
 	.title {
+		text-transform: uppercase;
 		color: $mainPurple;
+		text-align: center;
+		padding: 0 0 0 10px;
+		margin: 10px;
+	}
+
+	.slide-block {
+		padding: 0;
+
+		@media  (max-width: 768px) {
+			padding:0 12px;
+		}
+
+		@media  (max-width: 481px) {
+			padding: 0;
+		}
+
+		.slide {
+			.carousel-item {
+				position: relative;
+
+				.big-size {
+					display: block;
+				}
+
+				.small-size {
+					display: none;
+				}
+
+				@media  (max-width: 768px) {
+					.big-size {
+						display: none;
+					}
+
+					.small-size {
+						display: block;
+					}
+				}
+
+				.img-slide {
+					width: 100%;
+					min-height: 230px;
+				}
+
+				.carousel-caption {
+					text-align: left;
+					left: 4%;
+					top: 14%;
+					width: 360px;
+
+					@media  (max-width: 1025px) {
+						left: 2%;
+						top: 4%;
+					}
+
+					@media  (max-width: 768px) {
+						background-color: rgba(256, 256, 256, 0.5);
+						padding:0 20px 0 20px;
+						margin: 0;
+						left: 0;
+						max-height: 240px;
+					}
+
+					@media  (max-width: 481px) {
+						background-color: rgba(256, 256, 256, 0.5);
+						width: 260px;
+						left: 0;
+						padding:0 5px 0 10px;
+						margin: 0;
+					}
+
+
+					.title-slide {
+						color: $mainPurple;
+						text-transform: uppercase;
+						font-size: 24px;
+						text-decoration: none;
+						font-weight: 700;
+						letter-spacing: -1px;
+						margin: 15px 0;
+
+						@media  (max-width: 481px) {
+							margin: 10px 0 0 0;
+						}
+
+					}
+
+					.text-slide {
+						color: $black;
+						font-size: 18px;
+						font-weight: 400;
+						letter-spacing: -1px;
+						margin: 0;
+					}
+
+					.btn-slide {
+						background-color:  $mainPurple;
+						border-color: $mainPurple;
+						border-radius: 11px;
+						margin: 20px 0;
+						height: 32px;
+						width: 155px;
+
+						@media  (max-width: 481px) {
+							margin: 10px 0;
+						}
+					}
+				}
+			}
+		}
+
+		.slide-under {
+			background-color:  $mainPurple;
+
+			.slide-under-element {
+				margin: 20px auto 0 auto;
+				max-width: 300px;
+				text-align: center;
+
+				.slide-under-text{
+					margin: 20px 0;
+					font-size: 14px;
+					text-align: center;
+					color: $white;
+					text-transform: uppercase;
+				}
+
+				.slide-under-img {
+				height: 40px;
+				}
+			}
+		}
+	}
+
+	li {
+		list-style-type: none;
+	}
+
+	ul {
+		margin-left: 0;
+		padding-left: 0;
+	}
+
+	.doctor-list-block {
+		background-color: #ecebeb;
+		padding: 40px 0 40px 0;
+	}
+
+	.swiper-button-prev,
+	.swiper-button-next {
+		display: none;
+		width: 20px;
+		height: 20px;
+		border: 20px solid $mainPurple;
+		border-top-color: transparent;
+		border-left-color: transparent;
+
+		&:after {
+			display: none;
+		}
+
+		@media (max-width: 768px) {
+			display: block;
+		}
+	}
+
+	.swiper-button-prev {
+		transform: rotate(135deg);
+	}
+
+	.swiper-button-next {
+		transform: rotate(-45deg);
+	}
+
+	.menu {
+		display: flex;
+		padding: 0;
+	}
+
+	.menu-item {
 		text-align: center;
 	}
 
-	// используй классы, а не id
-	#button-podrobneeOKinike {
+	.doctor-card {
+		max-width: 210px;
+		margin: 0 auto;
+	}
+
+	.menu-item:last-child {
+		margin-right: 0;
+	}
+
+	.menuLimiter {
+		margin: 0 50px;
+		padding-bottom: 25px;
+
+		@media (max-width: 768px) {
+			margin: 0 20px;
+		}
+	}
+
+	.img-ring {
+		width: 125px;
+		height: 125px;
+		overflow: hidden;
+		border: 1px solid $black;
+		border-radius: 100%;
+	 	display: flex;
+	 	position: relative;
+	 	margin: 30px 50px 25px 50px;
+	}
+
+	.img-ring-im {
+		position: absolute;
+		max-width: 360px;
+		max-height: 150px;
+		left: 50%;
+		transform: translate(-50%);
+	}
+
+	.doctir-name {
+		font-style: none;
+	}
+
+	.but-spec {
 		border-radius: $butBordR;
 		background-color: $mainPurple;
-		padding: 10px;
+		padding: 8px;
 		text-align: center;
-		margin: 20px;
-		font-weight:bolder;
-		font-size: 20px;
-		Width: 250px;
+		font-weight: bolder;
+		font-size: 13px;
+		max-width: 325px;
+		width: 100%;
+		height: 36px;
+		margin: 20px 0 0 0;
+		text-transform: uppercase;
+		display: block;
+	   	margin-left: auto;
+		margin-right: auto;
+		border-color:  $mainPurple;
+	}
+
+	.doctir-name {
+		color: $mainPurple;
+		text-decoration: none;
+		font-weight:700;
+	}
+
+	.doctir-spec {
+		font-weight:500;
+	}
+
+	.about-block {
+	 	margin-top:100px;
+	 	margin-bottom:80px;
+
+		.button-about {
+			border-radius: $butBordR;
+			background-color: $mainPurple;
+			border-color: $mainPurple;
+			padding: 8px;
+			text-align: center;
+			font-weight: bolder;
+			font-size: 13px;
+			width: 178px;
+			height: 36px;
+			margin: 20px 0 0 0;
+			text-transform: uppercase;
+		}
+
+		.title-oklin {
+			margin-bottom: 40px;
+		}
+
+		.titleimg {
+			max-width: 95%;
+			padding: 10px 0 0 40px;
+		}
+
+		.textoklin {
+			font-size: 14px;
+			line-height: 1.3;
+			padding: 15px 20px 0 0;
+		}
 	}
 }

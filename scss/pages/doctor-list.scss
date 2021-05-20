@@ -1,13 +1,23 @@
 @import "../var";
 
-.doctor-page {
-	margin-bottom: 57px;
-
+.doctor-list-page {
 	.title {
 		color: $mainPurple;
 		text-align: center;
-		font-size: 32px;
-		margin-bottom: 53px;
+		font-size: 29px;
+		margin-bottom: 105px;
+
+		@media (max-width: 769px) {
+			margin-bottom: 50px;
+		}
+	}
+
+	.doctor-block {
+		padding-bottom: 165px;
+
+		@media (max-width: 769px) {
+			padding-bottom: 30px;
+		}
 	}
 
 	.doctor-card {
@@ -42,19 +52,6 @@
 		.btn-wrapper {
 			margin-top: 40px;
 		}
-
-		.outline-light {
-			width: 280px;
-			margin: 0 auto;
-			padding: 14px;
-			border-radius: $butBordR;
-			background-color: $mainPurple;
-			text-align: center;
-			text-transform: uppercase;
-			font-weight: bolder;
-			font-size: 14px;
-			color: white;
-		}
 	}
 
 	.description-wrapper {
@@ -71,21 +68,55 @@
 			width: 100%;
 		}
 
+		.name {
+			font-size: 30px;
+			font-weight: bold;
+			color: $mainPurple;
+
+			@media (max-width: 769px) {
+				font-size: 24px;
+			}
+		}
+
 		.position {
-			margin-bottom: 7px;
+			margin-bottom: 28px;
 			font-size: 26px;
 			line-height: 1;
+
+			@media (max-width: 769px) {
+				font-size: 18px;
+			}
 		}
 
 		.experience {
-			margin-bottom: 24px;
-			font-size: 22px;
+			margin-bottom: 45px;
+			font-size: 28px;
 			line-height: 1;
+
+			@media (max-width: 769px) {
+				font-size: 18px;
+			}
 		}
 
 		.description {
 			font-size: 23px;
 			line-height: 30px;
+
+			@media (max-width: 769px) {
+				font-size: 14px;
+			}
+		}
+	}
+
+	.btn-wrapper {
+		margin-top: 53px;
+
+		.btn {
+			padding: 13px;
+			font-weight: bold;
+			color: $white;
+			max-width: 277px;
+			width: 100%;
 		}
 	}
 }

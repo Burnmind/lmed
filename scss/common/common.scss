@@ -1,0 +1,42 @@
+@import "../var";
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    margin-top: auto;
+}
+
+.container {
+    max-width: 985px;
+}
+
+.button-primary-violet {
+    border-radius: $butBordR;
+    background-color: $mainPurple;
+    padding: 5px;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+
+    &:hover {
+        background: $darkPurple;
+        color: $white;
+    }
+}
+
+input[type="submit"],
+button {
+    -webkit-appearance: none;
+}
+
+.button-primary-white {
+    color: $mainPurple;
+    background-color: $white;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}

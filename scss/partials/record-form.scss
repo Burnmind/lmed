@@ -1,0 +1,63 @@
+@import "../var";
+.form-container {
+	border-style: solid;
+	border-width: 5px;
+	border-color: $mainPurple;
+	border-radius: 13px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+
+   	form {
+    	margin-top: 0;
+		padding-bottom: 22px;
+		background: $white;
+   	}
+
+	input[type=text] {
+		height: 36px;
+	}
+
+	textarea {
+		height: 90px;
+	}
+
+   	.form-control{
+    	border: 2px solid $mainPurple;
+    	padding: 10px;
+    	width: 82%;
+    	margin-left: auto;
+    	margin-right: auto;
+    	border-radius: 10px;
+	}
+
+	.form-text {
+    	background-color: $mainPurple;
+    	text-transform: uppercase;
+		color: $white;
+		text-align: center;
+		font-size: 16px;
+		text-decoration: none;
+		font-weight:700;
+		padding: 22px 0;
+		margin: 0 0 45px 0;
+	}
+
+	.button-form{
+		display: block;
+		width: 190px;
+		height: 35px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 10px;
+		border-radius: 20px;
+		border-style: none;
+		background-color: $mainPurple;
+		border-color:  $mainPurple;
+		text-align: center;
+		font-weight: bolder;
+		font-size: 12px;
+		color: $white;
+		text-transform: uppercase;
+	}
+}

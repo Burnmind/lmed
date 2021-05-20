@@ -1,0 +1,100 @@
+@import '../var';
+
+.about-page{
+	.gallery-wrapper {
+		padding-bottom: 60px;
+	}
+
+	.title-ab {
+		color: $mainPurple;
+		text-align: center;
+	  	text-transform: uppercase;
+		font-size:  calc(1.3rem + 0.6vw);
+		text-decoration: none;
+		font-weight: 500;
+	}
+
+	.gallery {
+		display: flex;
+		flex-wrap: wrap;
+		margin-top: 52px;
+
+		@media (max-width: 769px) {
+			margin-top: 25px;
+		}
+
+		.gallery-column {
+			max-width: 490px;
+			padding: 0 30px 0 40px;
+
+			@media (max-width: 769px) {
+				padding: 0;
+			}
+		}
+
+		.min-gallery {
+			margin: 0 -10px
+		}
+
+		.minipho {
+			margin: 0 10px;
+			max-width: 126px;
+			padding-top: 25px;
+
+			@media (max-width: 769px) {
+				max-width: 150px;
+			}
+		}
+
+		.description-column {
+			padding: 8px 0 0;
+			max-width: 471px;
+
+			@media (max-width: 769px) {
+				padding-top: 20px;
+			}
+		}
+
+		p {
+			font-size: 14px;
+			line-height: 1.3;
+		}
+	}
+
+	.description {
+		padding-top: 7px;
+	}
+
+	.licenset {
+		padding: 115px 0 40px 0;
+
+		@media (max-width: 769px) {
+			padding: 50px 0 20px 0;
+		}
+	}
+
+	.anaw {
+		text-decoration:none;
+		color: $black;
+		text-indent: 20px;
+		font-size: 17px;
+	}
+
+	.anawp {
+		margin: 10px 0 0 20px;
+	}
+
+	.licensetimg {
+		max-width: calc(100% / 3);
+		padding: 0 50px 100px;
+
+		@media (max-width: 769px) {
+			padding: 0 25px 50px;
+		}
+
+		@media (max-width: 481px) {
+			max-width: 50%;
+			padding: 0 15px 30px;
+		}
+	}
+}
