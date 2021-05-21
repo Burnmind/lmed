@@ -14416,15 +14416,23 @@ button {
   text-transform: uppercase;
 }
 
+.service-container .separator {
+  width: 5px;
+  height: 5px;
+  border: 5px solid #8f34a3;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  transform: rotate(-45deg);
+}
 .service-container .service-title {
-  font-size: 30px;
+  font-size: 24px;
   line-height: 1.2;
   font-weight: 700;
   color: #8f34a3;
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 25px;
   text-transform: uppercase;
+  letter-spacing: -1.2px;
+  margin: 55px 0 40px;
 }
 .service-container .service-block {
   display: flex;
@@ -14465,11 +14473,16 @@ button {
   line-height: 1.2;
   font-weight: bold;
   position: relative;
+  letter-spacing: -0.5px;
+  transition: all 0.2s ease-in-out 0.1s;
 }
 @media (max-width: 768px) {
   .service-container .service-block .service-item .service-name {
     font-size: 16px;
   }
+}
+.service-container .service-block .service-item .service-name:hover {
+  font-weight: 800;
 }
 .service-container .service-block .service-item .service-link {
   position: absolute;
@@ -14477,22 +14490,22 @@ button {
   align-items: center;
   bottom: -300px;
   background-color: #fff;
-  transition-delay: 0.1s;
-  transition-duration: 0.2s;
-  transition-property: all;
-  transition-timing-function: ease-in-out;
-  z-index: 1;
   max-width: 300px;
   max-height: 250px;
   width: 100%;
   height: 100%;
-  padding: 40px 0;
+  padding: 20px 0;
+  z-index: 1;
+  transition: all 0.2s ease-in-out 0.1s;
 }
 .service-container .service-block .service-item .service-link .link-position {
   display: flex;
   text-align: center;
   align-items: center;
-  margin-left: 5px;
+  margin-left: 25px;
+  letter-spacing: -0.5px;
+  margin-top: 13px;
+  max-width: 95%;
 }
 .service-container .service-block .service-item .service-link .link-position .service-link-small {
   font-size: 24px;
@@ -14500,7 +14513,11 @@ button {
   font-weight: 400;
   text-decoration: underline;
   color: #000;
-  margin: 0 10px 5px;
+  margin-left: 5px;
+  transition: all 0.2s ease-in-out 0.1s;
+}
+.service-container .service-block .service-item .service-link .link-position .service-link-small:hover {
+  font-weight: 600;
 }
 .service-container .service-block .service-item .service-link .link-position .service-link-big {
   font-size: 24px;
@@ -14509,6 +14526,10 @@ button {
   text-decoration: underline;
   color: #8f34a3;
   margin-left: 5px;
+  transition: all 0.2s ease-in-out 0.1s;
+}
+.service-container .service-block .service-item .service-link .link-position .service-link-big:hover {
+  font-weight: 600;
 }
 .service-container .service-block .service-item .service-img {
   width: 100%;
