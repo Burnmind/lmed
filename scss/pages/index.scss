@@ -1,13 +1,13 @@
 @import "../var";
 .index-page {
-    .separator {
-        width: 5px;
-        height: 5px;
-        border: 5px solid $mainPurple;
-        border-top-color: transparent;
-        border-left-color: transparent;
-        transform: rotate(-45deg);
-    }
+	.separator {
+		width: 5px;
+		height: 5px;
+		border: 5px solid $mainPurple;
+		border-top-color: transparent;
+		border-left-color: transparent;
+		transform: rotate(-45deg);
+	}
 
 	.slide-block {
 		padding: 0;
@@ -66,13 +66,13 @@
 						max-height: 240px;
 					}
 
-			   		@media  (max-width: 481px) {
-			   			background-color: rgba(256, 256, 256, 0.5);
-			   			width: 260px;
-			   			left: 0;
-			   			padding:0 5px 0 10px;
-			   			margin: 0;
-			   		}
+					@media  (max-width: 481px) {
+						background-color: rgba(256, 256, 256, 0.5);
+						width: 260px;
+						left: 0;
+						padding:0 5px 0 10px;
+						margin: 0;
+					}
 
 
 					.title-slide {
@@ -84,9 +84,9 @@
 						letter-spacing: -1px;
 						margin: 15px 0;
 
-				   		@media  (max-width: 481px) {
-				   			margin: 10px 0 0 0;
-			   			}
+						@media  (max-width: 481px) {
+							margin: 10px 0 0 0;
+						}
 
 					}
 
@@ -106,9 +106,9 @@
 						height: 32px;
 						width: 155px;
 
-				   		@media  (max-width: 481px) {
-				   			margin: 10px 0;
-				   		}
+						@media  (max-width: 481px) {
+							margin: 10px 0;
+						}
 					}
 				}
 			}
